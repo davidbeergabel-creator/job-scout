@@ -1,0 +1,1724 @@
+{
+ "updated": "2026-10-27",
+ "note": "Company names only; scout discovers the ATS (greenhouse/lever/ashby/workable/smartrecruiters/recruitee) or reads a Comeet careers page. Add 'ats'+'slug' to pin a board manually.",
+ "companies": [
+  {
+   "name": "VAST Data",
+   "tag": "ai-native"
+  },
+  {
+   "name": "ScaleOps",
+   "tag": "ai-native"
+  },
+  {
+   "name": "AI21 Labs",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Lightricks",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Pinecone",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Qodo",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Tabnine",
+   "tag": "ai-native"
+  },
+  {
+   "name": "D-ID",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Hour One",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Bria",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Deci AI",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Run:ai",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Hailo",
+   "tag": "ai-native"
+  },
+  {
+   "name": "NeuReality",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Speedata",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Aidoc",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Verbit",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Genari AI",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Tribble",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Decide AI",
+   "tag": "ai-native"
+  },
+  {
+   "name": "TargetBoard.ai",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Inferow",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Validify",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Ledge",
+   "tag": "ai-native"
+  },
+  {
+   "name": "B2Beyond",
+   "tag": "ai-native"
+  },
+  {
+   "name": "AccuRaiser",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Dataloop",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Datagen",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Gong",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Walnut",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Lusha",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Oribi",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Optimove",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Sweep",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Salto",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Bonds",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Hutte",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Dot Compliance",
+   "tag": "ai-native",
+   "careers_url": "https://www.dotcompliance.com/careers"
+  },
+  {
+   "name": "Novidea",
+   "tag": "ai-native",
+   "careers_url": "https://www.novidea.com/careers/"
+  },
+  {
+   "name": "Docomotion",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Simploud",
+   "tag": "ai-native"
+  },
+  {
+   "name": "DealHub",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Zencity",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Nexar",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Trax",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Fabric",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Bringg",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Yotpo",
+   "tag": "ai-native"
+  },
+  {
+   "name": "AppsFlyer",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Coralogix",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Komodor",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Firebolt",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Upsolver",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Lightrun",
+   "tag": "ai-native"
+  },
+  {
+   "name": "env0",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Swimm",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Port",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Torq",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Jit",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Granulate",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Zesty",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Spot by NetApp",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Kubiya",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Finout",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Opsera",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Ox Security",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Anecdotes",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Vanti",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Theator",
+   "tag": "ai-native"
+  },
+  {
+   "name": "K Health",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Navina",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Alike",
+   "tag": "ai-native"
+  },
+  {
+   "name": "DayTwo",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Sweetch",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Diagnostic Robotics",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Eleos Health",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Kahun",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Nym Health",
+   "tag": "ai-native"
+  },
+  {
+   "name": "TytoCare",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Sight Diagnostics",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Nanox",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Zebra Medical Vision",
+   "tag": "ai-native"
+  },
+  {
+   "name": "CytoReason",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Immunai",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Evogene",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Taranis",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Prospera",
+   "tag": "ai-native"
+  },
+  {
+   "name": "CropX",
+   "tag": "ai-native"
+  },
+  {
+   "name": "SeeTree",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Vayyar",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Innoviz",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Mobileye",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Arbe",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Foretellix",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Cognata",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Autobrains",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Ottopia",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Ree Automotive",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Electreon",
+   "tag": "ai-native"
+  },
+  {
+   "name": "StoreDot",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Addionics",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Wiliot",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Augury",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Seebo",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Plataine",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Trigo",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Shopic",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Fairmoney",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Wiz",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Cato Networks",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Armis",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Orca Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Island",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Cyera",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Noname Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Aqua Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Silverfort",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Axonius",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Claroty",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "SentinelOne",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Check Point",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "CyberArk",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Varonis",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Imperva",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Radware",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Snyk",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Salt Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Cycode",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Legit Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Apiiro",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Oasis Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Zenity",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Mitiga",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Hunters",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Perception Point",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Pentera",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "XM Cyber",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Transmit Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Cymulate",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Dream Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Guardio",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Grip Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Astrix Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Talon Cyber Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Dig Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Entitle",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Gutsy",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Valence Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Upwind",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Sweet Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Vicarius",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Cyberint",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Cognyte",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Illumio Israel",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Zscaler Israel",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Palo Alto Networks Israel",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Fortinet Israel",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "JFrog",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Redis",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Cloudinary",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Logz.io",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Sisense",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Checkmarx",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "WalkMe",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Kaltura",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Panaya",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Cellebrite",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "NICE",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Amdocs",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Verint",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "AudioCodes",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Allot",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Gilat Satellite Networks",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Ceragon",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Silicom",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "DriveNets",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Infinidat",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Lightbits",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Weka",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "NextSilicon",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Ethernovia",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Tower Semiconductor",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Nova",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Camtek",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Valens",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "CEVA",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Vdoo",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "monday.com",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Wix",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Fiverr",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Riskified",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Similarweb",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Taboola",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Outbrain",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Payoneer",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Lemonade",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Melio",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Rapyd",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Tipalti",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Navan",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Papaya Global",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "HiBob",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Personetics",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Pagaya",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "eToro",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Lili",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Fundbox",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Unit",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Forter",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "PayEm",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Mesh Payments",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Earnix",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Sapiens",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Planck",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Hippo Israel",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Next Insurance",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Vesttoo",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Nayax",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Pepper",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Zego",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Capitolis",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Finastra Israel",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Fireblocks",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Zengo",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Bits of Gold",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Via",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Moovit",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Gett",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Yango Israel",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Playtika",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Moon Active",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Papaya Gaming",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Plarium",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Unity Israel",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "ironSource",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Overwolf",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Beach Bum",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Huuuge Israel",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Candivore",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Tabit",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Lightico",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Glassbox",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Namogoo",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Dynamic Yield",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Syte",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Duda",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Elementor",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Yotpo Ltd",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Priority Software",
+   "tag": "fintech-saas",
+   "careers_url": "https://www.priority-software.com/careers/"
+  },
+  {
+   "name": "Zoomin",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Kryon",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Pecan AI",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Explorium",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Aporia",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Superwise",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Qwak",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Deepchecks",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Anodot",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "BigID",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Cato",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Minute Media",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Perion",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Viber Israel",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Natural Intelligence",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Zeta Global Israel",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Cyabra",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "ActiveFence",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Vidmob Israel",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Outgage",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Intent IQ",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Odyssey Attribution",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Comeet",
+   "tag": "fintech-saas",
+   "careers_url": "https://www.comeet.com/careers"
+  },
+  {
+   "name": "Connecteam",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Guesty",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Loox",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Rise.ai",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Wisor",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Wobi",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Alma",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Powtoon",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Bob",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Kaltura Israel",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "AllCloud",
+   "tag": "si-partners",
+   "careers_url": "https://allcloud.io/careers/"
+  },
+  {
+   "name": "Elad Systems",
+   "tag": "si-partners",
+   "careers_url": "https://www.elad.co.il/careers"
+  },
+  {
+   "name": "Matrix",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Ness Technologies",
+   "tag": "si-partners"
+  },
+  {
+   "name": "One1",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Malam Team",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Sapiens International",
+   "tag": "si-partners"
+  },
+  {
+   "name": "NTT DATA Israel",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Deloitte Digital Israel",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Accenture Israel",
+   "tag": "si-partners"
+  },
+  {
+   "name": "EY Israel",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Bynet",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Cloudwize",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Automat-it",
+   "tag": "si-partners"
+  },
+  {
+   "name": "DoiT International",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Commit",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Cloudride",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Cloudzone",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Terasky",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Bynet Data Communications",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Taldor",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Aman Group",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Elbit Systems",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Rafael Advanced Defense Systems",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Israel Aerospace Industries",
+   "tag": "si-partners"
+  },
+  {
+   "name": "XTEND",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Smart Shooter",
+   "tag": "si-partners"
+  },
+  {
+   "name": "SpearUAV",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Hermeus Israel",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Camero-Tech",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Xtend Defense",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Asio Technologies",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Third Eye Systems",
+   "tag": "si-partners"
+  },
+  {
+   "name": "Salesforce Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Microsoft Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Google Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Amazon Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "AWS Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Meta Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Apple Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Nvidia Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Intel Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Oracle Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "SAP Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "IBM Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Cisco Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Dell Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "HP Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "VMware Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Snowflake Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Datadog Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Databricks Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Palantir Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "ServiceNow Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Workday Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "HubSpot Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Zoom Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Twilio Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Okta Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "CrowdStrike Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Samsung Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Qualcomm Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Broadcom Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Marvell Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Applied Materials Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "KLA Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Medtronic Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Philips Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "GE Healthcare Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Siemens Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Bosch Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Continental Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Volkswagen Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Porsche Digital Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Hyundai Cradle",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Mercedes-Benz Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Renault Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Uber Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "PayPal Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "eBay Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Booking.com Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Expedia Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Spotify Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Netflix Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Unilever Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "P&G Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Nestle Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Pepsico Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Coca-Cola Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Strauss",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Tnuva",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Osem",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Teva",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Tapi",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Kamada",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Taro",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Perrigo Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Dexcel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Rekah",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Mazor Robotics",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Lumenis",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Alpha Tau",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "InMode",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Medinol",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "BrainsWay",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Itamar Medical",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Insightec",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Nano Dimension",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Stratasys",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Ormat",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "SolarEdge",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Enlight",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Doral Energy",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Elco",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Delta Galil",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Fox Group",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Shufersal",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Rami Levy",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Castro",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Ituran",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Pointer",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Cellcom",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Partner Communications",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Bezeq",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "HOT",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Yes",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Bank Hapoalim",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Bank Leumi",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Discount Bank",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Mizrahi Tefahot",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Harel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Migdal",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Clal",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Phoenix",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Menora Mivtachim",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Isracard",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Max",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Cal",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Pango",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Cellopark",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Yad2",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Zap Group",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Walla",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Ynet",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Globes",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Calcalist",
+   "tag": "global-with-israel-site"
+  }
+ ]
+}

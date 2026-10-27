@@ -1,0 +1,58 @@
+name: job-scout
+
+on:
+  schedule:
+    - cron: "17 3,9,15,21 * * *"   # every 6 hours (UTC); 05:17 / 11:17 / 17:17 / 23:17 Israel winter time
+  workflow_dispatch:
+    inputs:
+      discover:
+        description: "Re-run ATS discovery for unresolved companies"
+        type: boolean
+        default: false
+      jsearch:
+        description: "Include JSearch (costs API requests)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-scout
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Discover ATS boards (weekly, or on demand)
+        if: ${{ github.event.inputs.discover == 'true' || github.event.schedule == '17 3,9,15,21 * * *' && github.run_number % 28 == 1 }}
+        run: python -m scout.main discover
+
+      - name: First-time discovery (no resolved list yet)
+        if: ${{ hashFiles('data/watchlist.resolved.json') == '' }}
+        run: python -m scout.main discover
+
+      - name: Scan
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          # JSearch once a day (the 03:17 UTC run) unless dispatched manually with jsearch=true
+          JSEARCH_RUN: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.jsearch == 'true') || (github.event_name == 'schedule' && startsWith(github.event.schedule, '17 3')) }}
+        run: |
+          if [ "$JSEARCH_RUN" = "true" ]; then python -m scout.main scan; else python -m scout.main scan --no-jsearch; fi
+
+      - name: Commit data
+        run: |
+          git config user.name "job-scout"
+          git config user.email "job-scout@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "scout: $(date -u +%Y-%m-%dT%H:%M)Z"
+          git push
