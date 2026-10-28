@@ -39,7 +39,7 @@ jobs:
 
       - name: Diagnose
         if: ${{ github.event.inputs.diagnose != '' }}
-        run: python -m scout.main diagnose --diagnose "${{ github.event.inputs.diagnose }}"
+        run: python -m scout.main diagnose --diagnose "${{ github.event.inputs.diagnose }}" 2>&1 | tee data/diagnose.txt
 
       - name: Discover ATS boards
         if: ${{ github.event.inputs.diagnose == '' && (github.event.inputs.discover == 'true' || github.event.schedule == '47 1 * * 0' || hashFiles('data/watchlist.resolved.json') == '') }}
@@ -62,7 +62,6 @@ jobs:
           fi
 
       - name: Commit data
-        if: ${{ github.event.inputs.diagnose == '' }}
         run: |
           git config user.name "job-scout"
           git config user.email "job-scout@users.noreply.github.com"
