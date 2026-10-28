@@ -1,0 +1,13 @@
+{
+  "board_errors": 13,
+  "boards": 428,
+  "new": 11,
+  "notion": {
+    "created": 11,
+    "failed": 0,
+    "skipped": 0
+  },
+  "raw": 1909,
+  "relevant": 11,
+  "run": "2026-10-28T14:33:13+00:00"
+}

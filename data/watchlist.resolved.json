@@ -1,0 +1,2570 @@
+{
+  "AI21 Labs": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "AI21 Labs",
+    "slug": "ai21"
+  },
+  "AWS Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "AWS Israel",
+    "slug": "awsisrael"
+  },
+  "Accenture Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Accenture Israel",
+    "slug": "accentureisrael"
+  },
+  "AccuRaiser": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "AccuRaiser",
+    "slug": "accuraiser"
+  },
+  "ActiveFence": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "ActiveFence",
+    "slug": "activefence"
+  },
+  "Addionics": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Addionics",
+    "slug": "addionics"
+  },
+  "Aidoc": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Aidoc",
+    "slug": "aidoc"
+  },
+  "Alike": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Alike",
+    "slug": "alike"
+  },
+  "AllCloud": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "AllCloud",
+    "slug": "allcloud"
+  },
+  "Allot": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Allot",
+    "slug": "allot"
+  },
+  "Alma": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Alma",
+    "slug": "alma"
+  },
+  "Alpha Tau": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Alpha Tau",
+    "slug": "alphatau"
+  },
+  "Aman Group": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Aman Group",
+    "slug": "amangroup"
+  },
+  "Amazon Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Amazon Israel",
+    "slug": "amazonisrael"
+  },
+  "Amdocs": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Amdocs",
+    "slug": "amdocs"
+  },
+  "Anecdotes": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Anecdotes",
+    "slug": "anecdotes"
+  },
+  "Anodot": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Anodot",
+    "slug": "anodot"
+  },
+  "Apiiro": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Apiiro",
+    "slug": "apiiro"
+  },
+  "Aporia": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Aporia",
+    "slug": "aporia"
+  },
+  "Apple Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Apple Israel",
+    "slug": "appleisrael"
+  },
+  "Applied Materials Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Applied Materials Israel",
+    "slug": "appliedmaterialsisrael"
+  },
+  "AppsFlyer": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "AppsFlyer",
+    "slug": "appsflyer"
+  },
+  "Aqua Security": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Aqua Security",
+    "slug": "aquasecurity"
+  },
+  "Arbe": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Arbe",
+    "slug": "arbe"
+  },
+  "Armis": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Armis",
+    "slug": "armis"
+  },
+  "Asio Technologies": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Asio Technologies",
+    "slug": "asio"
+  },
+  "Astrix Security": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Astrix Security",
+    "slug": "astrixsecurity"
+  },
+  "AudioCodes": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "AudioCodes",
+    "slug": "audiocodes"
+  },
+  "Augury": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Augury",
+    "slug": "augury"
+  },
+  "Autobrains": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Autobrains",
+    "slug": "autobrains"
+  },
+  "Automat-it": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Automat-it",
+    "slug": "automatit"
+  },
+  "Axonius": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Axonius",
+    "slug": "axonius"
+  },
+  "B2Beyond": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "B2Beyond",
+    "slug": "b2beyond"
+  },
+  "Bank Hapoalim": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Bank Hapoalim",
+    "slug": "bankhapoalim"
+  },
+  "Bank Leumi": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Bank Leumi",
+    "slug": "bankleumi"
+  },
+  "Beach Bum": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Beach Bum",
+    "slug": "beach-bum"
+  },
+  "Bezeq": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Bezeq",
+    "slug": "bezeq"
+  },
+  "BigID": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "BigID",
+    "slug": "bigid"
+  },
+  "Bits of Gold": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Bits of Gold",
+    "slug": "bitsofgold"
+  },
+  "Bob": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Bob",
+    "slug": "bob"
+  },
+  "Bonds": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Bonds",
+    "slug": "bonds"
+  },
+  "Booking.com Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Booking.com Israel",
+    "slug": "bookingcomisrael"
+  },
+  "Bosch Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Bosch Israel",
+    "slug": "boschisrael"
+  },
+  "BrainsWay": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "BrainsWay",
+    "slug": "brainsway"
+  },
+  "Bria": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Bria",
+    "slug": "bria"
+  },
+  "Bringg": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Bringg",
+    "slug": "bringg"
+  },
+  "Broadcom Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Broadcom Israel",
+    "slug": "broadcomisrael"
+  },
+  "Bynet": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Bynet",
+    "slug": "bynet"
+  },
+  "Bynet Data Communications": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Bynet Data Communications",
+    "slug": "bynetdatacommunications"
+  },
+  "CEVA": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "CEVA",
+    "slug": "ceva"
+  },
+  "Cal": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Cal",
+    "slug": "cal"
+  },
+  "Calcalist": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Calcalist",
+    "slug": "calcalist"
+  },
+  "Camero-Tech": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Camero-Tech",
+    "slug": "camerotech"
+  },
+  "Camtek": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Camtek",
+    "slug": "camtek"
+  },
+  "Candivore": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Candivore",
+    "slug": "candivore"
+  },
+  "Capitolis": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Capitolis",
+    "slug": "capitolis"
+  },
+  "Castro": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Castro",
+    "slug": "castro"
+  },
+  "Cato": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Cato",
+    "slug": "cato"
+  },
+  "Cato Networks": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Cato Networks",
+    "slug": "catonetworks"
+  },
+  "Cellcom": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cellcom",
+    "slug": "cellcom"
+  },
+  "Cellebrite": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cellebrite",
+    "slug": "cellebrite"
+  },
+  "Cellopark": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cellopark",
+    "slug": "cellopark"
+  },
+  "Ceragon": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Ceragon",
+    "slug": "ceragon"
+  },
+  "Check Point": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Check Point",
+    "slug": "checkpoint"
+  },
+  "Checkmarx": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Checkmarx",
+    "slug": "checkmarx"
+  },
+  "Cisco Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cisco Israel",
+    "slug": "ciscoisrael"
+  },
+  "Clal": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Clal",
+    "slug": "clal"
+  },
+  "Claroty": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Claroty",
+    "slug": "claroty"
+  },
+  "Cloudinary": {
+    "ats": "lever",
+    "checked": "2026-10-28",
+    "name": "Cloudinary",
+    "slug": "cloudinary"
+  },
+  "Cloudride": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cloudride",
+    "slug": "cloudride"
+  },
+  "Cloudwize": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cloudwize",
+    "slug": "cloudwize"
+  },
+  "Cloudzone": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cloudzone",
+    "slug": "cloudzone"
+  },
+  "Coca-Cola Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Coca-Cola Israel",
+    "slug": "cocacolaisrael"
+  },
+  "Cognata": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cognata",
+    "slug": "cognata"
+  },
+  "Cognyte": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cognyte",
+    "slug": "cognyte"
+  },
+  "Comeet": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Comeet",
+    "slug": "comeet"
+  },
+  "Commit": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Commit",
+    "slug": "commit"
+  },
+  "Connecteam": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Connecteam",
+    "slug": "connecteam"
+  },
+  "Continental Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Continental Israel",
+    "slug": "continentalisrael"
+  },
+  "Coralogix": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Coralogix",
+    "slug": "coralogix"
+  },
+  "CropX": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "CropX",
+    "slug": "cropx"
+  },
+  "CrowdStrike Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "CrowdStrike Israel",
+    "slug": "crowdstrikeisrael"
+  },
+  "Cyabra": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cyabra",
+    "slug": "cyabra"
+  },
+  "CyberArk": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "CyberArk",
+    "slug": "cyberark"
+  },
+  "Cyberint": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cyberint",
+    "slug": "cyberint"
+  },
+  "Cycode": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cycode",
+    "slug": "cycode"
+  },
+  "Cyera": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Cyera",
+    "slug": "cyera"
+  },
+  "Cymulate": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Cymulate",
+    "slug": "cymulate"
+  },
+  "CytoReason": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "CytoReason",
+    "slug": "cytoreason"
+  },
+  "D-ID": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "D-ID",
+    "slug": "d-id"
+  },
+  "Databricks Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Databricks Israel",
+    "slug": "databricksisrael"
+  },
+  "Datadog Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Datadog Israel",
+    "slug": "datadogisrael"
+  },
+  "Datagen": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Datagen",
+    "slug": "datagen"
+  },
+  "Dataloop": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Dataloop",
+    "slug": "dataloop"
+  },
+  "DayTwo": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "DayTwo",
+    "slug": "daytwo"
+  },
+  "DealHub": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "DealHub",
+    "slug": "dealhub"
+  },
+  "Deci AI": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Deci AI",
+    "slug": "deci"
+  },
+  "Decide AI": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Decide AI",
+    "slug": "decide"
+  },
+  "Deepchecks": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Deepchecks",
+    "slug": "deepchecks"
+  },
+  "Dell Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Dell Israel",
+    "slug": "dellisrael"
+  },
+  "Deloitte Digital Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Deloitte Digital Israel",
+    "slug": "deloittedigitalisrael"
+  },
+  "Delta Galil": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Delta Galil",
+    "slug": "deltagalil"
+  },
+  "Dexcel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Dexcel",
+    "slug": "dexcel"
+  },
+  "Diagnostic Robotics": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Diagnostic Robotics",
+    "slug": "diagnosticrobotics"
+  },
+  "Dig Security": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Dig Security",
+    "slug": "digsecurity"
+  },
+  "Discount Bank": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Discount Bank",
+    "slug": "discountbank"
+  },
+  "Docomotion": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Docomotion",
+    "slug": "docomotion"
+  },
+  "DoiT International": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "DoiT International",
+    "slug": "doitinternational"
+  },
+  "Doral Energy": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Doral Energy",
+    "slug": "doralenergy"
+  },
+  "Dot Compliance": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Dot Compliance",
+    "slug": "dotcompliance"
+  },
+  "Dream Security": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Dream Security",
+    "slug": "dreamsecurity"
+  },
+  "DriveNets": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "DriveNets",
+    "slug": "drivenets"
+  },
+  "Duda": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Duda",
+    "slug": "duda"
+  },
+  "Dynamic Yield": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Dynamic Yield",
+    "slug": "dynamic-yield"
+  },
+  "EY Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "EY Israel",
+    "slug": "eyisrael"
+  },
+  "Earnix": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Earnix",
+    "slug": "earnix"
+  },
+  "Elad Systems": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Elad Systems",
+    "slug": "elad"
+  },
+  "Elbit Systems": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Elbit Systems",
+    "slug": "elbit"
+  },
+  "Elco": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Elco",
+    "slug": "elco"
+  },
+  "Electreon": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Electreon",
+    "slug": "electreon"
+  },
+  "Elementor": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Elementor",
+    "slug": "elementor"
+  },
+  "Eleos Health": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Eleos Health",
+    "slug": "eleoshealth"
+  },
+  "Enlight": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Enlight",
+    "slug": "enlight"
+  },
+  "Entitle": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Entitle",
+    "slug": "entitle"
+  },
+  "Ethernovia": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Ethernovia",
+    "slug": "ethernovia"
+  },
+  "Evogene": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Evogene",
+    "slug": "evogene"
+  },
+  "Expedia Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Expedia Israel",
+    "slug": "expediaisrael"
+  },
+  "Explorium": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Explorium",
+    "slug": "explorium"
+  },
+  "Fabric": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Fabric",
+    "slug": "fabricio"
+  },
+  "Fairmoney": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Fairmoney",
+    "slug": "fairmoney"
+  },
+  "Finastra Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Finastra Israel",
+    "slug": "finastraisrael"
+  },
+  "Finout": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Finout",
+    "slug": "finout"
+  },
+  "Fireblocks": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Fireblocks",
+    "slug": "fireblocks"
+  },
+  "Firebolt": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Firebolt",
+    "slug": "firebolt"
+  },
+  "Fiverr": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Fiverr",
+    "slug": "fiverr"
+  },
+  "Foretellix": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Foretellix",
+    "slug": "foretellix"
+  },
+  "Forter": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Forter",
+    "slug": "forter"
+  },
+  "Fortinet Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Fortinet Israel",
+    "slug": "fortinetisrael"
+  },
+  "Fox Group": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Fox Group",
+    "slug": "foxgroup"
+  },
+  "Fundbox": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Fundbox",
+    "slug": "fundbox"
+  },
+  "GE Healthcare Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "GE Healthcare Israel",
+    "slug": "gehealthcareisrael"
+  },
+  "Genari AI": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Genari AI",
+    "slug": "genari"
+  },
+  "Gett": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Gett",
+    "slug": "gett"
+  },
+  "Gilat Satellite Networks": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Gilat Satellite Networks",
+    "slug": "gilatsatellitenetworks"
+  },
+  "Glassbox": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Glassbox",
+    "slug": "glassbox"
+  },
+  "Globes": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Globes",
+    "slug": "globes"
+  },
+  "Gong": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Gong",
+    "slug": "gongio"
+  },
+  "Google Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Google Israel",
+    "slug": "googleisrael"
+  },
+  "Granulate": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Granulate",
+    "slug": "granulate"
+  },
+  "Grip Security": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Grip Security",
+    "slug": "gripsecurity"
+  },
+  "Guardio": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Guardio",
+    "slug": "guardio"
+  },
+  "Guesty": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Guesty",
+    "slug": "guesty"
+  },
+  "Gutsy": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Gutsy",
+    "slug": "gutsy"
+  },
+  "HOT": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "HOT",
+    "slug": "hot"
+  },
+  "HP Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "HP Israel",
+    "slug": "hpisrael"
+  },
+  "Hailo": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Hailo",
+    "slug": "hailo"
+  },
+  "Harel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Harel",
+    "slug": "harel"
+  },
+  "Hermeus Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Hermeus Israel",
+    "slug": "hermeusisrael"
+  },
+  "HiBob": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "HiBob",
+    "slug": "hibob"
+  },
+  "Hippo Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Hippo Israel",
+    "slug": "hippoisrael"
+  },
+  "Hour One": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Hour One",
+    "slug": "hourone"
+  },
+  "HubSpot Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "HubSpot Israel",
+    "slug": "hubspotisrael"
+  },
+  "Hunters": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Hunters",
+    "slug": "hunters"
+  },
+  "Hutte": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Hutte",
+    "slug": "hutte"
+  },
+  "Huuuge Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Huuuge Israel",
+    "slug": "huuugeisrael"
+  },
+  "Hyundai Cradle": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Hyundai Cradle",
+    "slug": "hyundaicradle"
+  },
+  "IBM Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "IBM Israel",
+    "slug": "ibmisrael"
+  },
+  "Illumio Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Illumio Israel",
+    "slug": "illumioisrael"
+  },
+  "Immunai": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Immunai",
+    "slug": "immunai"
+  },
+  "Imperva": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Imperva",
+    "slug": "imperva"
+  },
+  "InMode": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "InMode",
+    "slug": "inmode"
+  },
+  "Inferow": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Inferow",
+    "slug": "inferow"
+  },
+  "Infinidat": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Infinidat",
+    "slug": "infinidat"
+  },
+  "Innoviz": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Innoviz",
+    "slug": "innoviz"
+  },
+  "Insightec": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Insightec",
+    "slug": "insightec"
+  },
+  "Intel Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Intel Israel",
+    "slug": "intelisrael"
+  },
+  "Intent IQ": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Intent IQ",
+    "slug": "intentiq"
+  },
+  "Island": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Island",
+    "slug": "island"
+  },
+  "Isracard": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Isracard",
+    "slug": "isracard"
+  },
+  "Israel Aerospace Industries": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Israel Aerospace Industries",
+    "slug": "israelaerospaceindustries"
+  },
+  "Itamar Medical": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Itamar Medical",
+    "slug": "itamarmedical"
+  },
+  "Ituran": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Ituran",
+    "slug": "ituran"
+  },
+  "JFrog": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "JFrog",
+    "slug": "jfrog"
+  },
+  "Jit": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Jit",
+    "slug": "jit"
+  },
+  "K Health": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "K Health",
+    "slug": "khealthcareers"
+  },
+  "KLA Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "KLA Israel",
+    "slug": "klaisrael"
+  },
+  "Kahun": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Kahun",
+    "slug": "kahun"
+  },
+  "Kaltura": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Kaltura",
+    "slug": "kaltura"
+  },
+  "Kaltura Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Kaltura Israel",
+    "slug": "kalturaisrael"
+  },
+  "Kamada": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Kamada",
+    "slug": "kamada"
+  },
+  "Komodor": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Komodor",
+    "slug": "komodor"
+  },
+  "Kryon": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Kryon",
+    "slug": "kryon"
+  },
+  "Kubiya": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Kubiya",
+    "slug": "kubiya"
+  },
+  "Ledge": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Ledge",
+    "slug": "ledge"
+  },
+  "Legit Security": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Legit Security",
+    "slug": "legitsecurity"
+  },
+  "Lemonade": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Lemonade",
+    "slug": "lemonade"
+  },
+  "Lightbits": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Lightbits",
+    "slug": "lightbits"
+  },
+  "Lightico": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Lightico",
+    "slug": "lightico"
+  },
+  "Lightricks": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Lightricks",
+    "slug": "lightricks"
+  },
+  "Lightrun": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Lightrun",
+    "slug": "lightrun"
+  },
+  "Lili": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Lili",
+    "slug": "lili"
+  },
+  "Logz.io": {
+    "ats": "lever",
+    "checked": "2026-10-28",
+    "name": "Logz.io",
+    "slug": "logz"
+  },
+  "Loox": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Loox",
+    "slug": "loox"
+  },
+  "Lumenis": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Lumenis",
+    "slug": "lumenis"
+  },
+  "Lusha": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Lusha",
+    "slug": "lusha"
+  },
+  "Malam Team": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Malam Team",
+    "slug": "malamteam"
+  },
+  "Marvell Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Marvell Israel",
+    "slug": "marvellisrael"
+  },
+  "Matrix": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Matrix",
+    "slug": "matrix"
+  },
+  "Max": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Max",
+    "slug": "max"
+  },
+  "Mazor Robotics": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Mazor Robotics",
+    "slug": "mazorrobotics"
+  },
+  "Medinol": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Medinol",
+    "slug": "medinol"
+  },
+  "Medtronic Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Medtronic Israel",
+    "slug": "medtronicisrael"
+  },
+  "Melio": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Melio",
+    "slug": "melio"
+  },
+  "Menora Mivtachim": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Menora Mivtachim",
+    "slug": "menoramivtachim"
+  },
+  "Mercedes-Benz Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Mercedes-Benz Israel",
+    "slug": "mercedesbenzisrael"
+  },
+  "Mesh Payments": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Mesh Payments",
+    "slug": "meshpayments"
+  },
+  "Meta Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Meta Israel",
+    "slug": "metaisrael"
+  },
+  "Microsoft Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Microsoft Israel",
+    "slug": "microsoftisrael"
+  },
+  "Migdal": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Migdal",
+    "slug": "migdal"
+  },
+  "Minute Media": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Minute Media",
+    "slug": "minutemedia"
+  },
+  "Mitiga": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Mitiga",
+    "slug": "mitiga"
+  },
+  "Mizrahi Tefahot": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Mizrahi Tefahot",
+    "slug": "mizrahitefahot"
+  },
+  "Mobileye": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Mobileye",
+    "slug": "mobileye"
+  },
+  "Moon Active": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Moon Active",
+    "slug": "moonactive"
+  },
+  "Moovit": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Moovit",
+    "slug": "moovit"
+  },
+  "NICE": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "NICE",
+    "slug": "nice"
+  },
+  "NTT DATA Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "NTT DATA Israel",
+    "slug": "nttdataisrael"
+  },
+  "Namogoo": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Namogoo",
+    "slug": "namogoo"
+  },
+  "Nano Dimension": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Nano Dimension",
+    "slug": "nanodimension"
+  },
+  "Nanox": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Nanox",
+    "slug": "nanox"
+  },
+  "Natural Intelligence": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Natural Intelligence",
+    "slug": "natural-intelligence"
+  },
+  "Navan": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Navan",
+    "slug": "navan"
+  },
+  "Navina": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Navina",
+    "slug": "navina"
+  },
+  "Nayax": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Nayax",
+    "slug": "nayax"
+  },
+  "Ness Technologies": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Ness Technologies",
+    "slug": "ness"
+  },
+  "Nestle Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Nestle Israel",
+    "slug": "nestleisrael"
+  },
+  "Netflix Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Netflix Israel",
+    "slug": "netflixisrael"
+  },
+  "NeuReality": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "NeuReality",
+    "slug": "neureality"
+  },
+  "Nexar": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Nexar",
+    "slug": "nexar"
+  },
+  "Next Insurance": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Next Insurance",
+    "slug": "next-insurance"
+  },
+  "NextSilicon": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "NextSilicon",
+    "slug": "nextsilicon"
+  },
+  "Noname Security": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Noname Security",
+    "slug": "nonamesecurity"
+  },
+  "Nova": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Nova",
+    "slug": "nova"
+  },
+  "Novidea": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Novidea",
+    "slug": "novidea"
+  },
+  "Nvidia Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Nvidia Israel",
+    "slug": "nvidiaisrael"
+  },
+  "Nym Health": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Nym Health",
+    "slug": "nymhealth"
+  },
+  "Oasis Security": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Oasis Security",
+    "slug": "oasissecurity"
+  },
+  "Odyssey Attribution": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Odyssey Attribution",
+    "slug": "odysseyattribution"
+  },
+  "Okta Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Okta Israel",
+    "slug": "oktaisrael"
+  },
+  "One1": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "One1",
+    "slug": "one1"
+  },
+  "Opsera": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Opsera",
+    "slug": "opsera"
+  },
+  "Optimove": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Optimove",
+    "slug": "optimove"
+  },
+  "Oracle Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Oracle Israel",
+    "slug": "oracleisrael"
+  },
+  "Orca Security": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Orca Security",
+    "slug": "orcasecurity"
+  },
+  "Oribi": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Oribi",
+    "slug": "oribi"
+  },
+  "Ormat": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Ormat",
+    "slug": "ormat"
+  },
+  "Osem": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Osem",
+    "slug": "osem"
+  },
+  "Ottopia": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Ottopia",
+    "slug": "ottopia"
+  },
+  "Outbrain": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Outbrain",
+    "slug": "outbrain"
+  },
+  "Outgage": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Outgage",
+    "slug": "outgage"
+  },
+  "Overwolf": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Overwolf",
+    "slug": "overwolf"
+  },
+  "Ox Security": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Ox Security",
+    "slug": "oxsecurity"
+  },
+  "P&G Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "P&G Israel",
+    "slug": "pgisrael"
+  },
+  "Pagaya": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Pagaya",
+    "slug": "pagaya"
+  },
+  "Palantir Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Palantir Israel",
+    "slug": "palantirisrael"
+  },
+  "Palo Alto Networks Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Palo Alto Networks Israel",
+    "slug": "paloaltonetworksisrael"
+  },
+  "Panaya": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Panaya",
+    "slug": "panaya"
+  },
+  "Pango": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Pango",
+    "slug": "pango"
+  },
+  "Papaya Gaming": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Papaya Gaming",
+    "slug": "papayagaming"
+  },
+  "Papaya Global": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Papaya Global",
+    "slug": "papayaglobal"
+  },
+  "Partner Communications": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Partner Communications",
+    "slug": "partnercommunications"
+  },
+  "PayEm": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "PayEm",
+    "slug": "payem"
+  },
+  "PayPal Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "PayPal Israel",
+    "slug": "paypalisrael"
+  },
+  "Payoneer": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Payoneer",
+    "slug": "payoneer"
+  },
+  "Pecan AI": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Pecan AI",
+    "slug": "pecan"
+  },
+  "Pentera": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Pentera",
+    "slug": "pentera"
+  },
+  "Pepper": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Pepper",
+    "slug": "pepper"
+  },
+  "Pepsico Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Pepsico Israel",
+    "slug": "pepsicoisrael"
+  },
+  "Perception Point": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Perception Point",
+    "slug": "perceptionpoint"
+  },
+  "Perion": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Perion",
+    "slug": "perion"
+  },
+  "Perrigo Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Perrigo Israel",
+    "slug": "perrigoisrael"
+  },
+  "Personetics": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Personetics",
+    "slug": "personetics"
+  },
+  "Philips Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Philips Israel",
+    "slug": "philipsisrael"
+  },
+  "Phoenix": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Phoenix",
+    "slug": "phoenix"
+  },
+  "Pinecone": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Pinecone",
+    "slug": "pinecone"
+  },
+  "Planck": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Planck",
+    "slug": "planck"
+  },
+  "Plarium": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Plarium",
+    "slug": "plarium"
+  },
+  "Plataine": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Plataine",
+    "slug": "plataine"
+  },
+  "Playtika": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Playtika",
+    "slug": "playtika"
+  },
+  "Pointer": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Pointer",
+    "slug": "pointer"
+  },
+  "Porsche Digital Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Porsche Digital Israel",
+    "slug": "porschedigitalisrael"
+  },
+  "Port": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Port",
+    "slug": "port"
+  },
+  "Powtoon": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Powtoon",
+    "slug": "powtoon"
+  },
+  "Priority Software": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Priority Software",
+    "slug": "priority"
+  },
+  "Prospera": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Prospera",
+    "slug": "prospera"
+  },
+  "Qodo": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Qodo",
+    "slug": "qodo"
+  },
+  "Qualcomm Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Qualcomm Israel",
+    "slug": "qualcommisrael"
+  },
+  "Qwak": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Qwak",
+    "slug": "qwak"
+  },
+  "Radware": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Radware",
+    "slug": "radware"
+  },
+  "Rafael Advanced Defense Systems": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Rafael Advanced Defense Systems",
+    "slug": "rafaeladvanceddefense"
+  },
+  "Rami Levy": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Rami Levy",
+    "slug": "ramilevy"
+  },
+  "Rapyd": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Rapyd",
+    "slug": "rapyd"
+  },
+  "Redis": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Redis",
+    "slug": "redis"
+  },
+  "Ree Automotive": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Ree Automotive",
+    "slug": "reeautomotive"
+  },
+  "Rekah": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Rekah",
+    "slug": "rekah"
+  },
+  "Renault Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Renault Israel",
+    "slug": "renaultisrael"
+  },
+  "Rise.ai": {
+    "ats": "lever",
+    "checked": "2026-10-28",
+    "name": "Rise.ai",
+    "slug": "rise"
+  },
+  "Riskified": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Riskified",
+    "slug": "riskified"
+  },
+  "Run:ai": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Run:ai",
+    "slug": "run"
+  },
+  "SAP Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "SAP Israel",
+    "slug": "sapisrael"
+  },
+  "Salesforce Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Salesforce Israel",
+    "slug": "salesforceisrael"
+  },
+  "Salt Security": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Salt Security",
+    "slug": "saltsecurity"
+  },
+  "Salto": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Salto",
+    "slug": "salto"
+  },
+  "Samsung Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Samsung Israel",
+    "slug": "samsungisrael"
+  },
+  "Sapiens": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Sapiens",
+    "slug": "sapiens"
+  },
+  "Sapiens International": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Sapiens International",
+    "slug": "sapiensinternational"
+  },
+  "ScaleOps": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "ScaleOps",
+    "slug": "scaleops"
+  },
+  "SeeTree": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "SeeTree",
+    "slug": "seetree"
+  },
+  "Seebo": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Seebo",
+    "slug": "seebo"
+  },
+  "SentinelOne": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "SentinelOne",
+    "slug": "sentinelone"
+  },
+  "ServiceNow Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "ServiceNow Israel",
+    "slug": "servicenowisrael"
+  },
+  "Shopic": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Shopic",
+    "slug": "shopic"
+  },
+  "Shufersal": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Shufersal",
+    "slug": "shufersal"
+  },
+  "Siemens Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Siemens Israel",
+    "slug": "siemensisrael"
+  },
+  "Sight Diagnostics": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Sight Diagnostics",
+    "slug": "sightdiagnostics"
+  },
+  "Silicom": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Silicom",
+    "slug": "silicom"
+  },
+  "Silverfort": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Silverfort",
+    "slug": "silverfort"
+  },
+  "Similarweb": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Similarweb",
+    "slug": "similarweb"
+  },
+  "Simploud": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Simploud",
+    "slug": "simploud"
+  },
+  "Sisense": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Sisense",
+    "slug": "sisense"
+  },
+  "Smart Shooter": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Smart Shooter",
+    "slug": "smartshooter"
+  },
+  "Snowflake Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Snowflake Israel",
+    "slug": "snowflakeisrael"
+  },
+  "Snyk": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Snyk",
+    "slug": "snyk"
+  },
+  "SolarEdge": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "SolarEdge",
+    "slug": "solaredge"
+  },
+  "SpearUAV": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "SpearUAV",
+    "slug": "spearuav"
+  },
+  "Speedata": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Speedata",
+    "slug": "speedata"
+  },
+  "Spot by NetApp": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Spot by NetApp",
+    "slug": "spotbynetapp"
+  },
+  "Spotify Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Spotify Israel",
+    "slug": "spotifyisrael"
+  },
+  "StoreDot": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "StoreDot",
+    "slug": "storedot"
+  },
+  "Stratasys": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Stratasys",
+    "slug": "stratasys"
+  },
+  "Strauss": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Strauss",
+    "slug": "strauss"
+  },
+  "Superwise": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Superwise",
+    "slug": "superwise"
+  },
+  "Sweep": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Sweep",
+    "slug": "sweep"
+  },
+  "Sweet Security": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Sweet Security",
+    "slug": "sweetsecurity"
+  },
+  "Sweetch": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Sweetch",
+    "slug": "sweetch"
+  },
+  "Swimm": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Swimm",
+    "slug": "swimm"
+  },
+  "Syte": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Syte",
+    "slug": "syte"
+  },
+  "Tabit": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Tabit",
+    "slug": "tabit"
+  },
+  "Tabnine": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Tabnine",
+    "slug": "tabnine"
+  },
+  "Taboola": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Taboola",
+    "slug": "taboola"
+  },
+  "Taldor": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Taldor",
+    "slug": "taldor"
+  },
+  "Talon Cyber Security": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Talon Cyber Security",
+    "slug": "taloncybersecurity"
+  },
+  "Tapi": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Tapi",
+    "slug": "tapi"
+  },
+  "Taranis": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Taranis",
+    "slug": "taranis"
+  },
+  "TargetBoard.ai": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "TargetBoard.ai",
+    "slug": "targetboard"
+  },
+  "Taro": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Taro",
+    "slug": "taro"
+  },
+  "Terasky": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Terasky",
+    "slug": "terasky"
+  },
+  "Teva": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Teva",
+    "slug": "teva"
+  },
+  "Theator": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Theator",
+    "slug": "theator"
+  },
+  "Third Eye Systems": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Third Eye Systems",
+    "slug": "thirdeye"
+  },
+  "Tipalti": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Tipalti",
+    "slug": "tipalti"
+  },
+  "Tnuva": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Tnuva",
+    "slug": "tnuva"
+  },
+  "Torq": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Torq",
+    "slug": "torq"
+  },
+  "Tower Semiconductor": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Tower Semiconductor",
+    "slug": "towersemiconductor"
+  },
+  "Transmit Security": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Transmit Security",
+    "slug": "transmitsecurity"
+  },
+  "Trax": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Trax",
+    "slug": "trax"
+  },
+  "Tribble": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Tribble",
+    "slug": "tribble"
+  },
+  "Trigo": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Trigo",
+    "slug": "trigo"
+  },
+  "Twilio Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Twilio Israel",
+    "slug": "twilioisrael"
+  },
+  "TytoCare": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "TytoCare",
+    "slug": "tytocare"
+  },
+  "Uber Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Uber Israel",
+    "slug": "uberisrael"
+  },
+  "Unilever Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Unilever Israel",
+    "slug": "unileverisrael"
+  },
+  "Unit": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Unit",
+    "slug": "unit"
+  },
+  "Unity Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Unity Israel",
+    "slug": "unityisrael"
+  },
+  "Upsolver": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Upsolver",
+    "slug": "upsolver"
+  },
+  "Upwind": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Upwind",
+    "slug": "upwind"
+  },
+  "VAST Data": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "VAST Data",
+    "slug": "vast-data"
+  },
+  "VMware Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "VMware Israel",
+    "slug": "vmwareisrael"
+  },
+  "Valence Security": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Valence Security",
+    "slug": "valencesecurity"
+  },
+  "Valens": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Valens",
+    "slug": "valens"
+  },
+  "Validify": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Validify",
+    "slug": "validify"
+  },
+  "Vanti": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Vanti",
+    "slug": "vanti"
+  },
+  "Varonis": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Varonis",
+    "slug": "varonis"
+  },
+  "Vayyar": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Vayyar",
+    "slug": "vayyar"
+  },
+  "Vdoo": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Vdoo",
+    "slug": "vdoo"
+  },
+  "Verbit": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Verbit",
+    "slug": "verbit"
+  },
+  "Verint": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Verint",
+    "slug": "verint"
+  },
+  "Vesttoo": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Vesttoo",
+    "slug": "vesttoo"
+  },
+  "Via": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Via",
+    "slug": "via"
+  },
+  "Viber Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Viber Israel",
+    "slug": "viberisrael"
+  },
+  "Vicarius": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Vicarius",
+    "slug": "vicarius"
+  },
+  "Vidmob Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Vidmob Israel",
+    "slug": "vidmobisrael"
+  },
+  "Volkswagen Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Volkswagen Israel",
+    "slug": "volkswagenisrael"
+  },
+  "WalkMe": {
+    "ats": "lever",
+    "checked": "2026-10-28",
+    "name": "WalkMe",
+    "slug": "walkme"
+  },
+  "Walla": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Walla",
+    "slug": "walla"
+  },
+  "Walnut": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Walnut",
+    "slug": "walnut"
+  },
+  "Weka": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Weka",
+    "slug": "weka"
+  },
+  "Wiliot": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Wiliot",
+    "slug": "wiliot"
+  },
+  "Wisor": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Wisor",
+    "slug": "wisor"
+  },
+  "Wix": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Wix",
+    "slug": "wix"
+  },
+  "Wiz": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Wiz",
+    "slug": "wiz"
+  },
+  "Wobi": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Wobi",
+    "slug": "wobi"
+  },
+  "Workday Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Workday Israel",
+    "slug": "workdayisrael"
+  },
+  "XM Cyber": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "XM Cyber",
+    "slug": "xmcyber"
+  },
+  "XTEND": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "XTEND",
+    "slug": "xtend"
+  },
+  "Xtend Defense": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Xtend Defense",
+    "slug": "xtenddefense"
+  },
+  "Yad2": {
+    "ats": "workable",
+    "checked": "2026-10-28",
+    "name": "Yad2",
+    "slug": "yad2"
+  },
+  "Yango Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Yango Israel",
+    "slug": "yangoisrael"
+  },
+  "Yes": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Yes",
+    "slug": "yes"
+  },
+  "Ynet": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Ynet",
+    "slug": "ynet"
+  },
+  "Yotpo": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Yotpo",
+    "slug": "yotpo"
+  },
+  "Yotpo Ltd": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Yotpo Ltd",
+    "slug": "yotpo"
+  },
+  "Zap Group": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Zap Group",
+    "slug": "zapgroup"
+  },
+  "Zebra Medical Vision": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Zebra Medical Vision",
+    "slug": "zebramedicalvision"
+  },
+  "Zego": {
+    "ats": "ashby",
+    "checked": "2026-10-28",
+    "name": "Zego",
+    "slug": "zego"
+  },
+  "Zencity": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Zencity",
+    "slug": "zencity"
+  },
+  "Zengo": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Zengo",
+    "slug": "zengo"
+  },
+  "Zenity": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Zenity",
+    "slug": "zenity"
+  },
+  "Zesty": {
+    "ats": "greenhouse",
+    "checked": "2026-10-28",
+    "name": "Zesty",
+    "slug": "zestyai"
+  },
+  "Zeta Global Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Zeta Global Israel",
+    "slug": "zetaglobalisrael"
+  },
+  "Zoom Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Zoom Israel",
+    "slug": "zoomisrael"
+  },
+  "Zoomin": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Zoomin",
+    "slug": "zoomin"
+  },
+  "Zscaler Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "Zscaler Israel",
+    "slug": "zscalerisrael"
+  },
+  "eBay Israel": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "eBay Israel",
+    "slug": "ebayisrael"
+  },
+  "eToro": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "eToro",
+    "slug": "etoro"
+  },
+  "env0": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "env0",
+    "slug": "env0"
+  },
+  "ironSource": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "ironSource",
+    "slug": "ironsource"
+  },
+  "monday.com": {
+    "ats": "smartrecruiters",
+    "checked": "2026-10-28",
+    "name": "monday.com",
+    "slug": "mondaycom"
+  }
+}
