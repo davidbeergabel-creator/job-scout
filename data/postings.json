@@ -48,12 +48,30 @@
     "url": "https://job-boards.greenhouse.io/gongio/jobs/4672107006"
   },
   {
+    "company": "Aidoc",
+    "found": "2026-10-28",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-10-21",
+    "source": "greenhouse:aidocmedical",
+    "title": "Director of GenAI Operations",
+    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4941568101"
+  },
+  {
     "company": "Cloudinary",
     "location": "Israel, Strategy & Operations",
     "posted": "2026-10-21",
     "source": "lever:cloudinary",
     "title": "Director of Global Corporate Program Management",
     "url": "https://jobs.lever.co/cloudinary/58464bf0-84a9-4b6a-91e1-9b0844475583"
+  },
+  {
+    "company": "Aidoc",
+    "found": "2026-10-28",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-10-22",
+    "source": "greenhouse:aidocmedical",
+    "title": "Director of Operations, Workplace Experience",
+    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5011870101"
   },
   {
     "company": "Taboola",
@@ -76,7 +94,16 @@
     "location": "Tel Aviv",
     "posted": "2026-10-25",
     "source": "greenhouse:scaleops",
-    "title": "VP Operations ",
+    "title": "VP Operations",
     "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4971272101"
+  },
+  {
+    "company": "Aidoc",
+    "found": "2026-10-28",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-10-28",
+    "source": "greenhouse:aidocmedical",
+    "title": "Director of Enterprise Portfolio Marketing",
+    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5018967101"
   }
 ]
