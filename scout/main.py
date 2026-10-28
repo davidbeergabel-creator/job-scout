@@ -10,6 +10,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import threading
+import time
 import os
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -96,12 +98,25 @@ def cmd_scan(use_jsearch: bool = True, max_age_days: int = 45) -> None:
     raw: list[dict] = []
     failed: list[str] = []
 
+    # Workable rate-limits bursts; keep its boards to two at a time with a pause between calls.
+    throttle = {"workable": threading.Semaphore(2)}
+
+    def fetch_one(e):
+        sem = throttle.get(e.get("ats"))
+        if sem is None:
+            return ats.fetch(e)
+        with sem:
+            res = ats.fetch(e)
+            time.sleep(0.7)
+            return res
+
+    ats.ERRORS.clear()
     with ThreadPoolExecutor(max_workers=8) as ex:
-        futs = {ex.submit(ats.fetch, e): e["name"] for e in entries}
+        futs = {ex.submit(fetch_one, e): e["name"] for e in entries}
         for fut in as_completed(futs):
             res = fut.result()
             if res is None:
-                failed.append(futs[fut])
+                failed.append(f"{futs[fut]} ({ats.ERRORS.get(futs[fut], '?')})")
             else:
                 raw.extend(res)
     errors = len(failed)
@@ -172,12 +187,18 @@ def cmd_scan(use_jsearch: bool = True, max_age_days: int = 45) -> None:
 
 def main(argv=None):
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["discover", "scan", "all"])
+    ap.add_argument("cmd", choices=["discover", "scan", "all", "diagnose"])
     ap.add_argument("--no-jsearch", action="store_true")
+    ap.add_argument("--diagnose", default="", help="URL or company name to inspect (prints what discovery sees)")
     ap.add_argument("--limit", type=int, default=None, help="discover: probe at most N companies")
     a = ap.parse_args(argv)
     if a.cmd in ("discover", "all"):
         cmd_discover(limit=a.limit)
+    if a.cmd == "diagnose":
+        watch = {c["name"]: c for c in load_json(WATCHLIST, {"companies": []})["companies"]}
+        for t in [x.strip() for x in a.diagnose.split("|") if x.strip()]:
+            ats.diagnose(t, (watch.get(t) or {}).get("careers_url"))
+        return
     if a.cmd in ("scan", "all"):
         cmd_scan(use_jsearch=not a.no_jsearch)
 

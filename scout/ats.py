@@ -13,12 +13,21 @@ from datetime import datetime, timezone
 
 from .http import get, get_json, post_json
 
+# company -> "ats:status" for boards whose last fetch failed (read by the scan summary)
+ERRORS: dict[str, str] = {}
+
+
+def _fail(company: str, ats_name: str, status) -> None:
+    ERRORS[company] = f"{ats_name}:{status}"
+
+
 # ---------------------------------------------------------------- fetchers
 
 
 def greenhouse(slug: str, company: str) -> list[dict] | None:
     status, data = get_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=false")
     if status != 200 or not isinstance(data, dict) or "jobs" not in data:
+        _fail(company, "greenhouse", status)
         return None
     out = []
     for j in data.get("jobs", []):
@@ -38,6 +47,7 @@ def greenhouse(slug: str, company: str) -> list[dict] | None:
 def lever(slug: str, company: str) -> list[dict] | None:
     status, data = get_json(f"https://api.lever.co/v0/postings/{slug}?mode=json")
     if status != 200 or not isinstance(data, list):
+        _fail(company, "lever", status)
         return None
     out = []
     for j in data:
@@ -60,6 +70,7 @@ def lever(slug: str, company: str) -> list[dict] | None:
 def ashby(slug: str, company: str) -> list[dict] | None:
     status, data = get_json(f"https://api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=false")
     if status != 200 or not isinstance(data, dict) or "jobs" not in data:
+        _fail(company, "ashby", status)
         return None
     out = []
     for j in data.get("jobs", []):
@@ -79,6 +90,7 @@ def ashby(slug: str, company: str) -> list[dict] | None:
 def workable(slug: str, company: str) -> list[dict] | None:
     status, data = get_json(f"https://www.workable.com/api/accounts/{slug}?details=false")
     if status != 200 or not isinstance(data, dict) or "jobs" not in data:
+        _fail(company, "workable", status)
         return None
     out = []
     for j in data.get("jobs", []):
@@ -99,6 +111,7 @@ def workable(slug: str, company: str) -> list[dict] | None:
 def smartrecruiters(slug: str, company: str) -> list[dict] | None:
     status, data = get_json(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=100")
     if status != 200 or not isinstance(data, dict) or "content" not in data:
+        _fail(company, "smartrecruiters", status)
         return None
     out = []
     for j in data.get("content", []):
@@ -119,6 +132,7 @@ def smartrecruiters(slug: str, company: str) -> list[dict] | None:
 def recruitee(slug: str, company: str) -> list[dict] | None:
     status, data = get_json(f"https://{slug}.recruitee.com/api/offers/")
     if status != 200 or not isinstance(data, dict) or "offers" not in data:
+        _fail(company, "recruitee", status)
         return None
     out = []
     for j in data.get("offers", []):
@@ -157,6 +171,7 @@ def comeet(careers_url: str, company: str) -> list[dict] | None:
     find the embedded careers-api token, then call it."""
     status, page = get(careers_url, timeout=12)
     if status != 200 or not page:
+        _fail(company, "comeet-page", status)
         return None
     creds = _comeet_creds(page)
     if not creds:
@@ -175,6 +190,7 @@ def comeet(careers_url: str, company: str) -> list[dict] | None:
         if status == 200 and isinstance(data, list):
             break
     if not isinstance(data, list):
+        _fail(company, "comeet-api", status)
         return None
     out = []
     for j in data:
@@ -323,3 +339,38 @@ def discover(name: str, careers_url: str | None = None, website: str | None = No
                 continue
             return {"name": name, "ats": ats_name, "slug": slug}
     return sniff_site(name, website, careers_url)
+
+
+# ------------------------------------------------------------- diagnostics
+
+def diagnose(target: str, careers_url: str | None = None) -> None:
+    """Print what discovery sees for a URL or a company name (run in Actions, where the network is open)."""
+    if target.startswith("http"):
+        status, page = get(target, timeout=15)
+        print(f"GET {target} -> {status}, {len(page or '')} chars")
+        if page:
+            print("  sniff:", sniff_page(page))
+            print("  comeet creds:", _comeet_creds(page), " hosted link:", bool(_COMEET_HREF.search(page)))
+            low = page.lower()
+            for kw in ("comeet", "greenhouse", "lever.co", "ashby", "workable", "smartrecruiters", "recruitee", "bamboohr", "jazz", "teamtailor", "personio", "workday", "successfactors", "icims", "taleo"):
+                i = low.find(kw)
+                if i >= 0:
+                    print(f"  '{kw}' at {i}: ...{page[max(0, i-120):i+160]!r}")
+            for m in _CAREERS_LINK.finditer(page):
+                print("  careers link:", html.unescape(m.group(1))[:160])
+        return
+    name = target
+    print(f"discover({name!r}) slugs={slug_candidates(name)} sites={website_candidates(name)}")
+    for ats_name in PROBE_ORDER:
+        for slug in slug_candidates(name):
+            res = FETCHERS[ats_name](slug, name)
+            print(f"  {ats_name}:{slug} -> {'None ' + ERRORS.get(name, '') if res is None else str(len(res)) + ' jobs'}")
+    for site in website_candidates(name):
+        status, home = get(site, timeout=8, retries=0)
+        print(f"  site {site} -> {status}, {len(home or '')} chars")
+        if status == 200 and home:
+            print("    sniff:", sniff_page(home), " comeet:", _comeet_creds(home) or bool(_COMEET_HREF.search(home)))
+            for m in list(_CAREERS_LINK.finditer(home))[:8]:
+                print("    careers link:", html.unescape(m.group(1))[:160])
+    if careers_url:
+        diagnose(careers_url)
