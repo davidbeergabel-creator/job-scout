@@ -68,8 +68,16 @@ def is_excluded(title: str) -> bool:
     )
 
 
+# "IL" is also Illinois: a US-flavoured location only counts if "Israel" is spelled out.
+NOT_ISRAEL = re.compile(
+    r"\b(united states|usa|u\.s\.|illinois|chicago|us[\s-]+remote|remote[\s-]+us|north america)\b", re.I
+)
+
+
 def in_israel(location: str, remote_ok: bool = True) -> bool:
     loc = location or ""
+    if NOT_ISRAEL.search(loc) and not re.search(r"\bisrael\b", loc, re.I):
+        return False
     if ISRAEL.search(loc):
         return True
     return False

@@ -11,23 +11,19 @@ from .http import get_json
 
 HOST = "jsearch.p.rapidapi.com"
 
+# Six queries x one daily run ~= 180 requests/month, inside the free RapidAPI plan.
+# Add more (or raise pages) if David moves to a paid tier.
 DEFAULT_QUERIES = [
     "VP Sales",
     "VP Partnerships",
-    "VP Alliances",
     "VP Business Development",
-    "Chief Business Officer",
     "Chief Revenue Officer",
-    "Head of Partnerships",
-    "Head of Sales",
-    "VP GTM",
-    "VP Growth",
     "General Manager Israel",
-    "VP Operations",
-    "Head of AI",
-    "VP Ecosystem",
-    "Country Manager Israel",
+    "VP GTM",
 ]
+
+# Stats of the last run(), written to data/last-run.json by the scan.
+LAST = {"requests": 0, "results": 0, "statuses": []}
 
 
 def search(query: str, key: str, date_posted: str = "week", pages: int = 1) -> list[dict]:
@@ -37,6 +33,8 @@ def search(query: str, key: str, date_posted: str = "week", pages: int = 1) -> l
         f"&country=il&date_posted={date_posted}"
     )
     status, data = get_json(url, headers={"x-rapidapi-key": key, "x-rapidapi-host": HOST})
+    LAST["requests"] += 1
+    LAST["statuses"].append(status)
     if status != 200 or not isinstance(data, dict):
         return []
     out = []
@@ -58,9 +56,11 @@ def search(query: str, key: str, date_posted: str = "week", pages: int = 1) -> l
 
 def run(queries: list[str] | None = None, date_posted: str = "week") -> list[dict]:
     key = os.environ.get("RAPIDAPI_KEY", "").strip()
+    LAST.update({"requests": 0, "results": 0, "statuses": [], "key": bool(key)})
     if not key:
         return []
     out = []
     for q in queries or DEFAULT_QUERIES:
         out.extend(search(q, key, date_posted))
+    LAST["results"] = len(out)
     return out

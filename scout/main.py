@@ -57,7 +57,11 @@ def cmd_discover(limit: int | None = None, retry_days: int = 30) -> None:
             resolved[name] = {**c, "checked": today}
             continue
         if r and r.get("ats"):
-            continue
+            # An earlier bug accepted SmartRecruiters' empty answer for any slug; re-probe those.
+            if r.get("ats") == "smartrecruiters" and not r.get("verified"):
+                pass
+            else:
+                continue
         if r and r.get("checked") and (date.today() - date.fromisoformat(r["checked"])).days < retry_days:
             continue
         todo.append(c)
@@ -66,15 +70,15 @@ def cmd_discover(limit: int | None = None, retry_days: int = 30) -> None:
     print(f"discover: {len(todo)} companies to probe, {sum(1 for v in resolved.values() if v.get('ats'))} already resolved")
 
     def probe(c):
-        return c["name"], ats.discover(c["name"], c.get("careers_url"))
+        return c["name"], ats.discover(c["name"], c.get("careers_url"), c.get("website"))
 
     found = 0
-    with ThreadPoolExecutor(max_workers=8) as ex:
+    with ThreadPoolExecutor(max_workers=12) as ex:
         for fut in as_completed([ex.submit(probe, c) for c in todo]):
             name, entry = fut.result()
             if entry:
                 found += 1
-                resolved[name] = {**entry, "checked": today}
+                resolved[name] = {**entry, "checked": today, "verified": True}
                 print(f"  + {name}: {entry['ats']} {entry.get('slug') or entry.get('careers_url')}")
             else:
                 resolved[name] = {"name": name, "checked": today}
@@ -90,20 +94,24 @@ def cmd_scan(use_jsearch: bool = True, max_age_days: int = 45) -> None:
     entries = [v for v in resolved.values() if v.get("ats")]
     print(f"scan: {len(entries)} ATS boards")
     raw: list[dict] = []
-    errors = 0
+    failed: list[str] = []
 
     with ThreadPoolExecutor(max_workers=8) as ex:
-        for fut in as_completed([ex.submit(ats.fetch, e) for e in entries]):
+        futs = {ex.submit(ats.fetch, e): e["name"] for e in entries}
+        for fut in as_completed(futs):
             res = fut.result()
             if res is None:
-                errors += 1
+                failed.append(futs[fut])
             else:
                 raw.extend(res)
-    print(f"scan: {len(raw)} postings from ATS ({errors} boards failed)")
+    errors = len(failed)
+    print(f"scan: {len(raw)} postings from ATS ({errors} boards failed: {', '.join(sorted(failed))})")
 
+    js_stats = None
     if use_jsearch:
         js = jsearch.run()
-        print(f"scan: {len(js)} postings from JSearch")
+        js_stats = dict(jsearch.LAST)
+        print(f"scan: {len(js)} postings from JSearch {js_stats}")
         raw.extend(js)
 
     seen = load_json(SEEN, {})
@@ -140,7 +148,8 @@ def cmd_scan(use_jsearch: bool = True, max_age_days: int = 45) -> None:
         save_json(DATA / f"new-{today}.json", new)
 
     summary = {"run": datetime.now(timezone.utc).isoformat(timespec="seconds"), "boards": len(entries),
-               "raw": len(raw), "relevant": len(current_keys), "new": len(new), "board_errors": errors}
+               "raw": len(raw), "relevant": len(current_keys), "new": len(new), "board_errors": errors,
+               "failed_boards": sorted(failed), "jsearch": js_stats}
     if notion.enabled() and new:
         summary["notion"] = notion.push(new)
     else:

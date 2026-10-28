@@ -136,28 +136,45 @@ def recruitee(slug: str, company: str) -> list[dict] | None:
 
 
 _COMEET_API = re.compile(r"careers-api/2\.0/company/([A-Z0-9.]+)/positions\?token=([0-9a-f]+)", re.I)
-_COMEET_HREF = re.compile(r"https://www\.comeet\.com/jobs/([A-Za-z0-9-]+)/([A-Z0-9.]+)", re.I)
+_COMEET_HREF = re.compile(r"https://www\.comeet\.com?/jobs/([A-Za-z0-9-]+)/([A-Z0-9.]+)", re.I)
+# The embeddable widget: careers.js?company=X&token=<hex>&uid=<A1.B23>
+_COMEET_UID = re.compile(r"[?&]uid=([A-Z0-9]+\.[A-Z0-9]+)", re.I)
+_COMEET_TOKEN = re.compile(r"[?&]token=([0-9a-f]{16,})", re.I)
+
+
+def _comeet_creds(page: str) -> tuple[str, str] | None:
+    m = _COMEET_API.search(page or "")
+    if m:
+        return m.group(1), m.group(2)
+    u, t = _COMEET_UID.search(page or ""), _COMEET_TOKEN.search(page or "")
+    if u and t and "comeet" in (page or "").lower():
+        return u.group(1), t.group(1)
+    return None
 
 
 def comeet(careers_url: str, company: str) -> list[dict] | None:
     """Comeet has no guessable public API; read the company's careers page,
     find the embedded careers-api token, then call it."""
-    status, page = get(careers_url)
+    status, page = get(careers_url, timeout=12)
     if status != 200 or not page:
         return None
-    m = _COMEET_API.search(page)
-    if not m:
+    creds = _comeet_creds(page)
+    if not creds:
         # Some sites embed only the hosted board link; follow it once.
         h = _COMEET_HREF.search(page)
         if not h:
             return None
-        status, page = get(f"https://www.comeet.com/jobs/{h.group(1)}/{h.group(2)}")
-        m = _COMEET_API.search(page or "")
-        if not m:
+        status, page = get(f"https://www.comeet.com/jobs/{h.group(1)}/{h.group(2)}", timeout=12)
+        creds = _comeet_creds(page)
+        if not creds:
             return None
-    uid, token = m.group(1), m.group(2)
-    status, data = get_json(f"https://www.comeet.com/careers-api/2.0/company/{uid}/positions?token={token}&details=false")
-    if status != 200 or not isinstance(data, list):
+    uid, token = creds
+    data = None
+    for host in ("www.comeet.co", "www.comeet.com"):
+        status, data = get_json(f"https://{host}/careers-api/2.0/company/{uid}/positions?token={token}&details=false")
+        if status == 200 and isinstance(data, list):
+            break
+    if not isinstance(data, list):
         return None
     out = []
     for j in data:
@@ -218,20 +235,91 @@ def slug_candidates(name: str) -> list[str]:
     return out
 
 
-def discover(name: str, careers_url: str | None = None) -> dict | None:
-    """Try each ATS with each slug candidate; return a resolved entry or None."""
-    if careers_url and "comeet" in careers_url:
-        res = comeet(careers_url, name)
-        if res is not None:
-            return {"name": name, "ats": "comeet", "careers_url": careers_url}
-    for ats in PROBE_ORDER:
-        fn = FETCHERS[ats]
-        for slug in slug_candidates(name):
-            res = fn(slug, name)
-            if res is not None:
-                return {"name": name, "ats": ats, "slug": slug}
+# ATS fingerprints found in a company's own careers page (embeds / links).
+_SNIFF = [
+    ("greenhouse", re.compile(r"(?:boards|job-boards|boards-api)\.greenhouse\.io/(?:v1/boards/|embed/job_board\?for=)?([a-z0-9-]+)", re.I)),
+    ("greenhouse", re.compile(r"greenhouse\.io/embed/job_board/js\?for=([a-z0-9-]+)", re.I)),
+    ("lever", re.compile(r"jobs\.lever\.co/([a-z0-9-]+)", re.I)),
+    ("ashby", re.compile(r"jobs\.ashbyhq\.com/([a-z0-9-]+)", re.I)),
+    ("workable", re.compile(r"apply\.workable\.com/([a-z0-9-]+)", re.I)),
+    ("smartrecruiters", re.compile(r"(?:careers|jobs)\.smartrecruiters\.com/([A-Za-z0-9]+)", re.I)),
+    ("recruitee", re.compile(r"https?://([a-z0-9-]+)\.recruitee\.com", re.I)),
+]
+_CAREERS_LINK = re.compile(r"""href=["']([^"']*(?:career|jobs|join-us|joinus|work-with-us|open-positions|positions)[^"']*)["']""", re.I)
+_BAD_SLUGS = {"embed", "www", "jobs", "careers", "api", "boards", "job-boards", "v1"}
+
+
+def website_candidates(name: str) -> list[str]:
+    base = re.sub(r"\b(ltd|inc|llc|gmbh|co|corp|israel)\b\.?", "", name.lower())
+    joined = re.sub(r"[^a-z0-9]+", "", base)
+    if not joined:
+        return []
+    return [f"https://www.{joined}.com", f"https://{joined}.com", f"https://www.{joined}.io", f"https://{joined}.ai", f"https://www.{joined}.co.il"]
+
+
+def sniff_page(page: str) -> tuple[str, str] | None:
+    """Return (ats, slug) if a known ATS is embedded or linked in the page."""
+    for ats_name, rx in _SNIFF:
+        for m in rx.finditer(page or ""):
+            slug = m.group(1)
+            if slug.lower() not in _BAD_SLUGS:
+                return ats_name, slug
+    return None
+
+
+def sniff_site(name: str, website: str | None = None, careers_url: str | None = None) -> dict | None:
+    """Fetch the company's careers page(s) and look for an embedded ATS."""
+    pages: list[str] = []
+    if careers_url:
+        pages.append(careers_url)
+    sites = [website] if website else website_candidates(name)
+    for site in sites:
+        status, home = get(site, timeout=8, retries=0)
+        if status != 200 or not home:
+            continue
+        pages.append(site.rstrip("/") + "/careers")
+        for m in _CAREERS_LINK.finditer(home):
+            href = html.unescape(m.group(1))
+            if href.startswith("/"):
+                href = site.rstrip("/") + href
+            if href.startswith("http") and href not in pages:
+                pages.append(href)
+        pages.append(site)
+        break  # first live domain wins
+    tried = 0
+    for url in pages:
+        if tried >= 4:
+            break
+        tried += 1
+        status, page = get(url, timeout=10, retries=0)
+        if status != 200 or not page:
+            continue
+        hit = sniff_page(page)
+        if hit:
+            ats_name, slug = hit
+            res = FETCHERS[ats_name](slug, name)
+            if res is not None and (ats_name != "smartrecruiters" or res):
+                return {"name": name, "ats": ats_name, "slug": slug}
+        if _comeet_creds(page) or _COMEET_HREF.search(page):
+            if comeet(url, name) is not None:
+                return {"name": name, "ats": "comeet", "careers_url": url}
+    return None
+
+
+def discover(name: str, careers_url: str | None = None, website: str | None = None) -> dict | None:
+    """Try each ATS with each slug candidate, then the company's own site; return a resolved entry or None."""
     if careers_url:
         res = comeet(careers_url, name)
         if res is not None:
             return {"name": name, "ats": "comeet", "careers_url": careers_url}
-    return None
+    for ats_name in PROBE_ORDER:
+        fn = FETCHERS[ats_name]
+        for slug in slug_candidates(name):
+            res = fn(slug, name)
+            if res is None:
+                continue
+            # SmartRecruiters returns 200 + [] for any slug: only a non-empty board proves the slug.
+            if ats_name == "smartrecruiters" and not res:
+                continue
+            return {"name": name, "ats": ats_name, "slug": slug}
+    return sniff_site(name, website, careers_url)
