@@ -1,57 +1,11 @@
 {
-  "board_errors": 27,
+  "board_errors": 0,
   "boards": 107,
-  "failed_boards": [
-    "Allot",
-    "Automat-it",
-    "Cal",
-    "Cato",
-    "Cellebrite",
-    "CytoReason",
-    "D-ID",
-    "Deci AI",
-    "Decide AI",
-    "Dynamic Yield",
-    "Fabric",
-    "Fundbox",
-    "Glassbox",
-    "Hailo",
-    "Infinidat",
-    "Max",
-    "Mitiga",
-    "Mobileye",
-    "Natural Intelligence",
-    "Next Insurance",
-    "Playtika",
-    "Port",
-    "Seebo",
-    "VAST Data",
-    "Vanti",
-    "Vayyar",
-    "Yad2"
-  ],
-  "jsearch": {
-    "error": "404: {\"message\":\"Endpoint '\\/search' does not exist\"}",
-    "key": true,
-    "key_len": 50,
-    "requests": 6,
-    "results": 0,
-    "statuses": [
-      404,
-      404,
-      404,
-      404,
-      404,
-      404
-    ]
-  },
-  "new": 3,
-  "notion": {
-    "created": 3,
-    "failed": 0,
-    "skipped": 0
-  },
-  "raw": 2402,
+  "failed_boards": [],
+  "jsearch": null,
+  "new": 0,
+  "notion": "nothing new",
+  "raw": 2376,
   "relevant": 13,
-  "run": "2026-10-28T15:26:52+00:00"
+  "run": "2026-10-28T20:15:14+00:00"
 }
