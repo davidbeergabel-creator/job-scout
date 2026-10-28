@@ -2,7 +2,8 @@ name: job-scout
 
 on:
   schedule:
-    - cron: "17 3,9,15,21 * * *"   # every 6 hours (UTC); 05:17 / 11:17 / 17:17 / 23:17 Israel winter time
+    - cron: "17 3,9,15,21 * * *"   # scan every 6 hours (UTC): 05:17 / 11:17 / 17:17 / 23:17 Israel winter time
+    - cron: "47 1 * * 0"           # weekly ATS discovery for still-unresolved companies (Sunday 03:47 Israel)
   workflow_dispatch:
     inputs:
       discover:
@@ -32,22 +33,25 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Discover ATS boards (weekly, or on demand)
-        if: ${{ github.event.inputs.discover == 'true' || github.event.schedule == '17 3,9,15,21 * * *' && github.run_number % 28 == 1 }}
-        run: python -m scout.main discover
-
-      - name: First-time discovery (no resolved list yet)
-        if: ${{ hashFiles('data/watchlist.resolved.json') == '' }}
+      - name: Discover ATS boards
+        if: ${{ github.event.inputs.discover == 'true' || github.event.schedule == '47 1 * * 0' || hashFiles('data/watchlist.resolved.json') == '' }}
         run: python -m scout.main discover
 
       - name: Scan
+        if: ${{ github.event.schedule != '47 1 * * 0' }}
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
-          # JSearch once a day (the 03:17 UTC run) unless dispatched manually with jsearch=true
-          JSEARCH_RUN: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.jsearch == 'true') || (github.event_name == 'schedule' && startsWith(github.event.schedule, '17 3')) }}
+          # JSearch once a day (the 03:17 UTC scheduled run) or when dispatched manually with jsearch=true
+          JSEARCH_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.jsearch == 'true' }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
-          if [ "$JSEARCH_RUN" = "true" ]; then python -m scout.main scan; else python -m scout.main scan --no-jsearch; fi
+          HOUR=$(date -u +%H)
+          if [ "$JSEARCH_RUN" = "true" ] || { [ "$EVENT_NAME" = "schedule" ] && [ "$HOUR" = "03" ]; }; then
+            python -m scout.main scan
+          else
+            python -m scout.main scan --no-jsearch
+          fi
 
       - name: Commit data
         run: |
