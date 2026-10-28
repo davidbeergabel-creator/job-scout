@@ -17,7 +17,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from . import ats, jsearch, notion
-from .filters import dedupe_key, relevant
+from .filters import clean_title, dedupe_key, relevant
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -120,6 +120,7 @@ def cmd_scan(use_jsearch: bool = True, max_age_days: int = 45) -> None:
     new, rejected = [], []
     current_keys = set()
     for p in raw:
+        p["title"] = clean_title(p.get("title", ""))
         keep, why = relevant(p.get("title", ""), p.get("location", ""))
         if not keep:
             if len(rejected) < 40:

@@ -7,6 +7,7 @@ collected.
 """
 from __future__ import annotations
 
+import html
 import re
 
 SENIORITY = re.compile(
@@ -96,6 +97,15 @@ def relevant(title: str, location: str) -> tuple[bool, str]:
     if location and not in_israel(location):
         return False, "not Israel"
     return True, "ok"
+
+
+_TAGS = re.compile(r"<[^>]+>")
+
+
+def clean_title(title: str) -> str:
+    """Some boards wrap titles in HTML (e.g. '<p>\nVP Operations \n</p>')."""
+    t = html.unescape(_TAGS.sub(" ", title or ""))
+    return re.sub(r"\s+", " ", t).strip()
 
 
 def normalize(s: str) -> str:

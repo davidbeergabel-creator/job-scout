@@ -1,6 +1,6 @@
 import unittest
 
-from scout.filters import dedupe_key, relevant
+from scout.filters import clean_title, dedupe_key, relevant
 
 
 class FilterTests(unittest.TestCase):
@@ -47,6 +47,10 @@ class FilterTests(unittest.TestCase):
         self.assertTrue(relevant("VP Sales", "")[0])  # unknown location is kept for review
         self.assertFalse(relevant("Account Director Central", "United States - IL Remote")[0])  # IL = Illinois here
         self.assertTrue(relevant("VP Sales", "Tel Aviv, IL")[0])
+
+    def test_clean_title(self):
+        self.assertEqual(clean_title("<p>\nVP Operations \n</p>"), "VP Operations")
+        self.assertEqual(clean_title("Head of Sales &amp; Partnerships"), "Head of Sales & Partnerships")
 
     def test_dedupe_key(self):
         self.assertEqual(dedupe_key("ScaleOps", "Head of Partnerships - IL"), dedupe_key("scaleops", "Head of Partnerships – IL"))
