@@ -7,7 +7,9 @@ from __future__ import annotations
 import os
 import urllib.parse
 
-from .http import get_json
+import json
+
+from .http import get
 
 HOST = "jsearch.p.rapidapi.com"
 
@@ -23,7 +25,7 @@ DEFAULT_QUERIES = [
 ]
 
 # Stats of the last run(), written to data/last-run.json by the scan.
-LAST = {"requests": 0, "results": 0, "statuses": []}
+LAST: dict = {"requests": 0, "results": 0, "statuses": []}
 
 
 def search(query: str, key: str, date_posted: str = "week", pages: int = 1) -> list[dict]:
@@ -32,10 +34,18 @@ def search(query: str, key: str, date_posted: str = "week", pages: int = 1) -> l
         f"https://{HOST}/search?query={q}&page=1&num_pages={pages}"
         f"&country=il&date_posted={date_posted}"
     )
-    status, data = get_json(url, headers={"x-rapidapi-key": key, "x-rapidapi-host": HOST})
+    status, body = get(url, headers={"x-rapidapi-key": key, "x-rapidapi-host": HOST})
     LAST["requests"] += 1
     LAST["statuses"].append(status)
-    if status != 200 or not isinstance(data, dict):
+    if status != 200:
+        LAST.setdefault("error", f"{status}: {(body or '')[:200]}")
+        return []
+    try:
+        data = json.loads(body)
+    except ValueError:
+        LAST.setdefault("error", f"{status}: non-JSON body")
+        return []
+    if not isinstance(data, dict):
         return []
     out = []
     for j in data.get("data", []) or []:
@@ -56,7 +66,8 @@ def search(query: str, key: str, date_posted: str = "week", pages: int = 1) -> l
 
 def run(queries: list[str] | None = None, date_posted: str = "week") -> list[dict]:
     key = os.environ.get("RAPIDAPI_KEY", "").strip()
-    LAST.update({"requests": 0, "results": 0, "statuses": [], "key": bool(key)})
+    LAST.clear()
+    LAST.update({"requests": 0, "results": 0, "statuses": [], "key": bool(key), "key_len": len(key)})
     if not key:
         return []
     out = []

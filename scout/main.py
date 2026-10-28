@@ -56,12 +56,12 @@ def cmd_discover(limit: int | None = None, retry_days: int = 30) -> None:
         if c.get("ats"):  # manually mapped in watchlist.json wins
             resolved[name] = {**c, "checked": today}
             continue
+        if r and r.get("ats") == "smartrecruiters" and not r.get("verified"):
+            # An earlier bug accepted SmartRecruiters' empty answer for any slug; re-probe those now.
+            todo.append(c)
+            continue
         if r and r.get("ats"):
-            # An earlier bug accepted SmartRecruiters' empty answer for any slug; re-probe those.
-            if r.get("ats") == "smartrecruiters" and not r.get("verified"):
-                pass
-            else:
-                continue
+            continue
         if r and r.get("checked") and (date.today() - date.fromisoformat(r["checked"])).days < retry_days:
             continue
         todo.append(c)

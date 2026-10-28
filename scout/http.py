@@ -20,7 +20,11 @@ def get(url: str, headers: dict | None = None, timeout: int = 20, retries: int =
             if e.code in (429, 500, 502, 503, 504) and attempt < retries:
                 time.sleep(1.5 * (attempt + 1))
                 continue
-            return e.code, ""
+            try:
+                body = e.read().decode("utf-8", "replace")
+            except Exception:
+                body = ""
+            return e.code, body
         except Exception:  # network error, timeout, bad SSL
             if attempt < retries:
                 time.sleep(1.0)
