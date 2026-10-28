@@ -65,6 +65,16 @@ class SniffTests(unittest.TestCase):
         self.assertEqual(sniff_page('<a href="https://apply.workable.com/novidea/">'), ("workable", "novidea"))
         self.assertIsNone(sniff_page("<html>no ats here</html>"))
 
+    def test_comeet_init_block_and_wp_links(self):
+        from scout.ats import _comeet_creds, _comeet_wp
+        page = 'COMEET.init({\n "token":       "1785E0758A482F01785E01782F05E0",\n "company-uid": "A1.B23", "lang": "en"})'
+        self.assertEqual(_comeet_creds(page), ("A1.B23", "1785E0758A482F01785E01782F05E0"))
+        wp = '<a href="https://allcloud.io/careers/co/israel/E0.47A/account-executive-enterprise-sector/all">x</a> <a href="/careers/co/united-states/CB.37A/global-vice-president-marketing/all">y</a>'
+        jobs = _comeet_wp(wp, "https://allcloud.io/careers/", "AllCloud")
+        self.assertEqual([j["title"] for j in jobs], ["Account Executive Enterprise Sector", "Global Vice President Marketing"])
+        self.assertEqual(jobs[1]["location"], "United States")
+        self.assertTrue(jobs[1]["url"].startswith("https://allcloud.io/"))
+
     def test_comeet_creds_from_widget(self):
         from scout.ats import _comeet_creds
         page = '<script src="//www.comeet.co/careers-api/careers.js?company=AllCloud&token=0123456789abcdef0123456789abcdef&uid=A1.B23"></script>'

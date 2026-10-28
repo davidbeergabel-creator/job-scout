@@ -152,8 +152,11 @@ def recruitee(slug: str, company: str) -> list[dict] | None:
 _COMEET_API = re.compile(r"careers-api/2\.0/company/([A-Z0-9.]+)/positions\?token=([0-9a-f]+)", re.I)
 _COMEET_HREF = re.compile(r"https://www\.comeet\.com?/jobs/([A-Za-z0-9-]+)/([A-Z0-9.]+)", re.I)
 # The embeddable widget: careers.js?company=X&token=<hex>&uid=<A1.B23>
-_COMEET_UID = re.compile(r"[?&]uid=([A-Z0-9]+\.[A-Z0-9]+)", re.I)
-_COMEET_TOKEN = re.compile(r"[?&]token=([0-9a-f]{16,})", re.I)
+# careers.js?company=X&token=<hex>&uid=<A1.B23>   or   COMEET.init({"token": "<HEX>", "company-uid": "A1.B23", ...})
+_COMEET_UID = re.compile(r"""(?:[?&]uid=|["']?company[-_]?uid["']?\s*:\s*["'])([A-Z0-9]+\.[A-Z0-9]+)""", re.I)
+_COMEET_TOKEN = re.compile(r"""(?:[?&]token=|["']?token["']?\s*:\s*["'])([0-9A-Fa-f]{16,})""", re.I)
+# The Comeet WordPress plugin renders positions server-side as /careers/co/<location>/<UID>/<slug>/all links.
+_COMEET_WP = re.compile(r"""href=["']([^"']*/co/([a-z0-9-]+)/([A-Z0-9]{2}\.[A-Z0-9]{3})/([a-z0-9-]+)/all/?)["']""", re.I)
 
 
 def _comeet_creds(page: str) -> tuple[str, str] | None:
@@ -166,6 +169,30 @@ def _comeet_creds(page: str) -> tuple[str, str] | None:
     return None
 
 
+def _comeet_wp(page: str, careers_url: str, company: str) -> list[dict] | None:
+    """Parse positions rendered by the Comeet WordPress plugin (no API token needed)."""
+    seen, out = set(), []
+    for m in _COMEET_WP.finditer(page or ""):
+        href, loc, uid, slug = m.groups()
+        if uid in seen:
+            continue
+        seen.add(uid)
+        if href.startswith("/"):
+            root = re.match(r"https?://[^/]+", careers_url)
+            href = (root.group(0) if root else "") + href
+        out.append(
+            {
+                "company": company,
+                "title": slug.replace("-", " ").title(),
+                "location": loc.replace("-", " ").title(),
+                "url": href,
+                "posted": "",
+                "source": f"comeet-wp:{uid}",
+            }
+        )
+    return out or None
+
+
 def comeet(careers_url: str, company: str) -> list[dict] | None:
     """Comeet has no guessable public API; read the company's careers page,
     find the embedded careers-api token, then call it."""
@@ -175,13 +202,18 @@ def comeet(careers_url: str, company: str) -> list[dict] | None:
         return None
     creds = _comeet_creds(page)
     if not creds:
+        wp = _comeet_wp(page, careers_url, company)
+        if wp:
+            return wp
         # Some sites embed only the hosted board link; follow it once.
         h = _COMEET_HREF.search(page)
         if not h:
+            _fail(company, "comeet-page", "no token")
             return None
         status, page = get(f"https://www.comeet.com/jobs/{h.group(1)}/{h.group(2)}", timeout=12)
         creds = _comeet_creds(page)
         if not creds:
+            _fail(company, "comeet-page", "no token")
             return None
     uid, token = creds
     data = None
@@ -316,7 +348,7 @@ def sniff_site(name: str, website: str | None = None, careers_url: str | None = 
             res = FETCHERS[ats_name](slug, name)
             if res is not None and (ats_name != "smartrecruiters" or res):
                 return {"name": name, "ats": ats_name, "slug": slug}
-        if _comeet_creds(page) or _COMEET_HREF.search(page):
+        if _comeet_creds(page) or _COMEET_HREF.search(page) or _COMEET_WP.search(page):
             if comeet(url, name) is not None:
                 return {"name": name, "ats": "comeet", "careers_url": url}
     return None
@@ -343,34 +375,56 @@ def discover(name: str, careers_url: str | None = None, website: str | None = No
 
 # ------------------------------------------------------------- diagnostics
 
+_KW = ("comeet", "greenhouse", "lever.co", "ashby", "workable", "smartrecruiters", "recruitee", "bamboohr", "jazz", "teamtailor",
+       "personio", "workday", "successfactors", "icims", "taleo", "rippling", "gem.com", "jobvite", "breezy", "freshteam", "zoho")
+
+
+def _show_page(url: str, label: str = "GET") -> str | None:
+    status, page = get(url, timeout=15)
+    print(f"{label} {url} -> {status}, {len(page or '')} chars")
+    if not page:
+        return None
+    print("  sniff:", sniff_page(page), " comeet creds:", _comeet_creds(page), " hosted:", bool(_COMEET_HREF.search(page)),
+          " comeet-wp links:", len(_COMEET_WP.findall(page)))
+    low = page.lower()
+    for kw in _KW:
+        start, shown = 0, 0
+        while shown < 4:
+            i = low.find(kw, start)
+            if i < 0:
+                break
+            print(f"  '{kw}' @{i}: ...{page[max(0, i-100):i+220]!r}")
+            start, shown = i + len(kw), shown + 1
+    return page
+
+
 def diagnose(target: str, careers_url: str | None = None) -> None:
     """Print what discovery sees for a URL or a company name (run in Actions, where the network is open)."""
     if target.startswith("http"):
-        status, page = get(target, timeout=15)
-        print(f"GET {target} -> {status}, {len(page or '')} chars")
-        if page:
-            print("  sniff:", sniff_page(page))
-            print("  comeet creds:", _comeet_creds(page), " hosted link:", bool(_COMEET_HREF.search(page)))
-            low = page.lower()
-            for kw in ("comeet", "greenhouse", "lever.co", "ashby", "workable", "smartrecruiters", "recruitee", "bamboohr", "jazz", "teamtailor", "personio", "workday", "successfactors", "icims", "taleo"):
-                i = low.find(kw)
-                if i >= 0:
-                    print(f"  '{kw}' at {i}: ...{page[max(0, i-120):i+160]!r}")
-            for m in _CAREERS_LINK.finditer(page):
-                print("  careers link:", html.unescape(m.group(1))[:160])
+        _show_page(target)
         return
     name = target
-    print(f"discover({name!r}) slugs={slug_candidates(name)} sites={website_candidates(name)}")
+    print(f"discover({name!r}) slugs={slug_candidates(name)}")
     for ats_name in PROBE_ORDER:
+        hits = []
         for slug in slug_candidates(name):
             res = FETCHERS[ats_name](slug, name)
-            print(f"  {ats_name}:{slug} -> {'None ' + ERRORS.get(name, '') if res is None else str(len(res)) + ' jobs'}")
+            hits.append(f"{slug}={'-' if res is None else len(res)}")
+        print(f"  {ats_name}: {' '.join(hits)}")
     for site in website_candidates(name):
         status, home = get(site, timeout=8, retries=0)
         print(f"  site {site} -> {status}, {len(home or '')} chars")
-        if status == 200 and home:
-            print("    sniff:", sniff_page(home), " comeet:", _comeet_creds(home) or bool(_COMEET_HREF.search(home)))
-            for m in list(_CAREERS_LINK.finditer(home))[:8]:
-                print("    careers link:", html.unescape(m.group(1))[:160])
+        if status != 200 or not home:
+            continue
+        links = []
+        for m in _CAREERS_LINK.finditer(home):
+            href = html.unescape(m.group(1))
+            if href.startswith("/"):
+                href = site.rstrip("/") + href
+            if href.startswith("http") and "wp-json" not in href and href not in links:
+                links.append(href)
+        for url in ([site.rstrip("/") + "/careers"] + links)[:4]:
+            _show_page(url, "   page")
+        break
     if careers_url:
-        diagnose(careers_url)
+        _show_page(careers_url, "careers_url")
