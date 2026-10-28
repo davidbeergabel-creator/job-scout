@@ -1,13 +1,23 @@
 {
-  "board_errors": 13,
+  "board_errors": 0,
   "boards": 428,
-  "new": 11,
-  "notion": {
-    "created": 11,
-    "failed": 0,
-    "skipped": 0
+  "failed_boards": [],
+  "jsearch": {
+    "key": true,
+    "requests": 6,
+    "results": 0,
+    "statuses": [
+      404,
+      404,
+      404,
+      404,
+      404,
+      404
+    ]
   },
-  "raw": 1909,
-  "relevant": 11,
-  "run": "2026-10-28T14:33:13+00:00"
+  "new": 0,
+  "notion": "nothing new",
+  "raw": 1912,
+  "relevant": 10,
+  "run": "2026-10-28T14:41:21+00:00"
 }
