@@ -1,329 +1,130 @@
-discover('AllCloud') slugs=['allcloud', 'allcloudai', 'allcloudio', 'allcloudhq', 'allcloudcareers'] sites=['https://www.allcloud.com', 'https://allcloud.com', 'https://www.allcloud.io', 'https://allcloud.ai', 'https://www.allcloud.co.il']
-  greenhouse:allcloud -> None greenhouse:404
-  greenhouse:allcloudai -> None greenhouse:404
-  greenhouse:allcloudio -> None greenhouse:404
-  greenhouse:allcloudhq -> None greenhouse:404
-  greenhouse:allcloudcareers -> None greenhouse:404
-  lever:allcloud -> None lever:404
-  lever:allcloudai -> None lever:404
-  lever:allcloudio -> None lever:404
-  lever:allcloudhq -> None lever:404
-  lever:allcloudcareers -> None lever:404
-  ashby:allcloud -> None ashby:404
-  ashby:allcloudai -> None ashby:404
-  ashby:allcloudio -> None ashby:404
-  ashby:allcloudhq -> None ashby:404
-  ashby:allcloudcareers -> None ashby:404
-  workable:allcloud -> None workable:404
-  workable:allcloudai -> None workable:404
-  workable:allcloudio -> None workable:404
-  workable:allcloudhq -> None workable:404
-  workable:allcloudcareers -> None workable:404
-  smartrecruiters:allcloud -> 0 jobs
-  smartrecruiters:allcloudai -> 0 jobs
-  smartrecruiters:allcloudio -> 0 jobs
-  smartrecruiters:allcloudhq -> 0 jobs
-  smartrecruiters:allcloudcareers -> 0 jobs
-  recruitee:allcloud -> None recruitee:404
-  recruitee:allcloudai -> None recruitee:404
-  recruitee:allcloudio -> None recruitee:404
-  recruitee:allcloudhq -> None recruitee:404
-  recruitee:allcloudcareers -> None recruitee:404
+discover('AllCloud') slugs=['allcloud', 'allcloudai', 'allcloudio', 'allcloudhq', 'allcloudcareers']
+  greenhouse: allcloud=- allcloudai=- allcloudio=- allcloudhq=- allcloudcareers=-
+  lever: allcloud=- allcloudai=- allcloudio=- allcloudhq=- allcloudcareers=-
+  ashby: allcloud=- allcloudai=- allcloudio=- allcloudhq=- allcloudcareers=-
+  workable: allcloud=- allcloudai=- allcloudio=- allcloudhq=- allcloudcareers=-
+  smartrecruiters: allcloud=0 allcloudai=0 allcloudio=0 allcloudhq=0 allcloudcareers=0
+  recruitee: allcloud=- allcloudai=- allcloudio=- allcloudhq=- allcloudcareers=-
   site https://www.allcloud.com -> 200, 4585 chars
-    sniff: None  comeet: False
-  site https://allcloud.com -> 200, 4585 chars
-    sniff: None  comeet: False
-  site https://www.allcloud.io -> 200, 133290 chars
-    sniff: None  comeet: False
-    careers link: /careers/
-    careers link: /careers/
-    careers link: /careers/
-  site https://allcloud.ai -> 200, 133290 chars
-    sniff: None  comeet: False
-    careers link: /careers/
-    careers link: /careers/
-    careers link: /careers/
-  site https://www.allcloud.co.il -> 200, 2149047 chars
-    sniff: None  comeet: False
-GET https://allcloud.io/careers/ -> 200, 106675 chars
-  sniff: None
-  comeet creds: None  hosted link: False
-  'comeet' at 13420: ...'/script>\r\n<!-- End VWO Async Smartcode -->\r\n<!-- header code -->\n                    <script>\n                   window.comeetInit = function() {\n                      COMEET.init({\n                         "token":       "1785E0758A482F01785E01782F05E0",\n                        '
-  careers link: https://allcloud.io/careers/
-  careers link: https://allcloud.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fallcloud.io%2Fcareers%2F&lang=en
-  careers link: https://allcloud.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fallcloud.io%2Fcareers%2F&format=xml&lang=en
-  careers link: /careers/
-  careers link: https://allcloud.io/careers/
-  careers link: /careers/
-  careers link: https://allcloud.io/careers/
-  careers link: https://allcloud.io/careers/
-  careers link: https://allcloud.io/jobs/
-  careers link: https://allcloud.io/careers/co/israel/all
-  careers link: https://allcloud.io/careers/co/israel/E0.47A/account-executive-enterprise-sector/all
-  careers link: https://allcloud.io/careers/co/israel/E0.47A/account-executive-enterprise-sector/all
-  careers link: https://allcloud.io/careers/co/israel/34.278/ai-and-data-science-team-lead/all
-  careers link: https://allcloud.io/careers/co/israel/34.278/ai-and-data-science-team-lead/all
-  careers link: https://allcloud.io/careers/co/israel/08.470/cloud-devops-engineer/all
-  careers link: https://allcloud.io/careers/co/israel/08.470/cloud-devops-engineer/all
-  careers link: https://allcloud.io/careers/co/israel/F2.F6D/da-senior-data-engineer/all
-  careers link: https://allcloud.io/careers/co/israel/F2.F6D/da-senior-data-engineer/all
-  careers link: https://allcloud.io/careers/co/israel/EC.370/data-architect/all
-  careers link: https://allcloud.io/careers/co/israel/EC.370/data-architect/all
-  careers link: https://allcloud.io/careers/co/israel/92.476/data-engineer/all
-  careers link: https://allcloud.io/careers/co/israel/92.476/data-engineer/all
-  careers link: https://allcloud.io/careers/co/israel/09.E62/devops-engineer/all
-  careers link: https://allcloud.io/careers/co/israel/09.E62/devops-engineer/all
-  careers link: https://allcloud.io/careers/co/israel/1F.27B/junior-office-operations-assistant/all
-  careers link: https://allcloud.io/careers/co/israel/1F.27B/junior-office-operations-assistant/all
-  careers link: https://allcloud.io/careers/co/israel/45.273/machine-learning-engineer/all
-  careers link: https://allcloud.io/careers/co/israel/45.273/machine-learning-engineer/all
-  careers link: https://allcloud.io/careers/co/israel/D4.476/paralegal-law-student/all
-  careers link: https://allcloud.io/careers/co/israel/D4.476/paralegal-law-student/all
-  careers link: https://allcloud.io/careers/co/israel/4B.27B/sales-development-representative/all
-  careers link: https://allcloud.io/careers/co/israel/4B.27B/sales-development-representative/all
-  careers link: https://allcloud.io/careers/co/israel/DD.27C/salesforce-solutions-architect/all
-  careers link: https://allcloud.io/careers/co/israel/DD.27C/salesforce-solutions-architect/all
-  careers link: https://allcloud.io/careers/co/israel/45.275/senior-ai-engineer/all
-  careers link: https://allcloud.io/careers/co/israel/45.275/senior-ai-engineer/all
-  careers link: https://allcloud.io/careers/co/israel/CC.271/senior-software-engineer-genai/all
-  careers link: https://allcloud.io/careers/co/israel/CC.271/senior-software-engineer-genai/all
-  careers link: https://allcloud.io/careers/co/israel/5F.27C/technical-project-manager/all
-  careers link: https://allcloud.io/careers/co/israel/5F.27C/technical-project-manager/all
-  careers link: https://allcloud.io/careers/co/romania/all
-  careers link: https://allcloud.io/careers/co/romania/67.378/backend-developer-gen-ai/all
-  careers link: https://allcloud.io/careers/co/romania/67.378/backend-developer-gen-ai/all
-  careers link: https://allcloud.io/careers/co/romania/EC.379/data-engineer-hebrew-speaker/all
-  careers link: https://allcloud.io/careers/co/romania/EC.379/data-engineer-hebrew-speaker/all
-  careers link: https://allcloud.io/careers/co/romania/CC.37F/machine-learning-engineer/all
-  careers link: https://allcloud.io/careers/co/romania/CC.37F/machine-learning-engineer/all
-  careers link: https://allcloud.io/careers/co/romania/88.373/senior-ml-engineer/all
-  careers link: https://allcloud.io/careers/co/romania/88.373/senior-ml-engineer/all
-  careers link: https://allcloud.io/careers/co/united-states/all
-  careers link: https://allcloud.io/careers/co/united-states/51.37D/aws-account-executive-ca/all
-  careers link: https://allcloud.io/careers/co/united-states/51.37D/aws-account-executive-ca/all
-  careers link: https://allcloud.io/careers/co/united-states/45.474/aws-account-executive-il/all
-  careers link: https://allcloud.io/careers/co/united-states/45.474/aws-account-executive-il/all
-  careers link: https://allcloud.io/careers/co/united-states/DC.37B/aws-cloud-engineer/all
-  careers link: https://allcloud.io/careers/co/united-states/DC.37B/aws-cloud-engineer/all
-  careers link: https://allcloud.io/careers/co/united-states/CB.37A/global-vice-president-marketing/all
-  careers link: https://allcloud.io/careers/co/united-states/CB.37A/global-vice-president-marketing/all
-  careers link: https://allcloud.io/careers/co/united-states/92.F60/senior-salesforce-account-executive/all
-  careers link: https://allcloud.io/careers/co/united-states/92.F60/senior-salesforce-account-executive/all
-  careers link: https://allcloud.io/careers/co/united-states/4B.276/services-account-executive/all
-  careers link: https://allcloud.io/careers/co/united-states/4B.276/services-account-executive/all
-  careers link: /careers/
-discover('VAST Data') slugs=['vastdata', 'vast-data', 'vastdataai', 'vastdataio', 'vastdatahq', 'vastdatacareers'] sites=['https://www.vastdata.com', 'https://vastdata.com', 'https://www.vastdata.io', 'https://vastdata.ai', 'https://www.vastdata.co.il']
-  greenhouse:vastdata -> None greenhouse:404
-  greenhouse:vast-data -> None greenhouse:404
-  greenhouse:vastdataai -> None greenhouse:404
-  greenhouse:vastdataio -> None greenhouse:404
-  greenhouse:vastdatahq -> None greenhouse:404
-  greenhouse:vastdatacareers -> None greenhouse:404
-  lever:vastdata -> None lever:404
-  lever:vast-data -> None lever:404
-  lever:vastdataai -> None lever:404
-  lever:vastdataio -> None lever:404
-  lever:vastdatahq -> None lever:404
-  lever:vastdatacareers -> None lever:404
-  ashby:vastdata -> None ashby:404
-  ashby:vast-data -> None ashby:404
-  ashby:vastdataai -> None ashby:404
-  ashby:vastdataio -> None ashby:404
-  ashby:vastdatahq -> None ashby:404
-  ashby:vastdatacareers -> None ashby:404
-  workable:vastdata -> None workable:404
-  workable:vast-data -> 0 jobs
-  workable:vastdataai -> None workable:404
-  workable:vastdataio -> None workable:404
-  workable:vastdatahq -> None workable:404
-  workable:vastdatacareers -> None workable:404
-  smartrecruiters:vastdata -> 0 jobs
-  smartrecruiters:vast-data -> 0 jobs
-  smartrecruiters:vastdataai -> 0 jobs
-  smartrecruiters:vastdataio -> 0 jobs
-  smartrecruiters:vastdatahq -> 0 jobs
-  smartrecruiters:vastdatacareers -> 0 jobs
-  recruitee:vastdata -> None recruitee:404
-  recruitee:vast-data -> None recruitee:404
-  recruitee:vastdataai -> None recruitee:404
-  recruitee:vastdataio -> None recruitee:404
-  recruitee:vastdatahq -> None recruitee:404
-  recruitee:vastdatacareers -> None recruitee:404
+   page https://www.allcloud.com/careers -> 200, 4585 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
+careers_url https://allcloud.io/careers/ -> 200, 106675 chars
+  sniff: None  comeet creds: ('71.008', '1785E0758A482F01785E01782F05E0')  hosted: False  comeet-wp links: 50
+  'comeet' @13420: ...'WO Async Smartcode -->\r\n<!-- header code -->\n                    <script>\n                   window.comeetInit = function() {\n                      COMEET.init({\n                         "token":       "1785E0758A482F01785E01782F05E0",\n                         "company-uid": "71.008",\n                         "company-'
+  'comeet' @13468: ...'                 <script>\n                   window.comeetInit = function() {\n                      COMEET.init({\n                         "token":       "1785E0758A482F01785E01782F05E0",\n                         "company-uid": "71.008",\n                         "company-name":"AllCloud"\n                      });\n     '
+  'comeet' @13916: ...'ElementById(id)) {return; } js = d.createElement(s); js.id = id;\n                   js.src = "//www.comeet.co/careers-api/api.js"; fjs.parentNode.insertBefore(js, fjs); }(document, \'script\', \'comeet-jsapi\'));\n                </script><link rel=\'stylesheet\' id=\'comeet_style-css\' href=\'https://allcloud.io/wp-content/plug'
+  'comeet' @14008: ...' "//www.comeet.co/careers-api/api.js"; fjs.parentNode.insertBefore(js, fjs); }(document, \'script\', \'comeet-jsapi\'));\n                </script><link rel=\'stylesheet\' id=\'comeet_style-css\' href=\'https://allcloud.io/wp-content/plugins/comeet-wp-plugin-Version-2.0.6.7/css/comeet-cards.css\' media=\'all\' />\n<link rel=\'stylesh'
+discover('VAST Data') slugs=['vastdata', 'vast-data', 'vastdataai', 'vastdataio', 'vastdatahq', 'vastdatacareers']
+  greenhouse: vastdata=- vast-data=- vastdataai=- vastdataio=- vastdatahq=- vastdatacareers=-
+  lever: vastdata=- vast-data=- vastdataai=- vastdataio=- vastdatahq=- vastdatacareers=-
+  ashby: vastdata=- vast-data=- vastdataai=- vastdataio=- vastdatahq=- vastdatacareers=-
+  workable: vastdata=- vast-data=0 vastdataai=- vastdataio=- vastdatahq=- vastdatacareers=-
+  smartrecruiters: vastdata=0 vast-data=0 vastdataai=0 vastdataio=0 vastdatahq=0 vastdatacareers=0
+  recruitee: vastdata=- vast-data=- vastdataai=- vastdataio=- vastdatahq=- vastdatacareers=-
   site https://www.vastdata.com -> 200, 169868 chars
-    sniff: None  comeet: False
-    careers link: /careers
-  site https://vastdata.com -> 200, 169868 chars
-    sniff: None  comeet: False
-    careers link: /careers
-  site https://www.vastdata.io -> 0, 0 chars
-  site https://vastdata.ai -> 200, 169868 chars
-    sniff: None  comeet: False
-    careers link: /careers
-  site https://www.vastdata.co.il -> 0, 0 chars
-discover('Mobileye') slugs=['mobileye', 'mobileyeai', 'mobileyeio', 'mobileyehq', 'mobileyecareers'] sites=['https://www.mobileye.com', 'https://mobileye.com', 'https://www.mobileye.io', 'https://mobileye.ai', 'https://www.mobileye.co.il']
-  greenhouse:mobileye -> None greenhouse:404
-  greenhouse:mobileyeai -> None greenhouse:404
-  greenhouse:mobileyeio -> None greenhouse:404
-  greenhouse:mobileyehq -> None greenhouse:404
-  greenhouse:mobileyecareers -> None greenhouse:404
-  lever:mobileye -> None lever:404
-  lever:mobileyeai -> None lever:404
-  lever:mobileyeio -> None lever:404
-  lever:mobileyehq -> None lever:404
-  lever:mobileyecareers -> None lever:404
-  ashby:mobileye -> None ashby:404
-  ashby:mobileyeai -> None ashby:404
-  ashby:mobileyeio -> None ashby:404
-  ashby:mobileyehq -> None ashby:404
-  ashby:mobileyecareers -> None ashby:404
-  workable:mobileye -> 0 jobs
-  workable:mobileyeai -> None workable:404
-  workable:mobileyeio -> None workable:404
-  workable:mobileyehq -> None workable:404
-  workable:mobileyecareers -> None workable:404
-  smartrecruiters:mobileye -> 0 jobs
-  smartrecruiters:mobileyeai -> 0 jobs
-  smartrecruiters:mobileyeio -> 0 jobs
-  smartrecruiters:mobileyehq -> 0 jobs
-  smartrecruiters:mobileyecareers -> 0 jobs
-  recruitee:mobileye -> None recruitee:404
-  recruitee:mobileyeai -> None recruitee:404
-  recruitee:mobileyeio -> None recruitee:404
-  recruitee:mobileyehq -> None recruitee:404
-  recruitee:mobileyecareers -> None recruitee:404
-  site https://www.mobileye.com -> 200, 123145 chars
-    sniff: None  comeet: False
-    careers link: https://careers.mobileye.com/
-    careers link: https://careers.mobileye.com/
-    careers link: https://careers.mobileye.com/
-  site https://mobileye.com -> 200, 123145 chars
-    sniff: None  comeet: False
-    careers link: https://careers.mobileye.com/
-    careers link: https://careers.mobileye.com/
-    careers link: https://careers.mobileye.com/
-  site https://www.mobileye.io -> 200, 114 chars
-    sniff: None  comeet: False
-  site https://mobileye.ai -> 0, 0 chars
-  site https://www.mobileye.co.il -> 200, 56034 chars
-    sniff: None  comeet: False
-    careers link: https://careers.mobileye.com/
-discover('Wiz') slugs=['wiz', 'wizai', 'wizio', 'wizhq', 'wizcareers'] sites=['https://www.wiz.com', 'https://wiz.com', 'https://www.wiz.io', 'https://wiz.ai', 'https://www.wiz.co.il']
-  greenhouse:wiz -> None greenhouse:404
-  greenhouse:wizai -> None greenhouse:404
-  greenhouse:wizio -> None greenhouse:404
-  greenhouse:wizhq -> None greenhouse:404
-  greenhouse:wizcareers -> None greenhouse:404
-  lever:wiz -> None lever:404
-  lever:wizai -> None lever:404
-  lever:wizio -> None lever:404
-  lever:wizhq -> None lever:404
-  lever:wizcareers -> None lever:404
-  ashby:wiz -> 0 jobs
-  ashby:wizai -> None ashby:404
-  ashby:wizio -> None ashby:404
-  ashby:wizhq -> None ashby:404
-  ashby:wizcareers -> None ashby:404
-  workable:wiz -> 0 jobs
-  workable:wizai -> None workable:404
-  workable:wizio -> None workable:404
-  workable:wizhq -> None workable:404
-  workable:wizcareers -> None workable:404
-  smartrecruiters:wiz -> 0 jobs
-  smartrecruiters:wizai -> 0 jobs
-  smartrecruiters:wizio -> 0 jobs
-  smartrecruiters:wizhq -> 0 jobs
-  smartrecruiters:wizcareers -> 0 jobs
-  recruitee:wiz -> None recruitee:404
-  recruitee:wizai -> None recruitee:404
-  recruitee:wizio -> None recruitee:404
-  recruitee:wizhq -> None recruitee:404
-  recruitee:wizcareers -> None recruitee:404
+   page https://www.vastdata.com/careers -> 200, 178709 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
+  'comeet' @151474: ...'-></div><div class="career-api c-fluid lastBlock" contenttype="ComponentCareerApi" id="slot-careers-comeet-api" hash="slot-careers-comeet-api" content-type="ComponentCareerApi" first-block="false" block-index="1" data-v-0bc5e7f8 data-v-2cff2f51><div class="cards tags-post gap-4 sm:flex sm:flex-row" data-v-2cff2f51><div'
+  'comeet' @151505: ...'c-fluid lastBlock" contenttype="ComponentCareerApi" id="slot-careers-comeet-api" hash="slot-careers-comeet-api" content-type="ComponentCareerApi" first-block="false" block-index="1" data-v-0bc5e7f8 data-v-2cff2f51><div class="cards tags-post gap-4 sm:flex sm:flex-row" data-v-2cff2f51><div class="filter-container text-['
+   page https://www.vastdata.com/careers -> 200, 178709 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
+  'comeet' @151474: ...'-></div><div class="career-api c-fluid lastBlock" contenttype="ComponentCareerApi" id="slot-careers-comeet-api" hash="slot-careers-comeet-api" content-type="ComponentCareerApi" first-block="false" block-index="1" data-v-0bc5e7f8 data-v-2cff2f51><div class="cards tags-post gap-4 sm:flex sm:flex-row" data-v-2cff2f51><div'
+  'comeet' @151505: ...'c-fluid lastBlock" contenttype="ComponentCareerApi" id="slot-careers-comeet-api" hash="slot-careers-comeet-api" content-type="ComponentCareerApi" first-block="false" block-index="1" data-v-0bc5e7f8 data-v-2cff2f51><div class="cards tags-post gap-4 sm:flex sm:flex-row" data-v-2cff2f51><div class="filter-container text-['
+discover('Wiz') slugs=['wiz', 'wizai', 'wizio', 'wizhq', 'wizcareers']
+  greenhouse: wiz=- wizai=- wizio=- wizhq=- wizcareers=-
+  lever: wiz=- wizai=- wizio=- wizhq=- wizcareers=-
+  ashby: wiz=0 wizai=- wizio=- wizhq=- wizcareers=-
+  workable: wiz=0 wizai=- wizio=- wizhq=- wizcareers=-
+  smartrecruiters: wiz=0 wizai=0 wizio=0 wizhq=0 wizcareers=0
+  recruitee: wiz=- wizai=- wizio=- wizhq=- wizcareers=-
   site https://www.wiz.com -> 0, 0 chars
   site https://wiz.com -> 0, 0 chars
   site https://www.wiz.io -> 200, 552856 chars
-    sniff: None  comeet: False
-    careers link: /careers
-  site https://wiz.ai -> 200, 81930 chars
-    sniff: None  comeet: False
-    careers link: pages/join-us.html
-    careers link: pages/join-us.html
-    careers link: pages/join-us.html
-  site https://www.wiz.co.il -> 0, 0 chars
-discover('Novidea') slugs=['novidea', 'novideaai', 'novideaio', 'novideahq', 'novideacareers'] sites=['https://www.novidea.com', 'https://novidea.com', 'https://www.novidea.io', 'https://novidea.ai', 'https://www.novidea.co.il']
-  greenhouse:novidea -> None greenhouse:404
-  greenhouse:novideaai -> None greenhouse:404
-  greenhouse:novideaio -> None greenhouse:404
-  greenhouse:novideahq -> None greenhouse:404
-  greenhouse:novideacareers -> None greenhouse:404
-  lever:novidea -> None lever:404
-  lever:novideaai -> None lever:404
-  lever:novideaio -> None lever:404
-  lever:novideahq -> None lever:404
-  lever:novideacareers -> None lever:404
-  ashby:novidea -> 1 jobs
-  ashby:novideaai -> None ashby:404
-  ashby:novideaio -> None ashby:404
-  ashby:novideahq -> None ashby:404
-  ashby:novideacareers -> None ashby:404
-  workable:novidea -> 0 jobs
-  workable:novideaai -> None workable:404
-  workable:novideaio -> None workable:404
-  workable:novideahq -> None workable:404
-  workable:novideacareers -> None workable:404
-  smartrecruiters:novidea -> 0 jobs
-  smartrecruiters:novideaai -> 0 jobs
-  smartrecruiters:novideaio -> 0 jobs
-  smartrecruiters:novideahq -> 0 jobs
-  smartrecruiters:novideacareers -> 0 jobs
-  recruitee:novidea -> None recruitee:404
-  recruitee:novideaai -> None recruitee:404
-  recruitee:novideaio -> None recruitee:404
-  recruitee:novideahq -> None recruitee:404
-  recruitee:novideacareers -> None recruitee:404
+   page https://www.wiz.io/careers -> 200, 210809 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
+  'greenhouse' @114479: ...' with a Wiz expert"],"-duvEs":["Saint Kitts and Nevis"],"-gY-iO":["France"],"-ktBcQ":["Grab it from Greenhouse referral"],"-tyx--":["Thailand"],"01uxRv":["We\'ll be in touch as soon as possible."],"08cLBp":["El Salvador"],"0By3AX":["Speed up remediation time on critical threats"],"0FI1uz":["Guinea"],"0IaYEK":["How esure'
+  'greenhouse' @123970: ...'again!"],"8-ImgH":["Singapore"],"844z6x":["Showing ",["nbHits"]," results"],"8E_e8P":["Grab it from Greenhouse"],"8F1i42":["Page not found"],"8FA-6e":["8"],"8FTOAQ":["Arrivals"],"8HB_Mv":["Uruguay"],"8JMx24":["Financial Services"],"8Q6aQg":["Complete security for AWS, Azure, GCP, OCI, Alibaba Cloud, VMware vSphere, Kub'
+  'workday' @162414: ...' customers love."],"hrMr5i":["feedback"],"hrpeuS":["Work the Issue: Interactive Talks with Nike and Workday"],"htCPf9":["Portugal"],"htk05A":["David Estlick"],"huAMk9":["Head of Product Security"],"hwfcws":["Failed to load more episodes. Please try again."],"i7j-rI":["Andorra"],"i9SVRr":["Sydney, Australia"],"iCLdhc":['
+   page https://www.wiz.io/careers -> 200, 210809 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
+  'greenhouse' @114479: ...' with a Wiz expert"],"-duvEs":["Saint Kitts and Nevis"],"-gY-iO":["France"],"-ktBcQ":["Grab it from Greenhouse referral"],"-tyx--":["Thailand"],"01uxRv":["We\'ll be in touch as soon as possible."],"08cLBp":["El Salvador"],"0By3AX":["Speed up remediation time on critical threats"],"0FI1uz":["Guinea"],"0IaYEK":["How esure'
+  'greenhouse' @123970: ...'again!"],"8-ImgH":["Singapore"],"844z6x":["Showing ",["nbHits"]," results"],"8E_e8P":["Grab it from Greenhouse"],"8F1i42":["Page not found"],"8FA-6e":["8"],"8FTOAQ":["Arrivals"],"8HB_Mv":["Uruguay"],"8JMx24":["Financial Services"],"8Q6aQg":["Complete security for AWS, Azure, GCP, OCI, Alibaba Cloud, VMware vSphere, Kub'
+  'workday' @162414: ...' customers love."],"hrMr5i":["feedback"],"hrpeuS":["Work the Issue: Interactive Talks with Nike and Workday"],"htCPf9":["Portugal"],"htk05A":["David Estlick"],"huAMk9":["Head of Product Security"],"hwfcws":["Failed to load more episodes. Please try again."],"i7j-rI":["Andorra"],"i9SVRr":["Sydney, Australia"],"iCLdhc":['
+discover('Novidea') slugs=['novidea', 'novideaai', 'novideaio', 'novideahq', 'novideacareers']
+  greenhouse: novidea=- novideaai=- novideaio=- novideahq=- novideacareers=-
+  lever: novidea=- novideaai=- novideaio=- novideahq=- novideacareers=-
+  ashby: novidea=1 novideaai=- novideaio=- novideahq=- novideacareers=-
+  workable: novidea=0 novideaai=- novideaio=- novideahq=- novideacareers=-
+  smartrecruiters: novidea=0 novideaai=0 novideaio=0 novideahq=0 novideacareers=0
+  recruitee: novidea=- novideaai=- novideaio=- novideahq=- novideacareers=-
   site https://www.novidea.com -> 200, 71919 chars
-    sniff: None  comeet: False
-    careers link: https://novidea.com/careers/
-    careers link: https://novidea.com/careers/
-    careers link: https://novidea.com/careers/
-  site https://novidea.com -> 200, 71919 chars
-    sniff: None  comeet: False
-    careers link: https://novidea.com/careers/
-    careers link: https://novidea.com/careers/
-    careers link: https://novidea.com/careers/
-  site https://www.novidea.io -> 0, 0 chars
-  site https://novidea.ai -> 0, 0 chars
-  site https://www.novidea.co.il -> 200, 71919 chars
-    sniff: None  comeet: False
-    careers link: https://novidea.com/careers/
-    careers link: https://novidea.com/careers/
-    careers link: https://novidea.com/careers/
-GET https://www.novidea.com/careers/ -> 200, 65723 chars
-  sniff: None
-  comeet creds: None  hosted link: False
-  'comeet' at 13425: ...'ate" hreflang="x-default" href="https://novidea.com/careers/" />\n<meta name="application-name" itemprop="name" content="Comeet Jobs" />\n<meta name="application-url" itemprop="url" content="https://novidea.com/en-us/careers/" />\n<style id="wp-custom-css">\n.sec-industry, .sec-broke'
-  careers link: https://novidea.com/en-us/careers/
-  careers link: https://novidea.com/en-us/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnovidea.com%2Fen-us%2Fcareers%2F
-  careers link: https://novidea.com/en-us/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnovidea.com%2Fen-us%2Fcareers%2F&format=xml
-  careers link: https://novidea.com/en-us/careers/
-  careers link: https://novidea.com/careers/
-  careers link: https://novidea.com/careers/
-  careers link: https://novidea.com/en-us/careers/
-  careers link: https://novidea.com/careers/
-  careers link: https://novidea.com/en-us/careers/
-  careers link: https://novidea.com/en-us/careers/
-  careers link: #open-positions
-  careers link: #open-positions
-  careers link: https://novidea.com/en-us/careers/
-GET https://www.dotcompliance.com/careers -> 200, 117037 chars
-  sniff: None
-  comeet creds: None  hosted link: False
-  'comeet' at 551: ...'<link data-rocket-prefetch href="https://bat.bing.com" rel="dns-prefetch">\n<link data-rocket-prefetch href="https://www.comeet.co" rel="dns-prefetch">\n<link data-rocket-prefetch href="https://js.hs-banner.com" rel="dns-prefetch">\n<link data-rocket-prefetch href="https://js.hscoll'
-  careers link: https://www.dotcompliance.com/careers/
-  careers link: https://www.dotcompliance.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dotcompliance.com%2Fcareers%2F
-  careers link: https://www.dotcompliance.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dotcompliance.com%2Fcareers%2F&format=xml
-  careers link: https://www.dotcompliance.com/wp-content/cache/min/1/wp-content/themes/dot-theme/css/careers.css?ver=1791386136
-  careers link: https://www.dotcompliance.com/wp-content/cache/min/1/wp-content/themes/dot-theme/css/careers.css?ver=1791386136
-  careers link: https://www.dotcompliance.com/careers/
-  careers link: #careers-section
-  careers link: #careers-section
-  careers link: https://www.dotcompliance.com/careers/
+   page https://www.novidea.com/careers -> 200, 65723 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
+  'comeet' @13425: ...'ault" href="https://novidea.com/careers/" />\n<meta name="application-name" itemprop="name" content="Comeet Jobs" />\n<meta name="application-url" itemprop="url" content="https://novidea.com/en-us/careers/" />\n<style id="wp-custom-css">\n.sec-industry, .sec-brokers {\n    display: none;\n}\n\n.postid-2593 .ibnr-content .angle'
+  'comeet' @25568: ..."x-large) !important;}\n/*# sourceURL=global-styles-inline-css */\n</style>\n<link rel='stylesheet' id='comeet_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-cards.css' media='all' />\n<link rel='stylesheet' id='comeet_reset_style-css' href='https://novidea.com/en-us/"
+  'comeet' @25637: ..."le>\n<link rel='stylesheet' id='comeet_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-cards.css' media='all' />\n<link rel='stylesheet' id='comeet_reset_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-reset.cs"
+  'comeet' @25672: ..."et_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-cards.css' media='all' />\n<link rel='stylesheet' id='comeet_reset_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-reset.css' media='all' />\n\n</head>\n\n<body c"
+   page https://novidea.com/careers/ -> 200, 65723 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
+  'comeet' @13425: ...'ault" href="https://novidea.com/careers/" />\n<meta name="application-name" itemprop="name" content="Comeet Jobs" />\n<meta name="application-url" itemprop="url" content="https://novidea.com/en-us/careers/" />\n<style id="wp-custom-css">\n.sec-industry, .sec-brokers {\n    display: none;\n}\n\n.postid-2593 .ibnr-content .angle'
+  'comeet' @25568: ..."x-large) !important;}\n/*# sourceURL=global-styles-inline-css */\n</style>\n<link rel='stylesheet' id='comeet_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-cards.css' media='all' />\n<link rel='stylesheet' id='comeet_reset_style-css' href='https://novidea.com/en-us/"
+  'comeet' @25637: ..."le>\n<link rel='stylesheet' id='comeet_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-cards.css' media='all' />\n<link rel='stylesheet' id='comeet_reset_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-reset.cs"
+  'comeet' @25672: ..."et_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-cards.css' media='all' />\n<link rel='stylesheet' id='comeet_reset_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-reset.css' media='all' />\n\n</head>\n\n<body c"
+careers_url https://www.novidea.com/careers/ -> 200, 65723 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
+  'comeet' @13425: ...'ault" href="https://novidea.com/careers/" />\n<meta name="application-name" itemprop="name" content="Comeet Jobs" />\n<meta name="application-url" itemprop="url" content="https://novidea.com/en-us/careers/" />\n<style id="wp-custom-css">\n.sec-industry, .sec-brokers {\n    display: none;\n}\n\n.postid-2593 .ibnr-content .angle'
+  'comeet' @25568: ..."x-large) !important;}\n/*# sourceURL=global-styles-inline-css */\n</style>\n<link rel='stylesheet' id='comeet_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-cards.css' media='all' />\n<link rel='stylesheet' id='comeet_reset_style-css' href='https://novidea.com/en-us/"
+  'comeet' @25637: ..."le>\n<link rel='stylesheet' id='comeet_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-cards.css' media='all' />\n<link rel='stylesheet' id='comeet_reset_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-reset.cs"
+  'comeet' @25672: ..."et_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-cards.css' media='all' />\n<link rel='stylesheet' id='comeet_reset_style-css' href='https://novidea.com/en-us/wp-content/plugins/comeet-wp-plugin-Version-2.3.9/css/comeet-reset.css' media='all' />\n\n</head>\n\n<body c"
+discover('Dot Compliance') slugs=['dotcompliance', 'dot-compliance', 'dotcomplianceai', 'dotcomplianceio', 'dotcompliancehq', 'dotcompliancecareers']
+  greenhouse: dotcompliance=- dot-compliance=- dotcomplianceai=- dotcomplianceio=- dotcompliancehq=- dotcompliancecareers=-
+  lever: dotcompliance=- dot-compliance=- dotcomplianceai=- dotcomplianceio=- dotcompliancehq=- dotcompliancecareers=-
+  ashby: dotcompliance=- dot-compliance=- dotcomplianceai=- dotcomplianceio=- dotcompliancehq=- dotcompliancecareers=-
+  workable: dotcompliance=- dot-compliance=0 dotcomplianceai=- dotcomplianceio=- dotcompliancehq=- dotcompliancecareers=-
+  smartrecruiters: dotcompliance=0 dot-compliance=0 dotcomplianceai=0 dotcomplianceio=0 dotcompliancehq=0 dotcompliancecareers=0
+  recruitee: dotcompliance=- dot-compliance=- dotcomplianceai=- dotcomplianceio=- dotcompliancehq=- dotcompliancecareers=-
+  site https://www.dotcompliance.com -> 200, 153002 chars
+   page https://www.dotcompliance.com/careers -> 200, 117037 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 6
+  'comeet' @551: ...'efetch href="https://bat.bing.com" rel="dns-prefetch">\n<link data-rocket-prefetch href="https://www.comeet.co" rel="dns-prefetch">\n<link data-rocket-prefetch href="https://js.hs-banner.com" rel="dns-prefetch">\n<link data-rocket-prefetch href="https://js.hscollectedforms.net" rel="dns-prefetch">\n<link data-rocket-prefet'
+  'comeet' @26205: ...'title" content="Careers - Dot Compliance" />\n<meta name="application-name" itemprop="name" content="Comeet Jobs" />\n<meta name="application-url" itemprop="url" content="https://www.dotcompliance.com/job-page/" />\n<link rel="icon" href="https://www.dotcompliance.com/wp-content/uploads/2024/11/cropped-favicom-web-32x32.p'
+  'comeet' @30692: ...'testimonials-carousel.css?ver=1791387850\' media=\'all\' />\n<link data-minify="1" rel=\'stylesheet\' id=\'comeet_style-css\' href=\'https://www.dotcompliance.com/wp-content/cache/min/1/wp-content/plugins/comeet-wp-plugin-Version-3.0.2/css/comeet-cards.css?ver=1791386136\' media=\'all\' />\n<link data-minify="1" rel=\'stylesheet\' id'
+  'comeet' @30788: ...'id=\'comeet_style-css\' href=\'https://www.dotcompliance.com/wp-content/cache/min/1/wp-content/plugins/comeet-wp-plugin-Version-3.0.2/css/comeet-cards.css?ver=1791386136\' media=\'all\' />\n<link data-minify="1" rel=\'stylesheet\' id=\'comeet_reset_style-css\' href=\'https://www.dotcompliance.com/wp-content/cache/min/1/wp-content/'
+   page https://www.dotcompliance.com/careers/ -> 200, 117037 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 6
+  'comeet' @551: ...'efetch href="https://bat.bing.com" rel="dns-prefetch">\n<link data-rocket-prefetch href="https://www.comeet.co" rel="dns-prefetch">\n<link data-rocket-prefetch href="https://js.hs-banner.com" rel="dns-prefetch">\n<link data-rocket-prefetch href="https://js.hscollectedforms.net" rel="dns-prefetch">\n<link data-rocket-prefet'
+  'comeet' @26205: ...'title" content="Careers - Dot Compliance" />\n<meta name="application-name" itemprop="name" content="Comeet Jobs" />\n<meta name="application-url" itemprop="url" content="https://www.dotcompliance.com/job-page/" />\n<link rel="icon" href="https://www.dotcompliance.com/wp-content/uploads/2024/11/cropped-favicom-web-32x32.p'
+  'comeet' @30692: ...'testimonials-carousel.css?ver=1791387850\' media=\'all\' />\n<link data-minify="1" rel=\'stylesheet\' id=\'comeet_style-css\' href=\'https://www.dotcompliance.com/wp-content/cache/min/1/wp-content/plugins/comeet-wp-plugin-Version-3.0.2/css/comeet-cards.css?ver=1791386136\' media=\'all\' />\n<link data-minify="1" rel=\'stylesheet\' id'
+  'comeet' @30788: ...'id=\'comeet_style-css\' href=\'https://www.dotcompliance.com/wp-content/cache/min/1/wp-content/plugins/comeet-wp-plugin-Version-3.0.2/css/comeet-cards.css?ver=1791386136\' media=\'all\' />\n<link data-minify="1" rel=\'stylesheet\' id=\'comeet_reset_style-css\' href=\'https://www.dotcompliance.com/wp-content/cache/min/1/wp-content/'
+careers_url https://www.dotcompliance.com/careers -> 200, 117037 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 6
+  'comeet' @551: ...'efetch href="https://bat.bing.com" rel="dns-prefetch">\n<link data-rocket-prefetch href="https://www.comeet.co" rel="dns-prefetch">\n<link data-rocket-prefetch href="https://js.hs-banner.com" rel="dns-prefetch">\n<link data-rocket-prefetch href="https://js.hscollectedforms.net" rel="dns-prefetch">\n<link data-rocket-prefet'
+  'comeet' @26205: ...'title" content="Careers - Dot Compliance" />\n<meta name="application-name" itemprop="name" content="Comeet Jobs" />\n<meta name="application-url" itemprop="url" content="https://www.dotcompliance.com/job-page/" />\n<link rel="icon" href="https://www.dotcompliance.com/wp-content/uploads/2024/11/cropped-favicom-web-32x32.p'
+  'comeet' @30692: ...'testimonials-carousel.css?ver=1791387850\' media=\'all\' />\n<link data-minify="1" rel=\'stylesheet\' id=\'comeet_style-css\' href=\'https://www.dotcompliance.com/wp-content/cache/min/1/wp-content/plugins/comeet-wp-plugin-Version-3.0.2/css/comeet-cards.css?ver=1791386136\' media=\'all\' />\n<link data-minify="1" rel=\'stylesheet\' id'
+  'comeet' @30788: ...'id=\'comeet_style-css\' href=\'https://www.dotcompliance.com/wp-content/cache/min/1/wp-content/plugins/comeet-wp-plugin-Version-3.0.2/css/comeet-cards.css?ver=1791386136\' media=\'all\' />\n<link data-minify="1" rel=\'stylesheet\' id=\'comeet_reset_style-css\' href=\'https://www.dotcompliance.com/wp-content/cache/min/1/wp-content/'
+discover('Aqua Security') slugs=['aquasecurity', 'aqua-security', 'aquasecurityai', 'aquasecurityio', 'aquasecurityhq', 'aquasecuritycareers']
+  greenhouse: aquasecurity=- aqua-security=- aquasecurityai=- aquasecurityio=- aquasecurityhq=- aquasecuritycareers=-
+  lever: aquasecurity=- aqua-security=- aquasecurityai=- aquasecurityio=- aquasecurityhq=- aquasecuritycareers=-
+  ashby: aquasecurity=- aqua-security=- aquasecurityai=- aquasecurityio=- aquasecurityhq=- aquasecuritycareers=-
+  workable: aquasecurity=- aqua-security=0 aquasecurityai=- aquasecurityio=- aquasecurityhq=- aquasecuritycareers=-
+  smartrecruiters: aquasecurity=0 aqua-security=0 aquasecurityai=0 aquasecurityio=0 aquasecurityhq=0 aquasecuritycareers=0
+  recruitee: aquasecurity=- aqua-security=- aquasecurityai=- aquasecurityio=- aquasecurityhq=- aquasecuritycareers=-
+  site https://www.aquasecurity.com -> 200, 117172 chars
+   page https://www.aquasecurity.com/careers -> 404, 143 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
+   page https://www.aquasecurity.com/about-us/careers/ -> 404, 10 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
+   page https://www.aquasecurity.com/careers/ -> 404, 0 chars
+discover('Check Point') slugs=['checkpoint', 'check-point', 'checkpointai', 'checkpointio', 'checkpointhq', 'checkpointcareers']
+  greenhouse: checkpoint=- check-point=- checkpointai=- checkpointio=- checkpointhq=- checkpointcareers=-
+  lever: checkpoint=- check-point=- checkpointai=- checkpointio=- checkpointhq=- checkpointcareers=-
+  ashby: checkpoint=- check-point=- checkpointai=- checkpointio=- checkpointhq=- checkpointcareers=-
+  workable: checkpoint=0 check-point=- checkpointai=- checkpointio=- checkpointhq=- checkpointcareers=-
+  smartrecruiters: checkpoint=0 check-point=0 checkpointai=0 checkpointio=0 checkpointhq=0 checkpointcareers=0
+  recruitee: checkpoint=- check-point=- checkpointai=- checkpointio=- checkpointhq=- checkpointcareers=-
+  site https://www.checkpoint.com -> 200, 148782 chars
+   page https://www.checkpoint.com/careers -> 200, 134162 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
+   page https://www.checkpoint.com/careers/ -> 200, 134162 chars
+  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
+   page https://www.checkpoint.com//careers.checkpoint.com/ -> 301, 0 chars
