@@ -1,28 +1,4 @@
-GET https://www.comeet.co/careers-api/2.0/company/71.008/positions?token=1785E0758A482F01785E01782F05E0&details=false -> 200, 35073 chars
-  sniff: None  comeet creds: ('32.00B', '1785E0758A482F01785E01782F05E0')  hosted: True  comeet-wp links: 0
-  'comeet' @799: ...'v>","street_number":"13","timezone":"Asia/Jerusalem","location_uid":"32.00B","is_remote":true},"url_comeet_hosted_page":"https://www.comeet.com/jobs/allcloud/71.008/account-executive---enterprise-sector/E0.47A","url_recruit_hosted_page":"https://www.comeet.com/jobs/allcloud/71.008/account-executive---enterprise-sector/'
-  'comeet' @832: ...'e":"Asia/Jerusalem","location_uid":"32.00B","is_remote":true},"url_comeet_hosted_page":"https://www.comeet.com/jobs/allcloud/71.008/account-executive---enterprise-sector/E0.47A","url_recruit_hosted_page":"https://www.comeet.com/jobs/allcloud/71.008/account-executive---enterprise-sector/E0.47A","url_active_page":"https:'
-  'comeet' @949: ...'llcloud/71.008/account-executive---enterprise-sector/E0.47A","url_recruit_hosted_page":"https://www.comeet.com/jobs/allcloud/71.008/account-executive---enterprise-sector/E0.47A","url_active_page":"https://allcloud.io/careers/co/israel/E0.47A/account-executive-enterprise-sector/all/","employment_type":"Full-time","exper'
-  'comeet' @1538: ...'nternal":false,"linkedin_job_posting_id":null,"workplace_type":"Hybrid","position_url":"https://www.comeet.co/careers-api/2.0/company/71.008/positions/E0.47A?token=1785E0758A482F01785E01782F05E0","categories":[{"name":"City","value":null,"order":1}]},{"name":"AI and Data Science Team Lead","department":"Professional Se'
-GET https://www.comeet.com/careers-api/2.0/company/71.008/positions?token=1785E0758A482F01785E01782F05E0 -> 200, 35073 chars
-  sniff: None  comeet creds: ('32.00B', '1785E0758A482F01785E01782F05E0')  hosted: True  comeet-wp links: 0
-  'comeet' @799: ...'v>","street_number":"13","timezone":"Asia/Jerusalem","location_uid":"32.00B","is_remote":true},"url_comeet_hosted_page":"https://www.comeet.com/jobs/allcloud/71.008/account-executive---enterprise-sector/E0.47A","url_recruit_hosted_page":"https://www.comeet.com/jobs/allcloud/71.008/account-executive---enterprise-sector/'
-  'comeet' @832: ...'e":"Asia/Jerusalem","location_uid":"32.00B","is_remote":true},"url_comeet_hosted_page":"https://www.comeet.com/jobs/allcloud/71.008/account-executive---enterprise-sector/E0.47A","url_recruit_hosted_page":"https://www.comeet.com/jobs/allcloud/71.008/account-executive---enterprise-sector/E0.47A","url_active_page":"https:'
-  'comeet' @949: ...'llcloud/71.008/account-executive---enterprise-sector/E0.47A","url_recruit_hosted_page":"https://www.comeet.com/jobs/allcloud/71.008/account-executive---enterprise-sector/E0.47A","url_active_page":"https://allcloud.io/careers/co/israel/E0.47A/account-executive-enterprise-sector/all/","employment_type":"Full-time","exper'
-  'comeet' @1538: ...'nternal":false,"linkedin_job_posting_id":null,"workplace_type":"Hybrid","position_url":"https://www.comeet.co/careers-api/2.0/company/71.008/positions/E0.47A?token=1785E0758A482F01785E01782F05E0","categories":[{"name":"City","value":null,"order":1}]},{"name":"AI and Data Science Team Lead","department":"Professional Se'
-discover('AllCloud') slugs=['allcloud', 'allcloudai', 'allcloudio', 'allcloudhq', 'allcloudcareers']
-  greenhouse: allcloud=- allcloudai=- allcloudio=- allcloudhq=- allcloudcareers=-
-  lever: allcloud=- allcloudai=- allcloudio=- allcloudhq=- allcloudcareers=-
-  ashby: allcloud=- allcloudai=- allcloudio=- allcloudhq=- allcloudcareers=-
-  workable: allcloud=- allcloudai=- allcloudio=- allcloudhq=- allcloudcareers=-
-  smartrecruiters: allcloud=0 allcloudai=0 allcloudio=0 allcloudhq=0 allcloudcareers=0
-  recruitee: allcloud=- allcloudai=- allcloudio=- allcloudhq=- allcloudcareers=-
-  site https://www.allcloud.com -> 200, 4585 chars
-   page https://www.allcloud.com/careers -> 200, 4585 chars
-  sniff: None  comeet creds: None  hosted: False  comeet-wp links: 0
-careers_url https://allcloud.io/careers/ -> 200, 105692 chars
-  sniff: None  comeet creds: ('71.008', '1785E0758A482F01785E01782F05E0')  hosted: False  comeet-wp links: 48
-  'comeet' @13420: ...'WO Async Smartcode -->\r\n<!-- header code -->\n                    <script>\n                   window.comeetInit = function() {\n                      COMEET.init({\n                         "token":       "1785E0758A482F01785E01782F05E0",\n                         "company-uid": "71.008",\n                         "company-'
-  'comeet' @13468: ...'                 <script>\n                   window.comeetInit = function() {\n                      COMEET.init({\n                         "token":       "1785E0758A482F01785E01782F05E0",\n                         "company-uid": "71.008",\n                         "company-name":"AllCloud"\n                      });\n     '
-  'comeet' @13916: ...'ElementById(id)) {return; } js = d.createElement(s); js.id = id;\n                   js.src = "//www.comeet.co/careers-api/api.js"; fjs.parentNode.insertBefore(js, fjs); }(document, \'script\', \'comeet-jsapi\'));\n                </script><link rel=\'stylesheet\' id=\'comeet_style-css\' href=\'https://allcloud.io/wp-content/plug'
-  'comeet' @14008: ...' "//www.comeet.co/careers-api/api.js"; fjs.parentNode.insertBefore(js, fjs); }(document, \'script\', \'comeet-jsapi\'));\n                </script><link rel=\'stylesheet\' id=\'comeet_style-css\' href=\'https://allcloud.io/wp-content/plugins/comeet-wp-plugin-Version-2.0.6.7/css/comeet-cards.css\' media=\'all\' />\n<link rel=\'stylesh'
+jsearch 200 q='VP Sales in Israel' country=il&date_posted=month -> 0 jobs; params={'query': 'VP Sales in Israel', 'num_pages': 1, 'date_posted': 'month', 'country': 'il', 'language': 'en'}
+jsearch 200 q='VP Sales' country=il&date_posted=month -> 0 jobs; params={'query': 'VP Sales', 'num_pages': 1, 'date_posted': 'month', 'country': 'il', 'language': 'en'}
+jsearch 200 q='VP Sales Israel' date_posted=month -> 0 jobs; params={'query': 'VP Sales Israel', 'num_pages': 1, 'date_posted': 'month', 'country': 'us', 'language': 'en'}
+jsearch 200 q='VP Sales Tel Aviv' country=il&date_posted=all -> 0 jobs; params={'query': 'VP Sales Tel Aviv', 'num_pages': 1, 'date_posted': 'all', 'country': 'il', 'language': 'en'}
