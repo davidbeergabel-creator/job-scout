@@ -153,7 +153,7 @@ _COMEET_API = re.compile(r"careers-api/2\.0/company/([A-Z0-9.]+)/positions\?toke
 _COMEET_HREF = re.compile(r"https://www\.comeet\.com?/jobs/([A-Za-z0-9-]+)/([A-Z0-9.]+)", re.I)
 # The embeddable widget: careers.js?company=X&token=<hex>&uid=<A1.B23>
 # careers.js?company=X&token=<hex>&uid=<A1.B23>   or   COMEET.init({"token": "<HEX>", "company-uid": "A1.B23", ...})
-_COMEET_UID = re.compile(r"""(?:[?&]uid=|["']?company[-_]?uid["']?\s*:\s*["'])([A-Z0-9]+\.[A-Z0-9]+)""", re.I)
+_COMEET_UID = re.compile(r"""(?:[?&]uid=|["']?(?:company[-_]?)?uid["']?\s*:\s*["'])([A-Z0-9]+\.[A-Z0-9]+)""", re.I)
 _COMEET_TOKEN = re.compile(r"""(?:[?&]token=|["']?token["']?\s*:\s*["'])([0-9A-Fa-f]{16,})""", re.I)
 # The Comeet WordPress plugin renders positions server-side as /careers/co/<location>/<UID>/<slug>/all links.
 _COMEET_WP = re.compile(r"""href=["']([^"']*/co/([a-z0-9-]+)/([A-Z0-9]{2}\.[A-Z0-9]{3})/([a-z0-9-]+)/all/?)["']""", re.I)
@@ -315,42 +315,81 @@ def sniff_page(page: str) -> tuple[str, str] | None:
     return None
 
 
+_SCRIPT_SRC = re.compile(r"""<script[^>]+src=["']([^"']+\.js[^"']*)["']""", re.I)
+
+
+def _page_hit(page: str, url: str, name: str) -> dict | None:
+    hit = sniff_page(page)
+    if hit:
+        ats_name, slug = hit
+        res = FETCHERS[ats_name](slug, name)
+        if res is not None and (ats_name not in ("smartrecruiters", "workable") or res):
+            return {"name": name, "ats": ats_name, "slug": slug}
+    if _comeet_creds(page) or _COMEET_HREF.search(page) or _COMEET_WP.search(page):
+        if comeet(url, name) is not None:
+            return {"name": name, "ats": "comeet", "careers_url": url}
+    return None
+
+
+def _script_urls(page: str, base: str) -> list[str]:
+    root = re.match(r"https?://[^/]+", base)
+    root = root.group(0) if root else ""
+    out = []
+    for m in _SCRIPT_SRC.finditer(page or ""):
+        src = html.unescape(m.group(1))
+        if src.startswith("//"):
+            src = "https:" + src
+        elif src.startswith("/"):
+            src = root + src
+        elif not src.startswith("http"):
+            src = base.rsplit("/", 1)[0] + "/" + src
+        if root and src.startswith(root) and src not in out:
+            out.append(src)
+    # Bundles that mention careers/jobs first, then the rest.
+    out.sort(key=lambda u: (not re.search(r"career|job|position", u, re.I), len(u)))
+    return out[:6]
+
+
 def sniff_site(name: str, website: str | None = None, careers_url: str | None = None) -> dict | None:
-    """Fetch the company's careers page(s) and look for an embedded ATS."""
-    pages: list[str] = []
-    if careers_url:
-        pages.append(careers_url)
+    """Fetch the company's careers page(s) (and their JS bundles) and look for an embedded ATS."""
+    pages: list[str] = [careers_url] if careers_url else []
     sites = [website] if website else website_candidates(name)
     for site in sites:
         status, home = get(site, timeout=8, retries=0)
-        if status != 200 or not home:
+        if status != 200 or not home or len(home) < 2000:
             continue
-        pages.append(site.rstrip("/") + "/careers")
+        hit = _page_hit(home, site, name)
+        if hit:
+            return hit
+        cand = [site.rstrip("/") + "/careers"]
         for m in _CAREERS_LINK.finditer(home):
             href = html.unescape(m.group(1))
             if href.startswith("/"):
                 href = site.rstrip("/") + href
-            if href.startswith("http") and href not in pages:
-                pages.append(href)
-        pages.append(site)
-        break  # first live domain wins
-    tried = 0
+            if href.startswith("http") and "wp-json" not in href and not href.endswith((".css", ".png", ".jpg", ".svg")) and href not in cand:
+                cand.append(href)
+        pages.extend(c for c in cand[:3] if c not in pages)
+    budget = 12
     for url in pages:
-        if tried >= 4:
+        if budget <= 0:
             break
-        tried += 1
+        budget -= 1
         status, page = get(url, timeout=10, retries=0)
         if status != 200 or not page:
             continue
-        hit = sniff_page(page)
+        hit = _page_hit(page, url, name)
         if hit:
-            ats_name, slug = hit
-            res = FETCHERS[ats_name](slug, name)
-            if res is not None and (ats_name != "smartrecruiters" or res):
-                return {"name": name, "ats": ats_name, "slug": slug}
-        if _comeet_creds(page) or _COMEET_HREF.search(page) or _COMEET_WP.search(page):
-            if comeet(url, name) is not None:
-                return {"name": name, "ats": "comeet", "careers_url": url}
+            return hit
+        # JS-rendered careers pages (Nuxt/Next): the board token usually sits in a same-origin bundle.
+        for js_url in _script_urls(page, url)[:4]:
+            if budget <= 0:
+                break
+            budget -= 1
+            st, js = get(js_url, timeout=8, retries=0)
+            if st == 200 and js:
+                hit = _page_hit(js, url, name)
+                if hit:
+                    return hit
     return None
 
 
@@ -366,8 +405,9 @@ def discover(name: str, careers_url: str | None = None, website: str | None = No
             res = fn(slug, name)
             if res is None:
                 continue
-            # SmartRecruiters returns 200 + [] for any slug: only a non-empty board proves the slug.
-            if ats_name == "smartrecruiters" and not res:
+            # SmartRecruiters (any slug) and Workable (some slugs) answer 200 + [] for unknown accounts:
+            # only a non-empty board proves the slug.
+            if ats_name in ("smartrecruiters", "workable") and not res:
                 continue
             return {"name": name, "ats": ats_name, "slug": slug}
     return sniff_site(name, website, careers_url)

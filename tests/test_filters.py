@@ -75,6 +75,13 @@ class SniffTests(unittest.TestCase):
         self.assertEqual(jobs[1]["location"], "United States")
         self.assertTrue(jobs[1]["url"].startswith("https://allcloud.io/"))
 
+    def test_comeet_creds_in_js_bundle(self):
+        from scout.ats import _comeet_creds, _script_urls
+        js = 'e.exports={comeet:{uid:"88.123",token:"ABCDEF0123456789ABCDEF0123456789"}}'
+        self.assertEqual(_comeet_creds(js), ("88.123", "ABCDEF0123456789ABCDEF0123456789"))
+        page = '<script src="/_nuxt/entry.js"></script><script src="https://cdn.other.com/x.js"></script><script src="/_nuxt/careers.js"></script>'
+        self.assertEqual(_script_urls(page, "https://www.vastdata.com/careers"), ["https://www.vastdata.com/_nuxt/careers.js", "https://www.vastdata.com/_nuxt/entry.js"])
+
     def test_comeet_creds_from_widget(self):
         from scout.ats import _comeet_creds
         page = '<script src="//www.comeet.co/careers-api/careers.js?company=AllCloud&token=0123456789abcdef0123456789abcdef&uid=A1.B23"></script>'
