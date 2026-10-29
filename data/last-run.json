@@ -1,47 +1,11 @@
 {
-  "board_errors": 4,
+  "board_errors": 0,
   "boards": 127,
-  "failed_boards": [
-    "Allot (workable:429)",
-    "Cellebrite (workable:429)",
-    "D-ID (workable:429)",
-    "Playtika (workable:429)"
-  ],
-  "jsearch": {
-    "endpoint": "search-v2",
-    "key": true,
-    "key_len": 50,
-    "requests": 6,
-    "results": 0,
-    "shape": {
-      "body": "{\"status\":\"OK\",\"request_id\":\"b7b10c89-3b1c-4940-a52e-eb9b0cf90693\",\"parameters\":{\"query\":\"VP Sales in Israel\",\"num_pages\":1,\"date_posted\":\"week\",\"country\":\"il\",\"language\":\"en\"},\"data\":{\"jobs\":[],\"cursor\":null}}",
-      "data": [
-        "cursor",
-        "jobs"
-      ],
-      "top": [
-        "data",
-        "parameters",
-        "request_id",
-        "status"
-      ]
-    },
-    "statuses": [
-      "search-v2:200",
-      "search-v2:200",
-      "search-v2:200",
-      "search-v2:200",
-      "search-v2:200",
-      "search-v2:200"
-    ]
-  },
-  "new": 10,
-  "notion": {
-    "created": 10,
-    "failed": 0,
-    "skipped": 0
-  },
-  "raw": 3300,
-  "relevant": 21,
-  "run": "2026-10-29T17:15:25+00:00"
+  "failed_boards": [],
+  "jsearch": null,
+  "new": 0,
+  "notion": "nothing new",
+  "raw": 3298,
+  "relevant": 19,
+  "run": "2026-10-29T20:16:28+00:00"
 }

@@ -58,15 +58,6 @@
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-21",
     "source": "greenhouse:aidocmedical",
-    "title": "AI Senior Software Engineer, ML Platform",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4874306101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
     "title": "AI Software Team Lead, ML Platform",
     "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4876590101",
     "why": "not senior"
@@ -92,7 +83,7 @@
   {
     "company": "Aidoc",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
+    "posted": "2026-10-29",
     "source": "greenhouse:aidocmedical",
     "title": "AI Staff Software Engineer, ML Platform",
     "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4876560101",
@@ -357,6 +348,15 @@
     "source": "greenhouse:appsflyer",
     "title": "Account Manager - Growth",
     "url": "https://careers.appsflyer.com/jobs/position/8793847002?gh_jid=8793847002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-08-17",
+    "source": "greenhouse:appsflyer",
+    "title": "Application Security Engineer",
+    "url": "https://careers.appsflyer.com/jobs/position/8394076002?gh_jid=8394076002",
     "why": "not senior"
   }
 ]
