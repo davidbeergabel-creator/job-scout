@@ -74,7 +74,13 @@ def search(query: str, key: str, date_posted: str = "week", pages: int = 1) -> l
             return []
         payload = data.get("data")
         jobs = payload.get("jobs") if isinstance(payload, dict) else payload
-        jobs = jobs if isinstance(jobs, list) else []
+        if not isinstance(jobs, list):
+            jobs = data.get("jobs") if isinstance(data.get("jobs"), list) else []
+        if not jobs and "shape" not in LAST:
+            # Remember what an empty answer looks like so the schema can be fixed without guessing.
+            LAST["shape"] = {"top": sorted(data.keys())[:20],
+                             "data": sorted(payload.keys())[:20] if isinstance(payload, dict) else type(payload).__name__,
+                             "body": (body or "")[:400]}
         if jobs and "sample_keys" not in LAST:
             LAST["sample_keys"] = sorted(jobs[0].keys())[:40]
         LAST["endpoint"] = path

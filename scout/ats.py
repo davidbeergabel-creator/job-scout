@@ -222,6 +222,10 @@ def comeet(careers_url: str, company: str) -> list[dict] | None:
         if status == 200 and isinstance(data, list):
             break
     if not isinstance(data, list):
+        # API refused the token: fall back to the positions rendered in the page (WordPress plugin).
+        wp = _comeet_wp(page, careers_url, company)
+        if wp:
+            return wp
         _fail(company, "comeet-api", status)
         return None
     out = []
