@@ -236,8 +236,8 @@ def comeet(careers_url: str, company: str) -> list[dict] | None:
                 "company": company,
                 "title": j.get("name", ""),
                 "location": ", ".join(filter(None, [loc.get("city"), loc.get("country")])) or loc.get("name", ""),
-                "url": j.get("url_active_page", ""),
-                "posted": (j.get("updated_time") or "")[:10],
+                "url": j.get("url_active_page") or j.get("url_comeet_hosted_page") or j.get("position_url") or "",
+                "posted": (j.get("time_updated") or j.get("updated_time") or j.get("time_created") or "")[:10],
                 "source": f"comeet:{uid}",
             }
         )
@@ -446,6 +446,10 @@ def diagnose(target: str, careers_url: str | None = None) -> None:
     """Print what discovery sees for a URL or a company name (run in Actions, where the network is open)."""
     if target.startswith("http"):
         _show_page(target)
+        return
+    if target.startswith("jsearch:"):
+        from . import jsearch
+        jsearch.probe(target[len("jsearch:"):].strip())
         return
     name = target
     print(f"discover({name!r}) slugs={slug_candidates(name)}")

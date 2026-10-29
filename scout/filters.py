@@ -33,7 +33,8 @@ EXCLUDE = re.compile(
     r"security research|data science|machine learning engineer|ml engineer|qa|quality assurance|"
     r"finance|financial|accounting|controller|legal|counsel|hr|human resources|people|talent|"
     r"recruit|design|ux|ui|it\b|infrastructure|hardware|algorithm|architect|developer|"
-    r"scientist|clinical|regulatory|medical director|nurse|physician|intern|student|junior)\b",
+    r"scientist|clinical|regulatory|medical director|nurse|physician|intern|student|junior|"
+    r"assistant|coordinator|associate|analyst|specialist|representative|executive assistant|office manager)\b",
     re.I,
 )
 

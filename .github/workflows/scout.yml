@@ -39,6 +39,8 @@ jobs:
 
       - name: Diagnose
         if: ${{ github.event.inputs.diagnose != '' }}
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
         run: python -m scout.main diagnose --diagnose "${{ github.event.inputs.diagnose }}" 2>&1 | tee data/diagnose.txt
 
       - name: Discover ATS boards

@@ -99,3 +99,33 @@ def run(queries: list[str] | None = None, date_posted: str = "week") -> list[dic
         out.extend(search(q, key, date_posted))
     LAST["results"] = len(out)
     return out
+
+
+def probe(query: str) -> None:
+    """Diagnostics: run one query several ways and print what comes back (needs RAPIDAPI_KEY)."""
+    key = os.environ.get("RAPIDAPI_KEY", "").strip()
+    if not key:
+        print("jsearch probe: no RAPIDAPI_KEY in the environment")
+        return
+    variants = [
+        (f"{query} in Israel", "country=il&date_posted=month"),
+        (f"{query}", "country=il&date_posted=month"),
+        (f"{query} Israel", "date_posted=month"),
+        (f"{query} Tel Aviv", "country=il&date_posted=all"),
+    ]
+    for q, extra in variants:
+        url = f"https://{HOST}/search-v2?query={urllib.parse.quote(q)}&page=1&num_pages=1&{extra}"
+        status, body = get(url, headers={"x-rapidapi-key": key, "x-rapidapi-host": HOST})
+        try:
+            data = json.loads(body) if status == 200 else {}
+        except ValueError:
+            data = {}
+        payload = data.get("data") if isinstance(data, dict) else None
+        jobs = payload.get("jobs") if isinstance(payload, dict) else (payload if isinstance(payload, list) else [])
+        jobs = jobs or []
+        print(f"jsearch {status} q={q!r} {extra} -> {len(jobs)} jobs; params={data.get('parameters') if isinstance(data, dict) else ''}")
+        for j in jobs[:4]:
+            print(f"   - {j.get('employer_name')} | {j.get('job_title')} | {j.get('job_city')}, {j.get('job_country')} | {str(j.get('job_posted_at_datetime_utc'))[:10]} | {j.get('job_publisher')}")
+        if jobs and "keys" not in locals():
+            keys = sorted(jobs[0].keys())
+            print("   keys:", keys)

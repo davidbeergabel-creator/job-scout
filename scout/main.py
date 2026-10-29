@@ -101,7 +101,7 @@ def cmd_scan(use_jsearch: bool = True, max_age_days: int = 45) -> None:
     failed: list[str] = []
 
     # Workable rate-limits bursts; keep its boards to two at a time with a pause between calls.
-    throttle = {"workable": threading.Semaphore(2)}
+    throttle = {"workable": threading.Semaphore(1)}
 
     def fetch_one(e):
         sem = throttle.get(e.get("ats"))
@@ -109,7 +109,7 @@ def cmd_scan(use_jsearch: bool = True, max_age_days: int = 45) -> None:
             return ats.fetch(e)
         with sem:
             res = ats.fetch(e)
-            time.sleep(0.7)
+            time.sleep(2.0)
             return res
 
     ats.ERRORS.clear()
