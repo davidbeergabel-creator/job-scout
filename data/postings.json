@@ -1,5 +1,95 @@
 [
   {
+    "company": "ActiveFence",
+    "found": "2026-10-29",
+    "location": "Ramat Gan, IL",
+    "posted": "",
+    "source": "comeet:D5.005",
+    "title": "Head of RL Gym - Program Operations",
+    "url": "https://alice.io/positions/position-bc_37c?utm_type=llms"
+  },
+  {
+    "company": "Ceragon",
+    "found": "2026-10-29",
+    "location": "Rosh Ha'ayin, IL",
+    "posted": "",
+    "source": "comeet:D3.003",
+    "title": "Executive Assistant to the CRO",
+    "url": "https://www.ceragon.com/about-ceragon/careers/executive-assistant-to-the-cro-8c-270"
+  },
+  {
+    "company": "Coralogix",
+    "found": "2026-10-29",
+    "location": "Ramat Gan Israel",
+    "posted": "",
+    "source": "comeet-wp:0C.D60",
+    "title": "Vp Business Applications",
+    "url": "https://coralogix.com/careers/co/ramat-gan-israel/0C.D60/vp-business-applications/all/"
+  },
+  {
+    "company": "Coralogix",
+    "found": "2026-10-29",
+    "location": "Ramat Gan Israel",
+    "posted": "",
+    "source": "comeet-wp:B5.F66",
+    "title": "Vp Operations",
+    "url": "https://coralogix.com/careers/co/ramat-gan-israel/B5.F66/vp-operations/all/"
+  },
+  {
+    "company": "Guardio",
+    "found": "2026-10-29",
+    "location": "Tel Aviv-Yafo, IL",
+    "posted": "",
+    "source": "comeet:57.000",
+    "title": "Head of Business Development",
+    "url": "https://guard.io/careers"
+  },
+  {
+    "company": "Immunai",
+    "found": "2026-10-29",
+    "location": "Ramat Gan, IL",
+    "posted": "",
+    "source": "comeet:37.009",
+    "title": "Director of AI Product",
+    "url": "https://www.comeet.com/jobs/immunai/37.009/director-of-ai-product/FC.D6C"
+  },
+  {
+    "company": "Immunai",
+    "found": "2026-10-29",
+    "location": "Ramat Gan, IL",
+    "posted": "",
+    "source": "comeet:37.009",
+    "title": "Head of AI",
+    "url": "https://www.comeet.com/jobs/immunai/37.009/head-of-ai/1F.B53"
+  },
+  {
+    "company": "Lumenis",
+    "found": "2026-10-29",
+    "location": "Yokne'am Illit, IL",
+    "posted": "",
+    "source": "comeet:A1.00C",
+    "title": "Head of Marketing",
+    "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
+  },
+  {
+    "company": "Personetics",
+    "found": "2026-10-29",
+    "location": "Giv'atayim, IL",
+    "posted": "",
+    "source": "comeet:83.00A",
+    "title": "Head of AI",
+    "url": "https://personetics.com/us/careers-4/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+  },
+  {
+    "company": "Silverfort",
+    "found": "2026-10-29",
+    "location": "Tel Aviv-Yafo, IL",
+    "posted": "",
+    "source": "comeet:54.007",
+    "title": "VP of Customer Success",
+    "url": "https://www.comeet.com/jobs/silverfort/54.007/vp-of-customer-success/DB.D66-21.10A"
+  },
+  {
     "company": "Payoneer",
     "location": "Herzliya, Tel Aviv District, Israel",
     "posted": "2026-10-05",
