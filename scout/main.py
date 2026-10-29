@@ -47,7 +47,9 @@ def save_json(path: Path, obj):
 # ------------------------------------------------------------------ discover
 
 
-def cmd_discover(limit: int | None = None, retry_days: int = 30) -> None:
+def cmd_discover(limit: int | None = None, retry_days: int = 6) -> None:
+    """Resolve each watchlist company to an ATS board. Unresolved companies are re-probed once
+    retry_days have passed (the weekly run therefore re-probes everything still unresolved)."""
     watch = load_json(WATCHLIST, {"companies": []})["companies"]
     resolved = load_json(RESOLVED, {})
     today = date.today().isoformat()
@@ -193,7 +195,7 @@ def main(argv=None):
     ap.add_argument("--limit", type=int, default=None, help="discover: probe at most N companies")
     a = ap.parse_args(argv)
     if a.cmd in ("discover", "all"):
-        cmd_discover(limit=a.limit)
+        cmd_discover(limit=a.limit, retry_days=a.retry_days)
     if a.cmd == "diagnose":
         watch = {c["name"]: c for c in load_json(WATCHLIST, {"companies": []})["companies"]}
         for t in [x.strip() for x in a.diagnose.split("|") if x.strip()]:

@@ -43,7 +43,8 @@ jobs:
 
       - name: Discover ATS boards
         if: ${{ github.event.inputs.diagnose == '' && (github.event.inputs.discover == 'true' || github.event.schedule == '47 1 * * 0' || hashFiles('data/watchlist.resolved.json') == '') }}
-        run: python -m scout.main discover
+        # A manual discover re-probes every unresolved company; the weekly one those not checked for 6+ days.
+        run: python -m scout.main discover ${{ github.event.inputs.discover == 'true' && '--retry-days 0' || '' }}
 
       - name: Scan
         if: ${{ github.event.inputs.diagnose == '' && github.event.schedule != '47 1 * * 0' }}
