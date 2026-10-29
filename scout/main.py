@@ -193,6 +193,7 @@ def main(argv=None):
     ap.add_argument("--no-jsearch", action="store_true")
     ap.add_argument("--diagnose", default="", help="URL or company name to inspect (prints what discovery sees)")
     ap.add_argument("--limit", type=int, default=None, help="discover: probe at most N companies")
+    ap.add_argument("--retry-days", type=int, default=6, help="discover: re-probe unresolved companies checked more than N days ago (0 = all)")
     a = ap.parse_args(argv)
     if a.cmd in ("discover", "all"):
         cmd_discover(limit=a.limit, retry_days=a.retry_days)
