@@ -1,11 +1,30 @@
 {
-  "board_errors": 0,
-  "boards": 107,
-  "failed_boards": [],
-  "jsearch": null,
+  "board_errors": 4,
+  "boards": 87,
+  "failed_boards": [
+    "Allot (workable:429)",
+    "Automat-it (workable:429)",
+    "Cellebrite (workable:429)",
+    "Playtika (workable:429)"
+  ],
+  "jsearch": {
+    "endpoint": "search-v2",
+    "key": true,
+    "key_len": 50,
+    "requests": 6,
+    "results": 0,
+    "statuses": [
+      "search-v2:200",
+      "search-v2:200",
+      "search-v2:200",
+      "search-v2:200",
+      "search-v2:200",
+      "search-v2:200"
+    ]
+  },
   "new": 0,
   "notion": "nothing new",
-  "raw": 2377,
+  "raw": 2386,
   "relevant": 11,
-  "run": "2026-10-29T09:53:24+00:00"
+  "run": "2026-10-29T16:45:52+00:00"
 }

@@ -230,10 +230,8 @@
     "name": "CEVA"
   },
   "Cal": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Cal",
-    "slug": "cal"
+    "checked": "2026-10-29",
+    "name": "Cal"
   },
   "Calcalist": {
     "checked": "2026-10-28",
@@ -262,10 +260,8 @@
     "name": "Castro"
   },
   "Cato": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Cato",
-    "slug": "cato"
+    "checked": "2026-10-29",
+    "name": "Cato"
   },
   "Cato Networks": {
     "ats": "greenhouse",
@@ -399,16 +395,15 @@
     "slug": "cymulate"
   },
   "CytoReason": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "CytoReason",
-    "slug": "cytoreason"
+    "checked": "2026-10-29",
+    "name": "CytoReason"
   },
   "D-ID": {
     "ats": "workable",
-    "checked": "2026-10-28",
+    "checked": "2026-10-29",
     "name": "D-ID",
-    "slug": "d-id"
+    "slug": "d-id",
+    "verified": true
   },
   "Databricks Israel": {
     "checked": "2026-10-28",
@@ -435,16 +430,12 @@
     "name": "DealHub"
   },
   "Deci AI": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Deci AI",
-    "slug": "deci"
+    "checked": "2026-10-29",
+    "name": "Deci AI"
   },
   "Decide AI": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Decide AI",
-    "slug": "decide"
+    "checked": "2026-10-29",
+    "name": "Decide AI"
   },
   "Deepchecks": {
     "checked": "2026-10-28",
@@ -509,10 +500,8 @@
     "slug": "duda"
   },
   "Dynamic Yield": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Dynamic Yield",
-    "slug": "dynamic-yield"
+    "checked": "2026-10-29",
+    "name": "Dynamic Yield"
   },
   "EY Israel": {
     "checked": "2026-10-28",
@@ -577,10 +566,8 @@
     "name": "Explorium"
   },
   "Fabric": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Fabric",
-    "slug": "fabricio"
+    "checked": "2026-10-29",
+    "name": "Fabric"
   },
   "Fairmoney": {
     "checked": "2026-10-28",
@@ -632,10 +619,8 @@
     "name": "Fox Group"
   },
   "Fundbox": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Fundbox",
-    "slug": "fundbox"
+    "checked": "2026-10-29",
+    "name": "Fundbox"
   },
   "GE Healthcare Israel": {
     "checked": "2026-10-28",
@@ -654,10 +639,8 @@
     "name": "Gilat Satellite Networks"
   },
   "Glassbox": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Glassbox",
-    "slug": "glassbox"
+    "checked": "2026-10-29",
+    "name": "Glassbox"
   },
   "Globes": {
     "checked": "2026-10-28",
@@ -702,10 +685,8 @@
     "name": "HP Israel"
   },
   "Hailo": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Hailo",
-    "slug": "hailo"
+    "checked": "2026-10-29",
+    "name": "Hailo"
   },
   "Harel": {
     "checked": "2026-10-28",
@@ -781,10 +762,8 @@
     "name": "Inferow"
   },
   "Infinidat": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Infinidat",
-    "slug": "infinidat"
+    "checked": "2026-10-29",
+    "name": "Infinidat"
   },
   "Innoviz": {
     "checked": "2026-10-28",
@@ -948,10 +927,11 @@
     "slug": "matrix"
   },
   "Max": {
-    "ats": "workable",
-    "checked": "2026-10-28",
+    "ats": "recruitee",
+    "checked": "2026-10-29",
     "name": "Max",
-    "slug": "max"
+    "slug": "max",
+    "verified": true
   },
   "Mazor Robotics": {
     "checked": "2026-10-28",
@@ -1000,20 +980,19 @@
     "name": "Minute Media"
   },
   "Mitiga": {
-    "ats": "workable",
-    "checked": "2026-10-28",
+    "ats": "comeet",
+    "careers_url": "https://www.mitiga.io/careers",
+    "checked": "2026-10-29",
     "name": "Mitiga",
-    "slug": "mitiga"
+    "verified": true
   },
   "Mizrahi Tefahot": {
     "checked": "2026-10-28",
     "name": "Mizrahi Tefahot"
   },
   "Mobileye": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Mobileye",
-    "slug": "mobileye"
+    "checked": "2026-10-29",
+    "name": "Mobileye"
   },
   "Moon Active": {
     "ats": "ashby",
@@ -1048,10 +1027,8 @@
     "name": "Nanox"
   },
   "Natural Intelligence": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Natural Intelligence",
-    "slug": "natural-intelligence"
+    "checked": "2026-10-29",
+    "name": "Natural Intelligence"
   },
   "Navan": {
     "checked": "2026-10-28",
@@ -1089,10 +1066,8 @@
     "name": "Nexar"
   },
   "Next Insurance": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Next Insurance",
-    "slug": "next-insurance"
+    "checked": "2026-10-29",
+    "name": "Next Insurance"
   },
   "NextSilicon": {
     "checked": "2026-10-28",
@@ -1324,10 +1299,8 @@
     "name": "Porsche Digital Israel"
   },
   "Port": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Port",
-    "slug": "port"
+    "checked": "2026-10-29",
+    "name": "Port"
   },
   "Powtoon": {
     "checked": "2026-10-28",
@@ -1444,10 +1417,8 @@
     "name": "SeeTree"
   },
   "Seebo": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Seebo",
-    "slug": "seebo"
+    "checked": "2026-10-29",
+    "name": "Seebo"
   },
   "SentinelOne": {
     "checked": "2026-10-28",
@@ -1702,10 +1673,8 @@
     "name": "Upwind"
   },
   "VAST Data": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "VAST Data",
-    "slug": "vast-data"
+    "checked": "2026-10-29",
+    "name": "VAST Data"
   },
   "VMware Israel": {
     "checked": "2026-10-28",
@@ -1727,20 +1696,16 @@
     "name": "Validify"
   },
   "Vanti": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Vanti",
-    "slug": "vanti"
+    "checked": "2026-10-29",
+    "name": "Vanti"
   },
   "Varonis": {
     "checked": "2026-10-28",
     "name": "Varonis"
   },
   "Vayyar": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Vayyar",
-    "slug": "vayyar"
+    "checked": "2026-10-29",
+    "name": "Vayyar"
   },
   "Vdoo": {
     "checked": "2026-10-28",
@@ -1842,10 +1807,8 @@
     "name": "Xtend Defense"
   },
   "Yad2": {
-    "ats": "workable",
-    "checked": "2026-10-28",
-    "name": "Yad2",
-    "slug": "yad2"
+    "checked": "2026-10-29",
+    "name": "Yad2"
   },
   "Yango Israel": {
     "checked": "2026-10-28",
