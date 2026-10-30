@@ -108,14 +108,20 @@ def probe(query: str) -> None:
         print("jsearch probe: no RAPIDAPI_KEY in the environment")
         return
     variants = [
-        (f"{query} in Israel", "country=il&date_posted=month"),
-        (f"{query}", "country=il&date_posted=month"),
-        (f"{query} Israel", "date_posted=month"),
-        (f"{query} Tel Aviv", "country=il&date_posted=all"),
+        ("software engineer jobs in new york", "country=us&date_posted=week"),          # control: must return jobs
+        ("developer jobs in tel aviv", "country=il&language=en&date_posted=month"),     # control: Israel coverage
+        (f"{query} jobs in tel aviv, israel", "country=il&language=en&date_posted=month"),
+        (f"{query} jobs in israel", "country=il&language=en&date_posted=all"),
+        (f"{query} israel via linkedin", "country=il&language=en&date_posted=month"),
+        ("משרות סמנכ\"ל מכירות תל אביב", "country=il&language=he&date_posted=month"),
+        (f"{query} in israel", "country=il&language=en&date_posted=month&work_from_home=false"),
     ]
     for q, extra in variants:
-        url = f"https://{HOST}/search-v2?query={urllib.parse.quote(q)}&page=1&num_pages=1&{extra}"
+        url = f"https://{HOST}/search-v2?query={urllib.parse.quote(q)}&{extra}"
         status, body = get(url, headers={"x-rapidapi-key": key, "x-rapidapi-host": HOST})
+        if status != 200:
+            print(f"jsearch {status} q={q!r} {extra} -> {(body or '')[:300]}")
+            continue
         try:
             data = json.loads(body) if status == 200 else {}
         except ValueError:
