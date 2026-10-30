@@ -31,6 +31,8 @@ class FilterTests(unittest.TestCase):
             "Chief Technology Officer",
             "Executive Assistant to the CRO",
             "Sales Operations Analyst",
+            "CTO | AI Tech Startup",
+            "CISO",
         ]:
             keep, _ = relevant(title, "Tel Aviv, Israel")
             self.assertFalse(keep, title)

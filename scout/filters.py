@@ -34,7 +34,9 @@ EXCLUDE = re.compile(
     r"finance|financial|accounting|controller|legal|counsel|hr|human resources|people|talent|"
     r"recruit|design|ux|ui|it\b|infrastructure|hardware|algorithm|architect|developer|"
     r"scientist|clinical|regulatory|medical director|nurse|physician|intern|student|junior|"
-    r"assistant|coordinator|associate|analyst|specialist|representative|executive assistant|office manager)\b",
+    r"assistant|coordinator|associate|analyst|specialist|representative|executive assistant|office manager|"
+    r"cto|cio|ciso|cfo|chro|clo|cao|chief technology|chief technical|chief information|chief financial|chief people|"
+    r"chief legal|chief security|plant manager)\b",
     re.I,
 )
 
