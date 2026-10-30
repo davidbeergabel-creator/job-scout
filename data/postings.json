@@ -105,7 +105,6 @@
   },
   {
     "company": "MAËLYS",
-    "found": "2026-10-30",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-10-25",
     "source": "linkedin",
@@ -114,7 +113,6 @@
   },
   {
     "company": "RavenDB",
-    "found": "2026-10-30",
     "location": "Hadera, Haifa District, Israel",
     "posted": "2026-10-25",
     "source": "linkedin",
@@ -139,7 +137,6 @@
   },
   {
     "company": "Yad2",
-    "found": "2026-10-30",
     "location": "Petah Tikva, Center District, Israel",
     "posted": "2026-10-25",
     "source": "linkedin",
@@ -148,7 +145,6 @@
   },
   {
     "company": "BIScience",
-    "found": "2026-10-30",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-26",
     "source": "linkedin",
@@ -157,7 +153,6 @@
   },
   {
     "company": "DRS RADA Technologies",
-    "found": "2026-10-30",
     "location": "Netanya, Center District, Israel",
     "posted": "2026-10-26",
     "source": "linkedin",
@@ -166,7 +161,6 @@
   },
   {
     "company": "Guesty",
-    "found": "2026-10-30",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-26",
     "source": "linkedin",
@@ -175,7 +169,6 @@
   },
   {
     "company": "JobsSeek",
-    "found": "2026-10-30",
     "location": "Rishon LeZion, Center District, Israel",
     "posted": "2026-10-26",
     "source": "linkedin",
@@ -184,7 +177,6 @@
   },
   {
     "company": "LSports",
-    "found": "2026-10-30",
     "location": "Ashkelon, South District, Israel",
     "posted": "2026-10-26",
     "source": "linkedin",
@@ -201,7 +193,6 @@
   },
   {
     "company": "SciPlay",
-    "found": "2026-10-30",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-26",
     "source": "linkedin",
@@ -210,7 +201,6 @@
   },
   {
     "company": "Yad2",
-    "found": "2026-10-30",
     "location": "Petah Tikva, Center District, Israel",
     "posted": "2026-10-26",
     "source": "linkedin",
@@ -219,7 +209,6 @@
   },
   {
     "company": "Edwards Lifesciences",
-    "found": "2026-10-30",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-27",
     "source": "linkedin",
@@ -228,7 +217,6 @@
   },
   {
     "company": "WDS Technologies",
-    "found": "2026-10-30",
     "location": "Shoham, Center District, Israel",
     "posted": "2026-10-27",
     "source": "linkedin",
@@ -245,7 +233,6 @@
   },
   {
     "company": "Deel",
-    "found": "2026-10-30",
     "location": "Israel",
     "posted": "2026-10-28",
     "source": "linkedin",
@@ -262,7 +249,6 @@
   },
   {
     "company": "Innoviz Technologies",
-    "found": "2026-10-30",
     "location": "Rosh HaAyin, Center District, Israel",
     "posted": "2026-10-28",
     "source": "linkedin",
@@ -279,7 +265,6 @@
   },
   {
     "company": "Recruitx",
-    "found": "2026-10-30",
     "location": "Yokneam Ilit, North District, Israel",
     "posted": "2026-10-28",
     "source": "linkedin",
@@ -288,7 +273,6 @@
   },
   {
     "company": "Teva Pharmaceuticals",
-    "found": "2026-10-30",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-28",
     "source": "linkedin",
@@ -297,7 +281,6 @@
   },
   {
     "company": "XTEND",
-    "found": "2026-10-30",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-28",
     "source": "linkedin",
@@ -305,16 +288,7 @@
     "url": "https://il.linkedin.com/jobs/view/director-bd-and-sales-at-xtend-4472455326"
   },
   {
-    "company": "ActiveFence",
-    "location": "Ramat Gan, IL",
-    "posted": "2026-10-29",
-    "source": "comeet:D5.005",
-    "title": "Head of RL Gym - Program Operations",
-    "url": "https://alice.io/positions/position-bc_37c"
-  },
-  {
     "company": "Confidential Compan",
-    "found": "2026-10-30",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-10-29",
     "source": "linkedin",
@@ -323,7 +297,6 @@
   },
   {
     "company": "Dataflow Forensics",
-    "found": "2026-10-30",
     "location": "Herzliya, Tel Aviv District, Israel",
     "posted": "2026-10-29",
     "source": "linkedin",
@@ -331,17 +304,7 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-business-operations-at-dataflow-forensics-4484522475"
   },
   {
-    "company": "Expert Executive Recruiters (EER Global)",
-    "found": "2026-10-30",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-10-29",
-    "source": "linkedin",
-    "title": "CTO | AI Tech Startup",
-    "url": "https://il.linkedin.com/jobs/view/cto-ai-tech-startup-at-expert-executive-recruiters-eer-global-4484522286"
-  },
-  {
     "company": "Nisha Executive",
-    "found": "2026-10-30",
     "location": "West Jerusalem, Jerusalem District, Israel",
     "posted": "2026-10-29",
     "source": "linkedin",
@@ -357,6 +320,14 @@
     "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
   },
   {
+    "company": "ActiveFence",
+    "location": "Ramat Gan, IL",
+    "posted": "2026-10-30",
+    "source": "comeet:D5.005",
+    "title": "Head of RL Gym - Program Operations",
+    "url": "https://alice.io/positions/position-bc_37c?utm_type=threat-intel-bottom"
+  },
+  {
     "company": "Gong",
     "location": "Tel Aviv",
     "posted": "2026-10-30",
@@ -366,7 +337,6 @@
   },
   {
     "company": "Guesty",
-    "found": "2026-10-30",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-30",
     "source": "linkedin",

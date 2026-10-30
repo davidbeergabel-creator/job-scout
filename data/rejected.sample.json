@@ -1,5 +1,50 @@
 [
   {
+    "company": "Apiiro",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-08-09",
+    "source": "greenhouse:apiiro",
+    "title": "AI Engineer",
+    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7683988003",
+    "why": "not senior"
+  },
+  {
+    "company": "Apiiro",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-10-22",
+    "source": "greenhouse:apiiro",
+    "title": "AI Research Engineer, Security",
+    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7809871003",
+    "why": "not senior"
+  },
+  {
+    "company": "Apiiro",
+    "location": "East Coast, Remote",
+    "posted": "2026-07-27",
+    "source": "greenhouse:apiiro",
+    "title": "Director of Sales",
+    "url": "https://job-boards.greenhouse.io/apiiro/jobs/6652315003",
+    "why": "not Israel"
+  },
+  {
+    "company": "Apiiro",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-08-09",
+    "source": "greenhouse:apiiro",
+    "title": "Product Manager",
+    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7812494003",
+    "why": "not senior"
+  },
+  {
+    "company": "Apiiro",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-08-04",
+    "source": "greenhouse:apiiro",
+    "title": "Software Engineer",
+    "url": "https://job-boards.greenhouse.io/apiiro/jobs/6670059003",
+    "why": "not senior"
+  },
+  {
     "company": "AppsFlyer",
     "location": "Herzliya",
     "posted": "2026-08-17",
@@ -312,51 +357,6 @@
     "source": "greenhouse:appsflyer",
     "title": "Senior IT Infrastructure Operations",
     "url": "https://careers.appsflyer.com/jobs/position/8882905002?gh_jid=8882905002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "New York; San Francisco",
-    "posted": "2026-10-16",
-    "source": "greenhouse:appsflyer",
-    "title": "Senior Legal Counsel",
-    "url": "https://careers.appsflyer.com/jobs/position/8871110002?gh_jid=8871110002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-09-30",
-    "source": "greenhouse:appsflyer",
-    "title": "Senior PR&D Program Manager",
-    "url": "https://careers.appsflyer.com/jobs/position/8855377002?gh_jid=8855377002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-10-07",
-    "source": "greenhouse:appsflyer",
-    "title": "Senior Product Manager",
-    "url": "https://careers.appsflyer.com/jobs/position/8874566002?gh_jid=8874566002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Kyiv",
-    "posted": "2026-09-03",
-    "source": "greenhouse:appsflyer",
-    "title": "Senior Software Engineer",
-    "url": "https://careers.appsflyer.com/jobs/position/8781233002?gh_jid=8781233002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-09-28",
-    "source": "greenhouse:appsflyer",
-    "title": "Senior Software Engineer",
-    "url": "https://careers.appsflyer.com/jobs/position/8852064002?gh_jid=8852064002",
     "why": "not senior"
   }
 ]
