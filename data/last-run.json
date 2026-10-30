@@ -3,9 +3,31 @@
   "boards": 127,
   "failed_boards": [],
   "jsearch": null,
-  "new": 0,
-  "notion": "nothing new",
-  "raw": 3295,
-  "relevant": 19,
-  "run": "2026-10-30T09:57:29+00:00"
+  "linkedin": {
+    "requests": 12,
+    "results": 54,
+    "statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ]
+  },
+  "new": 22,
+  "notion": {
+    "created": 22,
+    "failed": 0,
+    "skipped": 0
+  },
+  "raw": 3358,
+  "relevant": 41,
+  "run": "2026-10-30T14:50:04+00:00"
 }
