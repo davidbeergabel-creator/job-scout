@@ -1,50 +1,5 @@
 [
   {
-    "company": "Apiiro",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-08-09",
-    "source": "greenhouse:apiiro",
-    "title": "AI Engineer",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7683988003",
-    "why": "not senior"
-  },
-  {
-    "company": "Apiiro",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-22",
-    "source": "greenhouse:apiiro",
-    "title": "AI Research Engineer, Security",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7809871003",
-    "why": "not senior"
-  },
-  {
-    "company": "Apiiro",
-    "location": "East Coast, Remote",
-    "posted": "2026-07-27",
-    "source": "greenhouse:apiiro",
-    "title": "Director of Sales",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/6652315003",
-    "why": "not Israel"
-  },
-  {
-    "company": "Apiiro",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-08-09",
-    "source": "greenhouse:apiiro",
-    "title": "Product Manager",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7812494003",
-    "why": "not senior"
-  },
-  {
-    "company": "Apiiro",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-08-04",
-    "source": "greenhouse:apiiro",
-    "title": "Software Engineer",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/6670059003",
-    "why": "not senior"
-  },
-  {
     "company": "Aidoc",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-21",
@@ -208,15 +163,6 @@
   },
   {
     "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-27",
-    "source": "greenhouse:aidocmedical",
-    "title": "Regional Development Manager (Inside Sales)",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5010389101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-29",
     "source": "greenhouse:aidocmedical",
@@ -342,6 +288,51 @@
     "why": "not senior"
   },
   {
+    "company": "Apiiro",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-08-09",
+    "source": "greenhouse:apiiro",
+    "title": "AI Engineer",
+    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7683988003",
+    "why": "not senior"
+  },
+  {
+    "company": "Apiiro",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-10-22",
+    "source": "greenhouse:apiiro",
+    "title": "AI Research Engineer, Security",
+    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7809871003",
+    "why": "not senior"
+  },
+  {
+    "company": "Apiiro",
+    "location": "East Coast, Remote",
+    "posted": "2026-07-27",
+    "source": "greenhouse:apiiro",
+    "title": "Director of Sales",
+    "url": "https://job-boards.greenhouse.io/apiiro/jobs/6652315003",
+    "why": "not Israel"
+  },
+  {
+    "company": "Apiiro",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-08-09",
+    "source": "greenhouse:apiiro",
+    "title": "Product Manager",
+    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7812494003",
+    "why": "not senior"
+  },
+  {
+    "company": "Apiiro",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-08-04",
+    "source": "greenhouse:apiiro",
+    "title": "Software Engineer",
+    "url": "https://job-boards.greenhouse.io/apiiro/jobs/6670059003",
+    "why": "not senior"
+  },
+  {
     "company": "AppsFlyer",
     "location": "Seoul",
     "posted": "2026-09-10",
@@ -357,6 +348,15 @@
     "source": "greenhouse:appsflyer",
     "title": "Application Security Engineer",
     "url": "https://careers.appsflyer.com/jobs/position/8394076002?gh_jid=8394076002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-20",
+    "source": "greenhouse:appsflyer",
+    "title": "Assistant Controller - Corporate Team- 2908",
+    "url": "https://careers.appsflyer.com/jobs/position/8816216002?gh_jid=8816216002",
     "why": "not senior"
   }
 ]
