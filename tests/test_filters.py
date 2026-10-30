@@ -90,5 +90,23 @@ class SniffTests(unittest.TestCase):
         self.assertEqual(_comeet_creds(page), ("A1.B23", "0123456789abcdef0123456789abcdef"))
 
 
+
+class LinkedInTests(unittest.TestCase):
+    def test_parse_cards(self):
+        from scout.linkedin import parse
+        page = """<ul><li><div class="base-card"><a class="base-card__full-link" href="https://il.linkedin.com/jobs/view/vp-sales-at-acme-123?refId=x">
+        <span class="sr-only">VP Sales</span></a><div class="base-search-card__info"><h3 class="base-search-card__title">
+        VP Sales </h3><h4 class="base-search-card__subtitle"><a class="hidden-nested-link" href="https://il.linkedin.com/company/acme">
+        Acme Ltd </a></h4><div class="base-search-card__metadata"><span class="job-search-card__location">
+        Tel Aviv District, Israel </span><time class="job-search-card__listdate" datetime="2026-10-27">3 days ago</time></div></div></div></li></ul>"""
+        jobs = parse(page)
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(jobs[0]["title"], "VP Sales")
+        self.assertEqual(jobs[0]["company"], "Acme Ltd")
+        self.assertEqual(jobs[0]["location"], "Tel Aviv District, Israel")
+        self.assertEqual(jobs[0]["posted"], "2026-10-27")
+        self.assertEqual(jobs[0]["url"], "https://il.linkedin.com/jobs/view/vp-sales-at-acme-123")
+
+
 if __name__ == "__main__":
     unittest.main()

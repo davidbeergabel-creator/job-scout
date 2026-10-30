@@ -18,7 +18,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from . import ats, jsearch, notion
+from . import ats, jsearch, linkedin, notion
 from .filters import clean_title, dedupe_key, relevant
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -93,7 +93,7 @@ def cmd_discover(limit: int | None = None, retry_days: int = 6) -> None:
 # ---------------------------------------------------------------------- scan
 
 
-def cmd_scan(use_jsearch: bool = True, max_age_days: int = 45) -> None:
+def cmd_scan(use_jsearch: bool = False, use_linkedin: bool = True, max_age_days: int = 45) -> None:
     resolved = load_json(RESOLVED, {})
     entries = [v for v in resolved.values() if v.get("ats")]
     print(f"scan: {len(entries)} ATS boards")
@@ -131,6 +131,13 @@ def cmd_scan(use_jsearch: bool = True, max_age_days: int = 45) -> None:
         print(f"scan: {len(js)} postings from JSearch {js_stats}")
         raw.extend(js)
 
+    li_stats = None
+    if use_linkedin:
+        li = linkedin.run()
+        li_stats = dict(linkedin.LAST)
+        print(f"scan: {len(li)} postings from LinkedIn {li_stats}")
+        raw.extend(li)
+
     seen = load_json(SEEN, {})
     today = date.today().isoformat()
     cutoff = (date.today() - timedelta(days=max_age_days)).isoformat()
@@ -167,7 +174,7 @@ def cmd_scan(use_jsearch: bool = True, max_age_days: int = 45) -> None:
 
     summary = {"run": datetime.now(timezone.utc).isoformat(timespec="seconds"), "boards": len(entries),
                "raw": len(raw), "relevant": len(current_keys), "new": len(new), "board_errors": errors,
-               "failed_boards": sorted(failed), "jsearch": js_stats}
+               "failed_boards": sorted(failed), "jsearch": js_stats, "linkedin": li_stats}
     if notion.enabled() and new:
         summary["notion"] = notion.push(new)
     else:
@@ -182,7 +189,7 @@ def cmd_scan(use_jsearch: bool = True, max_age_days: int = 45) -> None:
     if gs:
         with open(gs, "a") as f:
             f.write(f"## job-scout {today}\n\n{len(new)} new relevant postings out of {len(raw)} collected from {len(entries)} boards"
-                    f"{' + JSearch' if use_jsearch else ''}. Notion: {summary['notion']}\n\n")
+                    f"{' + JSearch' if use_jsearch else ''}{' + LinkedIn' if use_linkedin else ''}. Notion: {summary['notion']}\n\n")
             for p in new:
                 f.write(f"- **{p['company']}** — {p['title']} ({p.get('location','')}) [{p.get('posted','')}]({p.get('url','')})\n")
 
@@ -190,7 +197,9 @@ def cmd_scan(use_jsearch: bool = True, max_age_days: int = 45) -> None:
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=["discover", "scan", "all", "diagnose"])
-    ap.add_argument("--no-jsearch", action="store_true")
+    ap.add_argument("--no-jsearch", action="store_true", help="(default) skip JSearch — Google for Jobs has no Israel coverage")
+    ap.add_argument("--jsearch", action="store_true", help="include JSearch (costs RapidAPI requests)")
+    ap.add_argument("--no-linkedin", action="store_true", help="skip the LinkedIn public job search")
     ap.add_argument("--diagnose", default="", help="URL or company name to inspect (prints what discovery sees)")
     ap.add_argument("--limit", type=int, default=None, help="discover: probe at most N companies")
     ap.add_argument("--retry-days", type=int, default=6, help="discover: re-probe unresolved companies checked more than N days ago (0 = all)")
@@ -203,7 +212,7 @@ def main(argv=None):
             ats.diagnose(t, (watch.get(t) or {}).get("careers_url"))
         return
     if a.cmd in ("scan", "all"):
-        cmd_scan(use_jsearch=not a.no_jsearch)
+        cmd_scan(use_jsearch=a.jsearch and not a.no_jsearch, use_linkedin=not a.no_linkedin)
 
 
 if __name__ == "__main__":

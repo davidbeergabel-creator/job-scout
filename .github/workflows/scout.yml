@@ -11,9 +11,9 @@ on:
         type: boolean
         default: false
       jsearch:
-        description: "Include JSearch (costs API requests)"
+        description: "Include JSearch (costs API requests; no Israel coverage as of Oct 2026)"
         type: boolean
-        default: true
+        default: false
       diagnose:
         description: "Diagnose only: a URL or company name (several separated by |); skips the scan"
         type: string
@@ -53,15 +53,14 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
-          # JSearch once a day (the 03:17 UTC scheduled run) or when dispatched manually with jsearch=true
           JSEARCH_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.jsearch == 'true' }}
           EVENT_NAME: ${{ github.event_name }}
         run: |
-          HOUR=$(date -u +%H)
-          if [ "$JSEARCH_RUN" = "true" ] || { [ "$EVENT_NAME" = "schedule" ] && [ "$HOUR" = "03" ]; }; then
-            python -m scout.main scan
+          # JSearch (Google for Jobs) has no Israel coverage — only when asked for explicitly.
+          if [ "$JSEARCH_RUN" = "true" ]; then
+            python -m scout.main scan --jsearch
           else
-            python -m scout.main scan --no-jsearch
+            python -m scout.main scan
           fi
 
       - name: Commit data
