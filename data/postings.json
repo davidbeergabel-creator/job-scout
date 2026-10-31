@@ -312,14 +312,6 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-sales-department-at-nisha-executive-4483054194"
   },
   {
-    "company": "Personetics",
-    "location": "Giv'atayim, IL",
-    "posted": "2026-10-29",
-    "source": "comeet:83.00A",
-    "title": "Head of AI",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
-  },
-  {
     "company": "Gong",
     "location": "Tel Aviv",
     "posted": "2026-10-30",
@@ -342,5 +334,13 @@
     "source": "comeet:D5.005",
     "title": "Head of RL Gym - Program Operations",
     "url": "https://alice.io/positions/position-bc_37c"
+  },
+  {
+    "company": "Personetics",
+    "location": "Giv'atayim, IL",
+    "posted": "2026-10-31",
+    "source": "comeet:83.00A",
+    "title": "Head of AI",
+    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
   }
 ]
