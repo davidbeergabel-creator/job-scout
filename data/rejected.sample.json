@@ -1,302 +1,5 @@
 [
   {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "AI Algorithm Tech Lead",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4876551101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "AI Software Team Lead, ML Platform",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4876590101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "AI Software Tech Lead, ML",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4965141101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-22",
-    "source": "greenhouse:aidocmedical",
-    "title": "AI Solution Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5013115101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "AI Staff Software Engineer, ML Platform",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4876560101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Analytics Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4897240101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Backend Tech Lead",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4925761101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Consortium Partnerships Success Manager",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4872320101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Customer Success Manager - Central",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4872027101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Customer Success Manager - East",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4870032101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Customer Success Manager - West",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871322101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Director of IT Security",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4965332101",
-    "why": "excluded function"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Director of Product Design",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4951044101",
-    "why": "excluded function"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-30",
-    "source": "greenhouse:aidocmedical",
-    "title": "Director of Radiology, Product Marketing",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5024228101",
-    "why": "not Israel"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Engineering Team Lead",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5009493101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Implementation Manager",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4967087101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-22",
-    "source": "greenhouse:aidocmedical",
-    "title": "Information Delivery & Visualization Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5013714101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Principal Engineer - AI First Development Lead",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4882428101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Principal Software Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871455101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Regulatory Affairs Specialist",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5015400101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Sales Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4972430101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "SecOps Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4920296101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Senior Data Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4904239101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Senior DevOps Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4902462101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Senior Full Stack Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4889904101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Senior Legal Counsel",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4944806101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Senior Product Analyst",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4868634101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Senior Quality Specialist",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5000297101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Senior Security Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4920094101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Solution Success Manager - Diagnostic Radiology",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4941119101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Staff Software Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4864312101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Strategic Product Analyst",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4952195101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Technical Support Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4905355101",
-    "why": "not senior"
-  },
-  {
     "company": "Apiiro",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-08-09",
@@ -357,6 +60,303 @@
     "source": "greenhouse:appsflyer",
     "title": "Assistant Controller - Corporate Team- 2908",
     "url": "https://careers.appsflyer.com/jobs/position/8816216002?gh_jid=8816216002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Kyiv",
+    "posted": "2026-07-08",
+    "source": "greenhouse:appsflyer",
+    "title": "Backend Engineer",
+    "url": "https://careers.appsflyer.com/jobs/position/8537441002?gh_jid=8537441002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Kyiv",
+    "posted": "2026-07-08",
+    "source": "greenhouse:appsflyer",
+    "title": "Backend Engineer",
+    "url": "https://careers.appsflyer.com/jobs/position/8557844002?gh_jid=8557844002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-22",
+    "source": "greenhouse:appsflyer",
+    "title": "Backend Software Engineer- 2938",
+    "url": "https://careers.appsflyer.com/jobs/position/8897823002?gh_jid=8897823002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-20",
+    "source": "greenhouse:appsflyer",
+    "title": "Bookkeeper - 2942",
+    "url": "https://careers.appsflyer.com/jobs/position/8899626002?gh_jid=8899626002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-20",
+    "source": "greenhouse:appsflyer",
+    "title": "Bookkeeper - temporary position (Herzliya)- 2904",
+    "url": "https://careers.appsflyer.com/jobs/position/8813084002?gh_jid=8813084002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Beijing",
+    "posted": "2026-03-26",
+    "source": "greenhouse:appsflyer",
+    "title": "Brand & Communications Manager - GCR",
+    "url": "https://careers.appsflyer.com/jobs/position/8480742002?gh_jid=8480742002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-09-28",
+    "source": "greenhouse:appsflyer",
+    "title": "Commission Analyst",
+    "url": "https://careers.appsflyer.com/jobs/position/8805502002?gh_jid=8805502002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Beijing",
+    "posted": "2026-10-29",
+    "source": "greenhouse:appsflyer",
+    "title": "Customer Success Associate",
+    "url": "https://careers.appsflyer.com/jobs/position/8923149002?gh_jid=8923149002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "London",
+    "posted": "2026-10-26",
+    "source": "greenhouse:appsflyer",
+    "title": "Customer Success Manager",
+    "url": "https://careers.appsflyer.com/jobs/position/8916886002?gh_jid=8916886002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-28",
+    "source": "greenhouse:appsflyer",
+    "title": "DevOps Platform Engineer",
+    "url": "https://careers.appsflyer.com/jobs/position/8695882002?gh_jid=8695882002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Warsaw",
+    "posted": "2026-10-21",
+    "source": "greenhouse:appsflyer",
+    "title": "Enterprise Customer Success Manager- Russian Speaker",
+    "url": "https://careers.appsflyer.com/jobs/position/8905228002?gh_jid=8905228002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Beijing",
+    "posted": "2026-09-17",
+    "source": "greenhouse:appsflyer",
+    "title": "General Manager, Greater China Region",
+    "url": "https://careers.appsflyer.com/jobs/position/8816080002?gh_jid=8816080002",
+    "why": "not Israel"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Tokyo",
+    "posted": "2026-08-20",
+    "source": "greenhouse:appsflyer",
+    "title": "Growth Account Manager",
+    "url": "https://careers.appsflyer.com/jobs/position/8300434002?gh_jid=8300434002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Beijing",
+    "posted": "2026-10-20",
+    "source": "greenhouse:appsflyer",
+    "title": "Growth Marketing Manager, GCR",
+    "url": "https://careers.appsflyer.com/jobs/position/8793780002?gh_jid=8793780002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "San Francisco",
+    "posted": "2026-09-23",
+    "source": "greenhouse:appsflyer",
+    "title": "GTM Operations Specialist, North America",
+    "url": "https://careers.appsflyer.com/jobs/position/8531937002?gh_jid=8531937002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-28",
+    "source": "greenhouse:appsflyer",
+    "title": "Head of Pricing- Maternity Cover",
+    "url": "https://careers.appsflyer.com/jobs/position/8921994002?gh_jid=8921994002",
+    "why": "outside domain"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "London",
+    "posted": "2026-10-26",
+    "source": "greenhouse:appsflyer",
+    "title": "Industry lead E-Commerce",
+    "url": "https://careers.appsflyer.com/jobs/position/8917820002?gh_jid=8917820002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-07",
+    "source": "greenhouse:appsflyer",
+    "title": "IT Service Desk Team Leader",
+    "url": "https://careers.appsflyer.com/jobs/position/8874236002?gh_jid=8874236002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Bangalore",
+    "posted": "2026-10-20",
+    "source": "greenhouse:appsflyer",
+    "title": "Office Manager, IND",
+    "url": "https://careers.appsflyer.com/jobs/position/8585113002?gh_jid=8585113002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-20",
+    "source": "greenhouse:appsflyer",
+    "title": "Product Partnerships Lead- 2930",
+    "url": "https://careers.appsflyer.com/jobs/position/8883285002?gh_jid=8883285002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-20",
+    "source": "greenhouse:appsflyer",
+    "title": "Product Partnerships Manager",
+    "url": "https://careers.appsflyer.com/jobs/position/8509670002?gh_jid=8509670002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-15",
+    "source": "greenhouse:appsflyer",
+    "title": "Salary Controller",
+    "url": "https://careers.appsflyer.com/jobs/position/8809604002?gh_jid=8809604002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "San Francisco",
+    "posted": "2026-08-19",
+    "source": "greenhouse:appsflyer",
+    "title": "Sales Development Representative Manager",
+    "url": "https://careers.appsflyer.com/jobs/position/8705357002?gh_jid=8705357002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Kyiv",
+    "posted": "2026-08-11",
+    "source": "greenhouse:appsflyer",
+    "title": "Security SDK Engineer",
+    "url": "https://careers.appsflyer.com/jobs/position/8695881002?gh_jid=8695881002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Bangalore",
+    "posted": "2026-10-07",
+    "source": "greenhouse:appsflyer",
+    "title": "Senior Account Manager",
+    "url": "https://careers.appsflyer.com/jobs/position/8749307002?gh_jid=8749307002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Kyiv",
+    "posted": "2026-10-28",
+    "source": "greenhouse:appsflyer",
+    "title": "Senior Backend Engineer",
+    "url": "https://careers.appsflyer.com/jobs/position/8905790002?gh_jid=8905790002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Warsaw",
+    "posted": "2026-10-15",
+    "source": "greenhouse:appsflyer",
+    "title": "Senior Backend Engineer",
+    "url": "https://careers.appsflyer.com/jobs/position/8869908002?gh_jid=8869908002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-20",
+    "source": "greenhouse:appsflyer",
+    "title": "Senior Backend Software Engineer - 2943",
+    "url": "https://careers.appsflyer.com/jobs/position/8899639002?gh_jid=8899639002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-01",
+    "source": "greenhouse:appsflyer",
+    "title": "Senior Data Engineer",
+    "url": "https://careers.appsflyer.com/jobs/position/8693284002?gh_jid=8693284002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-13",
+    "source": "greenhouse:appsflyer",
+    "title": "Senior Data Scientist",
+    "url": "https://careers.appsflyer.com/jobs/position/8884649002?gh_jid=8884649002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-13",
+    "source": "greenhouse:appsflyer",
+    "title": "Senior FP&A Analyst",
+    "url": "https://careers.appsflyer.com/jobs/position/8611963002?gh_jid=8611963002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-13",
+    "source": "greenhouse:appsflyer",
+    "title": "Senior FP&A Business Partner",
+    "url": "https://careers.appsflyer.com/jobs/position/8611961002?gh_jid=8611961002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
+    "location": "Herzliya",
+    "posted": "2026-10-12",
+    "source": "greenhouse:appsflyer",
+    "title": "Senior IT Infrastructure Operations",
+    "url": "https://careers.appsflyer.com/jobs/position/8882905002?gh_jid=8882905002",
     "why": "not senior"
   }
 ]

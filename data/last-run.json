@@ -1,7 +1,9 @@
 {
-  "board_errors": 0,
+  "board_errors": 1,
   "boards": 127,
-  "failed_boards": [],
+  "failed_boards": [
+    "Pango (comeet-page:0)"
+  ],
   "jsearch": null,
   "linkedin": {
     "requests": 12,
@@ -23,7 +25,7 @@
   },
   "new": 0,
   "notion": "nothing new",
-  "raw": 3352,
+  "raw": 3344,
   "relevant": 40,
-  "run": "2026-10-31T00:45:42+00:00"
+  "run": "2026-10-31T09:34:55+00:00"
 }

@@ -320,14 +320,6 @@
     "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
   },
   {
-    "company": "ActiveFence",
-    "location": "Ramat Gan, IL",
-    "posted": "2026-10-30",
-    "source": "comeet:D5.005",
-    "title": "Head of RL Gym - Program Operations",
-    "url": "https://alice.io/positions/position-bc_37c?utm_type=threat-intel-bottom"
-  },
-  {
     "company": "Gong",
     "location": "Tel Aviv",
     "posted": "2026-10-30",
@@ -342,5 +334,13 @@
     "source": "linkedin",
     "title": "Head of CX Operations",
     "url": "https://il.linkedin.com/jobs/view/head-of-cx-operations-at-guesty-4461313906"
+  },
+  {
+    "company": "ActiveFence",
+    "location": "Ramat Gan, IL",
+    "posted": "2026-10-31",
+    "source": "comeet:D5.005",
+    "title": "Head of RL Gym - Program Operations",
+    "url": "https://alice.io/positions/position-bc_37c"
   }
 ]
