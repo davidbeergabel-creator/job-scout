@@ -88,14 +88,6 @@
     "url": "https://www.taboola.com/careers/job/8305421?gh_jid=8305421"
   },
   {
-    "company": "MAËLYS",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-10-25",
-    "source": "linkedin",
-    "title": "Head of AI",
-    "url": "https://il.linkedin.com/jobs/view/head-of-ai-at-ma%C3%ABlys-4481080694"
-  },
-  {
     "company": "ScaleOps",
     "location": "Tel Aviv",
     "posted": "2026-10-25",
@@ -110,14 +102,6 @@
     "source": "greenhouse:scaleops",
     "title": "VP Operations",
     "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4971272101"
-  },
-  {
-    "company": "Yad2",
-    "location": "Petah Tikva, Center District, Israel",
-    "posted": "2026-10-25",
-    "source": "linkedin",
-    "title": "Head of Lifecycle Marketing",
-    "url": "https://il.linkedin.com/jobs/view/head-of-lifecycle-marketing-at-yad2-4475722428"
   },
   {
     "company": "BIScience",
@@ -166,14 +150,6 @@
     "source": "linkedin",
     "title": "General Manager",
     "url": "https://il.linkedin.com/jobs/view/general-manager-at-sciplay-4483550694"
-  },
-  {
-    "company": "Yad2",
-    "location": "Petah Tikva, Center District, Israel",
-    "posted": "2026-10-26",
-    "source": "linkedin",
-    "title": "Head of Marketing - Real Estate - Secondary",
-    "url": "https://il.linkedin.com/jobs/view/head-of-marketing-real-estate-secondary-at-yad2-4428783514"
   },
   {
     "company": "Edwards Lifesciences",
@@ -288,6 +264,15 @@
     "url": "https://alice.io/positions/position-bc_37c"
   },
   {
+    "company": "IBI Investment House",
+    "found": "2026-11-01",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-01",
+    "source": "linkedin",
+    "title": "VP Operations & Transformation - Position No. 1736",
+    "url": "https://il.linkedin.com/jobs/view/vp-operations-transformation-position-no-1736-at-ibi-investment-house-4473463676"
+  },
+  {
     "company": "Logz.io",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-01",
@@ -304,20 +289,21 @@
     "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
   },
   {
-    "company": "Payoneer",
-    "location": "Herzliya, Tel Aviv District, Israel",
+    "company": "Manpower",
+    "found": "2026-11-01",
+    "location": "Tel Aviv District, Israel",
     "posted": "2026-11-01",
-    "source": "greenhouse:payoneer",
-    "title": "Director, Corporate Strategy",
-    "url": "https://www.payoneer.com/careers/position/8236582/?gh_jid=8236582"
+    "source": "linkedin",
+    "title": "VP Marketing & Sales | International Real Estate",
+    "url": "https://il.linkedin.com/jobs/view/vp-marketing-sales-international-real-estate-at-manpower-4485962512"
   },
   {
     "company": "Payoneer",
     "location": "Herzliya, Tel Aviv District, Israel",
     "posted": "2026-11-01",
     "source": "greenhouse:payoneer",
-    "title": "Director of Product, Growth",
-    "url": "https://www.payoneer.com/careers/position/8284597/?gh_jid=8284597"
+    "title": "Director, Corporate Strategy",
+    "url": "https://www.payoneer.com/careers/position/8236582/?gh_jid=8236582"
   },
   {
     "company": "Personetics",
@@ -328,8 +314,16 @@
     "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
   },
   {
-    "company": "Wave Guard Technologies Ltd.",
+    "company": "Snatch UP Jobs",
     "found": "2026-11-01",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-01",
+    "source": "linkedin",
+    "title": "VP Marketing",
+    "url": "https://il.linkedin.com/jobs/view/vp-marketing-at-snatch-up-jobs-4485408618"
+  },
+  {
+    "company": "Wave Guard Technologies Ltd.",
     "location": "Hod HaSharon, Center District, Israel",
     "posted": "2026-11-01",
     "source": "linkedin",
