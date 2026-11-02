@@ -120,14 +120,6 @@
     "url": "https://il.linkedin.com/jobs/view/senior-director-of-business-development-at-drs-rada-technologies-4483731077"
   },
   {
-    "company": "Guesty",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-26",
-    "source": "linkedin",
-    "title": "Head of AI Transformation",
-    "url": "https://il.linkedin.com/jobs/view/head-of-ai-transformation-at-guesty-4482924943"
-  },
-  {
     "company": "JobsSeek",
     "location": "Rishon LeZion, Center District, Israel",
     "posted": "2026-10-26",
@@ -232,14 +224,6 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-business-operations-at-dataflow-forensics-4484522475"
   },
   {
-    "company": "Nisha Executive",
-    "location": "West Jerusalem, Jerusalem District, Israel",
-    "posted": "2026-10-29",
-    "source": "linkedin",
-    "title": "Head of Sales Department",
-    "url": "https://il.linkedin.com/jobs/view/head-of-sales-department-at-nisha-executive-4483054194"
-  },
-  {
     "company": "Gong",
     "location": "Tel Aviv",
     "posted": "2026-10-30",
@@ -280,14 +264,6 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-business-operations-at-logz-io-4484446033"
   },
   {
-    "company": "Lumenis",
-    "location": "Yokne'am Illit, IL",
-    "posted": "2026-11-01",
-    "source": "comeet:A1.00C",
-    "title": "Head of Marketing",
-    "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
-  },
-  {
     "company": "Manpower",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-01",
@@ -304,14 +280,6 @@
     "url": "https://www.payoneer.com/careers/position/8236582/?gh_jid=8236582"
   },
   {
-    "company": "Personetics",
-    "location": "Giv'atayim, IL",
-    "posted": "2026-11-01",
-    "source": "comeet:83.00A",
-    "title": "Head of AI",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
-  },
-  {
     "company": "Snatch UP Jobs",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-01",
@@ -326,5 +294,30 @@
     "source": "linkedin",
     "title": "Vice President of Sales",
     "url": "https://il.linkedin.com/jobs/view/vice-president-of-sales-at-wave-guard-technologies-ltd-4483986144"
+  },
+  {
+    "company": "Lumenis",
+    "location": "Yokne'am Illit, IL",
+    "posted": "2026-11-02",
+    "source": "comeet:A1.00C",
+    "title": "Head of Marketing",
+    "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
+  },
+  {
+    "company": "Okoora",
+    "found": "2026-11-02",
+    "location": "Ramat Gan, Tel Aviv District, Israel",
+    "posted": "2026-11-02",
+    "source": "linkedin",
+    "title": "Head of Sales",
+    "url": "https://il.linkedin.com/jobs/view/head-of-sales-at-okoora-4427436409"
+  },
+  {
+    "company": "Personetics",
+    "location": "Giv'atayim, IL",
+    "posted": "2026-11-02",
+    "source": "comeet:83.00A",
+    "title": "Head of AI",
+    "url": "https://personetics.com/us/careers-4/co/tel-aviv-israel/E5.075/head-of-ai/all/"
   }
 ]
