@@ -4,16 +4,17 @@
   "failed_boards": [],
   "jsearch": null,
   "linkedin": {
+    "error": "429: <html><head>\n    <meta http-equiv=\"refresh\" content=\"1;url=https://www.linkedin.com\" />\n    <script type=\"text/javascrip",
     "requests": 12,
-    "results": 49,
+    "results": 48,
     "statuses": [
       200,
+      429,
       200,
       200,
       200,
       200,
-      200,
-      200,
+      429,
       200,
       200,
       200,
@@ -21,13 +22,9 @@
       200
     ]
   },
-  "new": 3,
-  "notion": {
-    "created": 3,
-    "failed": 0,
-    "skipped": 0
-  },
-  "raw": 3334,
+  "new": 0,
+  "notion": "nothing new",
+  "raw": 3335,
   "relevant": 38,
-  "run": "2026-11-01T19:39:16+00:00"
+  "run": "2026-11-02T00:41:05+00:00"
 }
