@@ -104,46 +104,6 @@
     "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4971272101"
   },
   {
-    "company": "BIScience",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-26",
-    "source": "linkedin",
-    "title": "VP Sales",
-    "url": "https://il.linkedin.com/jobs/view/vp-sales-at-biscience-4483550852"
-  },
-  {
-    "company": "DRS RADA Technologies",
-    "location": "Netanya, Center District, Israel",
-    "posted": "2026-10-26",
-    "source": "linkedin",
-    "title": "Senior Director of Business Development",
-    "url": "https://il.linkedin.com/jobs/view/senior-director-of-business-development-at-drs-rada-technologies-4483731077"
-  },
-  {
-    "company": "JobsSeek",
-    "location": "Rishon LeZion, Center District, Israel",
-    "posted": "2026-10-26",
-    "source": "linkedin",
-    "title": "Vice President of Global Operations",
-    "url": "https://il.linkedin.com/jobs/view/vice-president-of-global-operations-at-jobsseek-4483736560"
-  },
-  {
-    "company": "LSports",
-    "location": "Ashkelon, South District, Israel",
-    "posted": "2026-10-26",
-    "source": "linkedin",
-    "title": "Chief Marketing Officer (CMO)",
-    "url": "https://il.linkedin.com/jobs/view/chief-marketing-officer-cmo-at-lsports-4483708919"
-  },
-  {
-    "company": "SciPlay",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-26",
-    "source": "linkedin",
-    "title": "General Manager",
-    "url": "https://il.linkedin.com/jobs/view/general-manager-at-sciplay-4483550694"
-  },
-  {
     "company": "Edwards Lifesciences",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-27",
@@ -240,14 +200,6 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-cx-operations-at-guesty-4461313906"
   },
   {
-    "company": "ActiveFence",
-    "location": "Ramat Gan, IL",
-    "posted": "2026-11-01",
-    "source": "comeet:D5.005",
-    "title": "Head of RL Gym - Program Operations",
-    "url": "https://alice.io/positions/position-bc_37c"
-  },
-  {
     "company": "IBI Investment House",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-01",
@@ -296,6 +248,40 @@
     "url": "https://il.linkedin.com/jobs/view/vice-president-of-sales-at-wave-guard-technologies-ltd-4483986144"
   },
   {
+    "company": "ActiveFence",
+    "location": "Ramat Gan, IL",
+    "posted": "2026-11-02",
+    "source": "comeet:D5.005",
+    "title": "Head of RL Gym - Program Operations",
+    "url": "https://alice.io/positions/position-bc_37c"
+  },
+  {
+    "company": "BlackEdge",
+    "found": "2026-11-02",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-02",
+    "source": "linkedin",
+    "title": "Head of Growth & Partnerships",
+    "url": "https://il.linkedin.com/jobs/view/head-of-growth-partnerships-at-blackedge-4484368835"
+  },
+  {
+    "company": "Coralogix",
+    "location": "Ramat Gan, Tel Aviv District, Israel",
+    "posted": "2026-11-02",
+    "source": "linkedin",
+    "title": "VP Operations",
+    "url": "https://il.linkedin.com/jobs/view/vp-operations-at-coralogix-4478506460"
+  },
+  {
+    "company": "Innodata Inc.",
+    "found": "2026-11-02",
+    "location": "Israel",
+    "posted": "2026-11-02",
+    "source": "linkedin",
+    "title": "Head of AI Cyber Agentic Environments & Testing",
+    "url": "https://il.linkedin.com/jobs/view/head-of-ai-cyber-agentic-environments-testing-at-innodata-inc-4484352898"
+  },
+  {
     "company": "Lumenis",
     "location": "Yokne'am Illit, IL",
     "posted": "2026-11-02",
@@ -305,7 +291,6 @@
   },
   {
     "company": "Okoora",
-    "found": "2026-11-02",
     "location": "Ramat Gan, Tel Aviv District, Israel",
     "posted": "2026-11-02",
     "source": "linkedin",
@@ -318,6 +303,24 @@
     "posted": "2026-11-02",
     "source": "comeet:83.00A",
     "title": "Head of AI",
-    "url": "https://personetics.com/us/careers-4/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+  },
+  {
+    "company": "The day after",
+    "found": "2026-11-02",
+    "location": "Binyamina - Givat Ada, Haifa District, Israel",
+    "posted": "2026-11-02",
+    "source": "linkedin",
+    "title": "Head of Operations",
+    "url": "https://il.linkedin.com/jobs/view/head-of-operations-4484334075"
+  },
+  {
+    "company": "iLeadX - Executive search",
+    "found": "2026-11-02",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-02",
+    "source": "linkedin",
+    "title": "Director of Sales",
+    "url": "https://il.linkedin.com/jobs/view/director-of-sales-at-ileadx-executive-search-4450121437"
   }
 ]

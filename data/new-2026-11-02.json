@@ -1,11 +1,38 @@
 [
   {
-    "company": "Okoora",
+    "company": "iLeadX - Executive search",
     "found": "2026-11-02",
-    "location": "Ramat Gan, Tel Aviv District, Israel",
+    "location": "Tel Aviv District, Israel",
     "posted": "2026-11-02",
     "source": "linkedin",
-    "title": "Head of Sales",
-    "url": "https://il.linkedin.com/jobs/view/head-of-sales-at-okoora-4427436409"
+    "title": "Director of Sales",
+    "url": "https://il.linkedin.com/jobs/view/director-of-sales-at-ileadx-executive-search-4450121437"
+  },
+  {
+    "company": "BlackEdge",
+    "found": "2026-11-02",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-02",
+    "source": "linkedin",
+    "title": "Head of Growth & Partnerships",
+    "url": "https://il.linkedin.com/jobs/view/head-of-growth-partnerships-at-blackedge-4484368835"
+  },
+  {
+    "company": "The day after",
+    "found": "2026-11-02",
+    "location": "Binyamina - Givat Ada, Haifa District, Israel",
+    "posted": "2026-11-02",
+    "source": "linkedin",
+    "title": "Head of Operations",
+    "url": "https://il.linkedin.com/jobs/view/head-of-operations-4484334075"
+  },
+  {
+    "company": "Innodata Inc.",
+    "found": "2026-11-02",
+    "location": "Israel",
+    "posted": "2026-11-02",
+    "source": "linkedin",
+    "title": "Head of AI Cyber Agentic Environments & Testing",
+    "url": "https://il.linkedin.com/jobs/view/head-of-ai-cyber-agentic-environments-testing-at-innodata-inc-4484352898"
   }
 ]
