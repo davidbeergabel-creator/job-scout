@@ -325,6 +325,15 @@
   },
   {
     "company": "AppsFlyer",
+    "location": "Seoul",
+    "posted": "2026-11-03",
+    "source": "greenhouse:appsflyer",
+    "title": "Account Executive",
+    "url": "https://careers.appsflyer.com/jobs/position/8899536002?gh_jid=8899536002",
+    "why": "not senior"
+  },
+  {
+    "company": "AppsFlyer",
     "location": "Herzliya",
     "posted": "2026-11-01",
     "source": "greenhouse:appsflyer",
@@ -348,15 +357,6 @@
     "source": "greenhouse:appsflyer",
     "title": "Application Security Engineer",
     "url": "https://careers.appsflyer.com/jobs/position/8394076002?gh_jid=8394076002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-10-20",
-    "source": "greenhouse:appsflyer",
-    "title": "Assistant Controller - Corporate Team- 2908",
-    "url": "https://careers.appsflyer.com/jobs/position/8816216002?gh_jid=8816216002",
     "why": "not senior"
   }
 ]

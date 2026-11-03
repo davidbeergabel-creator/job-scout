@@ -32,14 +32,6 @@
     "url": "https://guard.io/careers"
   },
   {
-    "company": "Immunai",
-    "location": "Ramat Gan, IL",
-    "posted": "2026-09-30",
-    "source": "comeet:37.009",
-    "title": "Head of AI",
-    "url": "https://www.comeet.com/jobs/immunai/37.009/head-of-ai/1F.B53"
-  },
-  {
     "company": "Silverfort",
     "location": "Tel Aviv-Yafo, IL",
     "posted": "2026-10-14",
@@ -192,14 +184,6 @@
     "url": "https://job-boards.greenhouse.io/gongio/jobs/4672107006"
   },
   {
-    "company": "Guesty",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-30",
-    "source": "linkedin",
-    "title": "Head of CX Operations",
-    "url": "https://il.linkedin.com/jobs/view/head-of-cx-operations-at-guesty-4461313906"
-  },
-  {
     "company": "IBI Investment House",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-01",
@@ -257,7 +241,6 @@
   },
   {
     "company": "BlackEdge",
-    "found": "2026-11-02",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-02",
     "source": "linkedin",
@@ -274,20 +257,11 @@
   },
   {
     "company": "Innodata Inc.",
-    "found": "2026-11-02",
     "location": "Israel",
     "posted": "2026-11-02",
     "source": "linkedin",
     "title": "Head of AI Cyber Agentic Environments & Testing",
     "url": "https://il.linkedin.com/jobs/view/head-of-ai-cyber-agentic-environments-testing-at-innodata-inc-4484352898"
-  },
-  {
-    "company": "Lumenis",
-    "location": "Yokne'am Illit, IL",
-    "posted": "2026-11-02",
-    "source": "comeet:A1.00C",
-    "title": "Head of Marketing",
-    "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
   },
   {
     "company": "Okoora",
@@ -298,16 +272,16 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-sales-at-okoora-4427436409"
   },
   {
-    "company": "Personetics",
-    "location": "Giv'atayim, IL",
+    "company": "Ottopia Defense",
+    "found": "2026-11-03",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-02",
-    "source": "comeet:83.00A",
-    "title": "Head of AI",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+    "source": "linkedin",
+    "title": "VP Business Development",
+    "url": "https://il.linkedin.com/jobs/view/vp-business-development-at-ottopia-defense-4486468632"
   },
   {
     "company": "The day after",
-    "found": "2026-11-02",
     "location": "Binyamina - Givat Ada, Haifa District, Israel",
     "posted": "2026-11-02",
     "source": "linkedin",
@@ -316,11 +290,61 @@
   },
   {
     "company": "iLeadX - Executive search",
-    "found": "2026-11-02",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-02",
     "source": "linkedin",
     "title": "Director of Sales",
     "url": "https://il.linkedin.com/jobs/view/director-of-sales-at-ileadx-executive-search-4450121437"
+  },
+  {
+    "company": "Immunai",
+    "location": "Ramat Gan, IL",
+    "posted": "2026-11-03",
+    "source": "comeet:37.009",
+    "title": "Head of AI",
+    "url": "https://www.comeet.com/jobs/immunai/37.009/head-of-ai/1F.B53"
+  },
+  {
+    "company": "Lumenis",
+    "location": "Yokne'am Illit, IL",
+    "posted": "2026-11-03",
+    "source": "comeet:A1.00C",
+    "title": "Head of Marketing",
+    "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
+  },
+  {
+    "company": "Pacaya HR Experts",
+    "found": "2026-11-03",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-03",
+    "source": "linkedin",
+    "title": "🚀 VP Sales | Business Development & Growth",
+    "url": "https://il.linkedin.com/jobs/view/%F0%9F%9A%80-vp-sales-business-development-growth-at-pacaya-hr-experts-4486835622"
+  },
+  {
+    "company": "Personetics",
+    "location": "Giv'atayim, IL",
+    "posted": "2026-11-03",
+    "source": "comeet:83.00A",
+    "title": "Head of AI",
+    "url": "https://personetics.com/us/careers-4/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+  },
+  {
+    "company": "UpStart HR",
+    "found": "2026-11-03",
+    "location": "Israel",
+    "posted": "2026-11-03",
+    "source": "linkedin",
+    "title": "Head of AI Product & BizOps",
+    "url": "https://il.linkedin.com/jobs/view/head-of-ai-product-bizops-at-upstart-hr-4484653157"
+  },
+  {
+    "company": "Yad2",
+    "found": "2026-11-03",
+    "location": "Petah Tikva, Center District, Israel",
+    "posted": "2026-11-03",
+    "source": "linkedin",
+    "title": "Head of AI",
+    "url": "https://il.linkedin.com/jobs/view/head-of-ai-at-yad2-4481178563"
   }
 ]
