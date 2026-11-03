@@ -96,22 +96,6 @@
     "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4971272101"
   },
   {
-    "company": "Edwards Lifesciences",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-27",
-    "source": "linkedin",
-    "title": "Sales Country Director",
-    "url": "https://il.linkedin.com/jobs/view/sales-country-director-at-edwards-lifesciences-4455876117"
-  },
-  {
-    "company": "WDS Technologies",
-    "location": "Shoham, Center District, Israel",
-    "posted": "2026-10-27",
-    "source": "linkedin",
-    "title": "VP Product & Marketing",
-    "url": "https://il.linkedin.com/jobs/view/vp-product-marketing-at-wds-technologies-4481892633"
-  },
-  {
     "company": "Aidoc",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-28",
@@ -182,6 +166,14 @@
     "source": "greenhouse:gongio",
     "title": "Head of AI Security",
     "url": "https://job-boards.greenhouse.io/gongio/jobs/4672107006"
+  },
+  {
+    "company": "Guesty",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-10-30",
+    "source": "linkedin",
+    "title": "Head of CX Operations",
+    "url": "https://il.linkedin.com/jobs/view/head-of-cx-operations-at-guesty-4461313906"
   },
   {
     "company": "IBI Investment House",
@@ -256,14 +248,6 @@
     "url": "https://il.linkedin.com/jobs/view/vp-operations-at-coralogix-4478506460"
   },
   {
-    "company": "Innodata Inc.",
-    "location": "Israel",
-    "posted": "2026-11-02",
-    "source": "linkedin",
-    "title": "Head of AI Cyber Agentic Environments & Testing",
-    "url": "https://il.linkedin.com/jobs/view/head-of-ai-cyber-agentic-environments-testing-at-innodata-inc-4484352898"
-  },
-  {
     "company": "Okoora",
     "location": "Ramat Gan, Tel Aviv District, Israel",
     "posted": "2026-11-02",
@@ -273,7 +257,6 @@
   },
   {
     "company": "Ottopia Defense",
-    "found": "2026-11-03",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-02",
     "source": "linkedin",
@@ -314,7 +297,6 @@
   },
   {
     "company": "Pacaya HR Experts",
-    "found": "2026-11-03",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-03",
     "source": "linkedin",
@@ -327,11 +309,19 @@
     "posted": "2026-11-03",
     "source": "comeet:83.00A",
     "title": "Head of AI",
-    "url": "https://personetics.com/us/careers-4/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+  },
+  {
+    "company": "Ronit Levin Tzairi",
+    "found": "2026-11-03",
+    "location": "Center District, Israel",
+    "posted": "2026-11-03",
+    "source": "linkedin",
+    "title": "CMO",
+    "url": "https://il.linkedin.com/jobs/view/cmo-4484681443"
   },
   {
     "company": "UpStart HR",
-    "found": "2026-11-03",
     "location": "Israel",
     "posted": "2026-11-03",
     "source": "linkedin",
@@ -340,7 +330,6 @@
   },
   {
     "company": "Yad2",
-    "found": "2026-11-03",
     "location": "Petah Tikva, Center District, Israel",
     "posted": "2026-11-03",
     "source": "linkedin",
