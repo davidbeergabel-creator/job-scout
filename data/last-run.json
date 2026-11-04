@@ -21,9 +21,13 @@
       200
     ]
   },
-  "new": 0,
-  "notion": "nothing new",
-  "raw": 3289,
-  "relevant": 39,
-  "run": "2026-11-04T01:19:44+00:00"
+  "new": 1,
+  "notion": {
+    "created": 1,
+    "failed": 0,
+    "skipped": 0
+  },
+  "raw": 3285,
+  "relevant": 38,
+  "run": "2026-11-04T10:51:15+00:00"
 }
