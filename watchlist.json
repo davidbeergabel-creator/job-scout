@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-11-04",
  "note": "Company names only; scout discovers the ATS (greenhouse/lever/ashby/workable/smartrecruiters/recruitee) or reads a Comeet careers page. Add 'ats'+'slug' to pin a board manually.",
  "companies": [
   {
@@ -1719,6 +1719,146 @@
   {
    "name": "Calcalist",
    "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Autodesk Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Rubrik Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "WSC Sports",
+   "tag": "ai-native"
+  },
+  {
+   "name": "mavens by Zynga",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Optibus",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Akamai Israel",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "Fullpath",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Semperis",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Innovid",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Digital Turbine",
+   "tag": "global-with-israel-site"
+  },
+  {
+   "name": "NoTraffic",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Viz.ai",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Fetcherr",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Tailor Brands",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Hyro",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Agora Real Estate Technologies",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Honeycomb Insurance",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Shield Financial Compliance",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Orca AI",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Workiz",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Chargeflow",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Faye",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "EX.CO",
+   "tag": "fintech-saas"
+  },
+  {
+   "name": "Kodem Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Oak Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Noma Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Miggo",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "MIND Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Novee Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "MazeBolt",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Backslash Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Guidde",
+   "tag": "ai-native"
+  },
+  {
+   "name": "Sentra",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "Linx Security",
+   "tag": "cyber-infra"
+  },
+  {
+   "name": "nSure.ai",
+   "tag": "fintech-saas"
   }
  ]
 }
