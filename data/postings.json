@@ -24,14 +24,6 @@
     "url": "https://www.comeet.com/jobs/immunai/37.009/director-of-ai-product/FC.D6C"
   },
   {
-    "company": "Guardio",
-    "location": "Tel Aviv-Yafo, IL",
-    "posted": "2026-09-27",
-    "source": "comeet:57.000",
-    "title": "Head of Business Development",
-    "url": "https://guard.io/careers"
-  },
-  {
     "company": "Silverfort",
     "location": "Tel Aviv-Yafo, IL",
     "posted": "2026-10-14",
@@ -104,46 +96,6 @@
     "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5018967101"
   },
   {
-    "company": "Deel",
-    "location": "Israel",
-    "posted": "2026-10-28",
-    "source": "linkedin",
-    "title": "General Manager, EOR",
-    "url": "https://il.linkedin.com/jobs/view/general-manager-eor-at-deel-4456509359"
-  },
-  {
-    "company": "Edwards Lifesciences",
-    "location": "Caesarea, Haifa District, Israel",
-    "posted": "2026-10-28",
-    "source": "linkedin",
-    "title": "Sales Country Director",
-    "url": "https://il.linkedin.com/jobs/view/sales-country-director-at-edwards-lifesciences-4455864972"
-  },
-  {
-    "company": "Innoviz Technologies",
-    "location": "Rosh HaAyin, Center District, Israel",
-    "posted": "2026-10-28",
-    "source": "linkedin",
-    "title": "Director of Sales & Business Development - EU Defense & Security",
-    "url": "https://il.linkedin.com/jobs/view/director-of-sales-business-development-eu-defense-security-at-innoviz-technologies-4458773918"
-  },
-  {
-    "company": "Recruitx",
-    "location": "Yokneam Ilit, North District, Israel",
-    "posted": "2026-10-28",
-    "source": "linkedin",
-    "title": "Plant Manager / Operations Manager / VP of Operations",
-    "url": "https://il.linkedin.com/jobs/view/plant-manager-operations-manager-vp-of-operations-at-recruitx-4484446843"
-  },
-  {
-    "company": "Teva Pharmaceuticals",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-28",
-    "source": "linkedin",
-    "title": "Director, Biosimilar Business Development",
-    "url": "https://il.linkedin.com/jobs/view/director-biosimilar-business-development-at-teva-pharmaceuticals-4484486422"
-  },
-  {
     "company": "Confidential Compan",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-10-29",
@@ -166,6 +118,14 @@
     "source": "greenhouse:gongio",
     "title": "Head of AI Security",
     "url": "https://job-boards.greenhouse.io/gongio/jobs/4672107006"
+  },
+  {
+    "company": "Guesty",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-10-30",
+    "source": "linkedin",
+    "title": "Head of CX Operations",
+    "url": "https://il.linkedin.com/jobs/view/head-of-cx-operations-at-guesty-4461313906"
   },
   {
     "company": "IBI Investment House",
@@ -312,20 +272,62 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-growth-partnerships-at-blackedge-4485064807"
   },
   {
+    "company": "Cato Networks",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-04",
+    "source": "linkedin",
+    "title": "VP of Product Management, Management Platform & Network and Security Operations",
+    "url": "https://il.linkedin.com/jobs/view/vp-of-product-management-management-platform-network-and-security-operations-at-cato-networks-4476475158"
+  },
+  {
+    "company": "Guardio",
+    "location": "Tel Aviv-Yafo, IL",
+    "posted": "2026-11-04",
+    "source": "comeet:57.000",
+    "title": "Head of Business Development",
+    "url": "https://guard.io/careers"
+  },
+  {
+    "company": "Oobit",
+    "found": "2026-11-04",
+    "location": "Herzliya, Tel Aviv District, Israel",
+    "posted": "2026-11-04",
+    "source": "linkedin",
+    "title": "Head of Business Growth",
+    "url": "https://il.linkedin.com/jobs/view/head-of-business-growth-at-oobit-4485087297"
+  },
+  {
     "company": "Personetics",
     "location": "Giv'atayim, IL",
     "posted": "2026-11-04",
     "source": "comeet:83.00A",
     "title": "Head of AI",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+    "url": "https://personetics.com/us/careers-4/co/tel-aviv-israel/E5.075/head-of-ai/all/"
   },
   {
     "company": "Recruitx",
-    "found": "2026-11-04",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-04",
     "source": "linkedin",
     "title": "Director of Operations JB-00029",
     "url": "https://il.linkedin.com/jobs/view/director-of-operations-jb-00029-at-recruitx-4477193425"
+  },
+  {
+    "company": "Stealth Startup",
+    "found": "2026-11-04",
+    "location": "Raanana, Center District, Israel",
+    "posted": "2026-11-04",
+    "source": "linkedin",
+    "title": "Head of Sales",
+    "url": "https://il.linkedin.com/jobs/view/head-of-sales-at-stealth-startup-4485070718"
+  },
+  {
+    "company": "Voodoo",
+    "found": "2026-11-04",
+    "location": "Raanana, Center District, Israel",
+    "posted": "2026-11-04",
+    "source": "linkedin",
+    "title": "Head of Growth",
+    "url": "https://il.linkedin.com/jobs/view/head-of-growth-at-voodoo-4404088655"
   }
 ]

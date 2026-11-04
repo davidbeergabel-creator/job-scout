@@ -1,11 +1,29 @@
 [
   {
-    "company": "Recruitx",
+    "company": "Oobit",
     "found": "2026-11-04",
-    "location": "Tel Aviv District, Israel",
+    "location": "Herzliya, Tel Aviv District, Israel",
     "posted": "2026-11-04",
     "source": "linkedin",
-    "title": "Director of Operations JB-00029",
-    "url": "https://il.linkedin.com/jobs/view/director-of-operations-jb-00029-at-recruitx-4477193425"
+    "title": "Head of Business Growth",
+    "url": "https://il.linkedin.com/jobs/view/head-of-business-growth-at-oobit-4485087297"
+  },
+  {
+    "company": "Stealth Startup",
+    "found": "2026-11-04",
+    "location": "Raanana, Center District, Israel",
+    "posted": "2026-11-04",
+    "source": "linkedin",
+    "title": "Head of Sales",
+    "url": "https://il.linkedin.com/jobs/view/head-of-sales-at-stealth-startup-4485070718"
+  },
+  {
+    "company": "Voodoo",
+    "found": "2026-11-04",
+    "location": "Raanana, Center District, Israel",
+    "posted": "2026-11-04",
+    "source": "linkedin",
+    "title": "Head of Growth",
+    "url": "https://il.linkedin.com/jobs/view/head-of-growth-at-voodoo-4404088655"
   }
 ]
