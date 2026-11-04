@@ -224,14 +224,6 @@
     "url": "https://il.linkedin.com/jobs/view/vice-president-of-sales-at-wave-guard-technologies-ltd-4483986144"
   },
   {
-    "company": "ActiveFence",
-    "location": "Ramat Gan, IL",
-    "posted": "2026-11-02",
-    "source": "comeet:D5.005",
-    "title": "Head of RL Gym - Program Operations",
-    "url": "https://alice.io/positions/position-bc_37c"
-  },
-  {
     "company": "BlackEdge",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-02",
@@ -280,6 +272,14 @@
     "url": "https://il.linkedin.com/jobs/view/director-of-sales-at-ileadx-executive-search-4450121437"
   },
   {
+    "company": "ActiveFence",
+    "location": "Ramat Gan, IL",
+    "posted": "2026-11-03",
+    "source": "comeet:D5.005",
+    "title": "Head of RL Gym - Program Operations",
+    "url": "https://alice.io/positions/position-bc_37c?utm_type=consumer_facing"
+  },
+  {
     "company": "Immunai",
     "location": "Ramat Gan, IL",
     "posted": "2026-11-03",
@@ -313,7 +313,6 @@
   },
   {
     "company": "Ronit Levin Tzairi",
-    "found": "2026-11-03",
     "location": "Center District, Israel",
     "posted": "2026-11-03",
     "source": "linkedin",
