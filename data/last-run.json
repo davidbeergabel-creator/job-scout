@@ -21,13 +21,13 @@
       200
     ]
   },
-  "new": 4,
+  "new": 5,
   "notion": {
-    "created": 4,
+    "created": 5,
     "failed": 0,
     "skipped": 0
   },
-  "raw": 3330,
-  "relevant": 38,
-  "run": "2026-11-05T10:48:26+00:00"
+  "raw": 3306,
+  "relevant": 35,
+  "run": "2026-11-05T21:28:45+00:00"
 }

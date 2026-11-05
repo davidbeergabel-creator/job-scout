@@ -1,38 +1,47 @@
 [
   {
-    "company": "Confidential",
+    "company": "Recruitx",
     "found": "2026-11-05",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "location": "Ashdod, South District, Israel",
     "posted": "2026-11-05",
     "source": "linkedin",
-    "title": "Director of Business Development",
-    "url": "https://il.linkedin.com/jobs/view/director-of-business-development-at-confidential-4486703055"
+    "title": "VP of Sales, Marketing & Business Development JB-00172",
+    "url": "https://il.linkedin.com/jobs/view/vp-of-sales-marketing-business-development-jb-00172-at-recruitx-4464336291"
   },
   {
-    "company": "IAI - Israel Aerospace Industries",
+    "company": "Techdin",
     "found": "2026-11-05",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-11-01",
-    "source": "linkedin",
-    "title": "Director of Business Development",
-    "url": "https://il.linkedin.com/jobs/view/director-of-business-development-at-iai-israel-aerospace-industries-4483999059"
-  },
-  {
-    "company": "SpotOut",
-    "found": "2026-11-05",
-    "location": "Tel Aviv District, Israel",
+    "location": "Bnei Brak, Tel Aviv District, Israel",
     "posted": "2026-11-05",
     "source": "linkedin",
-    "title": "Co Founder & Chief Marketing Officer",
-    "url": "https://il.linkedin.com/jobs/view/co-founder-chief-marketing-officer-4485599802"
+    "title": "VP Sales & Customer Experience",
+    "url": "https://il.linkedin.com/jobs/view/vp-sales-customer-experience-at-techdin-4485598861"
   },
   {
-    "company": "Rafael Advanced Defense Systems",
+    "company": "Guideline Group",
     "found": "2026-11-05",
-    "location": "North District, Israel",
-    "posted": "2026-11-04",
+    "location": "Bnei Brak, Tel Aviv District, Israel",
+    "posted": "2026-11-05",
     "source": "linkedin",
-    "title": "Head Of AI Transformation",
-    "url": "https://il.linkedin.com/jobs/view/head-of-ai-transformation-at-rafael-advanced-defense-systems-4487288185"
+    "title": "VP Sales & Customer Experience",
+    "url": "https://il.linkedin.com/jobs/view/vp-sales-customer-experience-at-guideline-group-4487749564"
+  },
+  {
+    "company": "MediaForce",
+    "found": "2026-11-05",
+    "location": "Holon, Tel Aviv District, Israel",
+    "posted": "2026-11-05",
+    "source": "linkedin",
+    "title": "Director of Demand Growth & Partnerships",
+    "url": "https://il.linkedin.com/jobs/view/director-of-demand-growth-partnerships%C2%A0-at-mediaforce-4485827754"
+  },
+  {
+    "company": "LSports",
+    "found": "2026-11-05",
+    "location": "Ashkelon, South District, Israel",
+    "posted": "2026-11-05",
+    "source": "linkedin",
+    "title": "Chief Marketing Officer",
+    "url": "https://il.linkedin.com/jobs/view/chief-marketing-officer-at-lsports-4487731947"
   }
 ]
