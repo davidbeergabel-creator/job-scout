@@ -1,14 +1,11 @@
 {
-  "board_errors": 2,
+  "board_errors": 0,
   "boards": 127,
-  "failed_boards": [
-    "NeuReality (comeet-page:202)",
-    "Zencity (comeet-page:202)"
-  ],
+  "failed_boards": [],
   "jsearch": null,
   "linkedin": {
     "requests": 12,
-    "results": 53,
+    "results": 55,
     "statuses": [
       200,
       200,
@@ -24,13 +21,13 @@
       200
     ]
   },
-  "new": 3,
+  "new": 4,
   "notion": {
-    "created": 3,
+    "created": 4,
     "failed": 0,
     "skipped": 0
   },
-  "raw": 3308,
-  "relevant": 37,
-  "run": "2026-11-04T21:18:15+00:00"
+  "raw": 3330,
+  "relevant": 38,
+  "run": "2026-11-05T10:48:26+00:00"
 }
