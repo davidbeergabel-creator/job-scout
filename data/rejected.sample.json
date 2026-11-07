@@ -1,47 +1,218 @@
 [
   {
-    "company": "Apiiro",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-08-09",
-    "source": "greenhouse:apiiro",
-    "title": "AI Engineer",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7683988003",
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-11-05",
+    "source": "ashby:alma",
+    "title": "Strategic Finance Analyst",
+    "url": "https://jobs.ashbyhq.com/alma/45306ed0-b778-43b9-a2c7-456f07b3a799",
     "why": "not senior"
   },
   {
-    "company": "Apiiro",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2025-01-09",
+    "source": "ashby:alma",
+    "title": "Software Backend Engineer - Senior / Confirmed (Paris or Remote France)",
+    "url": "https://jobs.ashbyhq.com/alma/c7ccaf53-0302-4111-a0e4-bc3a13bf33da",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Milano",
+    "posted": "2026-08-13",
+    "source": "ashby:alma",
+    "title": "Senior Account Executive Mid-Market - Italy",
+    "url": "https://jobs.ashbyhq.com/alma/bf8be312-8cbe-46d1-b65c-d722369ab8e1",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Milano",
+    "posted": "2026-06-25",
+    "source": "ashby:alma",
+    "title": "Account Executive Mid-Market - Italy",
+    "url": "https://jobs.ashbyhq.com/alma/f478c4d9-9fc2-475d-ab01-5c9566dfb7ec",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-08-18",
+    "source": "ashby:alma",
+    "title": "Senior Enterprise Account Executive",
+    "url": "https://jobs.ashbyhq.com/alma/1ad99486-e063-425e-8b44-0508399a8a3f",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-08-26",
+    "source": "ashby:alma",
+    "title": "Senior Product Manager - Integrations",
+    "url": "https://jobs.ashbyhq.com/alma/a25749f1-01cc-4164-825e-7ccb944a6c55",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-08-28",
+    "source": "ashby:alma",
+    "title": "Senior Software Engineer - E-commerce (PHP)",
+    "url": "https://jobs.ashbyhq.com/alma/4cfc38cd-938a-46c9-8dc1-567fc4a0d02b",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-09-11",
+    "source": "ashby:alma",
+    "title": "Senior Business Analyst",
+    "url": "https://jobs.ashbyhq.com/alma/f2e0fff0-a06c-46fe-a10b-c7ef13c31bc8",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-09-11",
+    "source": "ashby:alma",
+    "title": "Revenue Systems Lead",
+    "url": "https://jobs.ashbyhq.com/alma/c4183c47-42fe-49c0-a9c9-e9a5970baedf",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-14",
+    "source": "ashby:alma",
+    "title": "Business Analyst",
+    "url": "https://jobs.ashbyhq.com/alma/de629b5a-4379-42c6-a7b5-bdefe6de2f2e",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-09-22",
+    "source": "ashby:alma",
+    "title": "Head of Legal - Financial Services",
+    "url": "https://jobs.ashbyhq.com/alma/62903231-2aa8-4a39-b1ba-edf36344b0c1",
+    "why": "excluded function"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-01",
+    "source": "ashby:alma",
+    "title": "Engineering Manager - Mobile App",
+    "url": "https://jobs.ashbyhq.com/alma/9eb54bb3-bf1c-4e05-bc03-79bd9739a8c4",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-06",
+    "source": "ashby:alma",
+    "title": "Banking Financial Control Manager",
+    "url": "https://jobs.ashbyhq.com/alma/6025f5dd-19df-447c-bb51-09842e0b0e1b",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Lille",
+    "posted": "2026-10-14",
+    "source": "ashby:alma",
+    "title": "Customer Care Officer - Netherlands",
+    "url": "https://jobs.ashbyhq.com/alma/dba3105c-04ca-4889-9304-ee177df66ccc",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-16",
+    "source": "ashby:alma",
+    "title": "Mobile Engineer - React Native (Paris or Remote France)",
+    "url": "https://jobs.ashbyhq.com/alma/50c5bf4d-7061-4c71-a4c7-d560c29570b1",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-21",
+    "source": "ashby:alma",
+    "title": "Lifecycle Marketing Manager",
+    "url": "https://jobs.ashbyhq.com/alma/01a1dcd0-d57b-4fe9-b109-da00235525ac",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-21",
+    "source": "ashby:alma",
+    "title": "Experimentation & Tracking engineer",
+    "url": "https://jobs.ashbyhq.com/alma/5cd06b6a-0cfe-455c-a08e-9728a052488a",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
     "posted": "2026-10-22",
-    "source": "greenhouse:apiiro",
-    "title": "AI Research Engineer, Security",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7809871003",
+    "source": "ashby:alma",
+    "title": "Senior Account Performance Manager",
+    "url": "https://jobs.ashbyhq.com/alma/4be8bf54-9783-47f4-a710-43d01f32e7a4",
     "why": "not senior"
   },
   {
-    "company": "Apiiro",
-    "location": "East Coast, Remote",
-    "posted": "2026-07-27",
-    "source": "greenhouse:apiiro",
-    "title": "Director of Sales",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/6652315003",
-    "why": "not Israel"
-  },
-  {
-    "company": "Apiiro",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-08-09",
-    "source": "greenhouse:apiiro",
-    "title": "Product Manager",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7812494003",
+    "company": "Alma",
+    "location": "Madrid",
+    "posted": "2026-10-23",
+    "source": "ashby:alma",
+    "title": "Account Executive Large Accounts - Spain",
+    "url": "https://jobs.ashbyhq.com/alma/5d7b9ba0-b1c8-4e4c-a294-83394f159320",
     "why": "not senior"
   },
   {
-    "company": "Apiiro",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-08-04",
-    "source": "greenhouse:apiiro",
-    "title": "Software Engineer",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/6670059003",
+    "company": "Alma",
+    "location": "Madrid",
+    "posted": "2026-10-23",
+    "source": "ashby:alma",
+    "title": "Account Executive - Portuguese market",
+    "url": "https://jobs.ashbyhq.com/alma/28dbd37b-f353-40a4-b467-842d00e31467",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-23",
+    "source": "ashby:alma",
+    "title": "Senior Account Manager",
+    "url": "https://jobs.ashbyhq.com/alma/ca77c5e1-5825-487b-b50a-18da2d018cf6",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-27",
+    "source": "ashby:alma",
+    "title": "Senior Product Manager - Checkout Experience",
+    "url": "https://jobs.ashbyhq.com/alma/27be706c-352b-41ef-abdb-c38f28d54bcc",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-30",
+    "source": "ashby:alma",
+    "title": "Brand Designer",
+    "url": "https://jobs.ashbyhq.com/alma/d52252b0-b8a1-4ac9-aa5e-34aef10199a3",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-30",
+    "source": "ashby:alma",
+    "title": "Retail Success Manager",
+    "url": "https://jobs.ashbyhq.com/alma/ff34cabc-902b-4583-bee3-b4b1ea97223a",
     "why": "not senior"
   },
   {
@@ -186,177 +357,6 @@
     "source": "greenhouse:appsflyer",
     "title": "DevOps Platform Engineer",
     "url": "https://careers.appsflyer.com/jobs/position/8695882002?gh_jid=8695882002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Warsaw",
-    "posted": "2026-10-21",
-    "source": "greenhouse:appsflyer",
-    "title": "Enterprise Customer Success Manager- Russian Speaker",
-    "url": "https://careers.appsflyer.com/jobs/position/8905228002?gh_jid=8905228002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Beijing",
-    "posted": "2026-09-17",
-    "source": "greenhouse:appsflyer",
-    "title": "General Manager, Greater China Region",
-    "url": "https://careers.appsflyer.com/jobs/position/8816080002?gh_jid=8816080002",
-    "why": "not Israel"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Tokyo",
-    "posted": "2026-08-20",
-    "source": "greenhouse:appsflyer",
-    "title": "Growth Account Manager",
-    "url": "https://careers.appsflyer.com/jobs/position/8300434002?gh_jid=8300434002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Beijing",
-    "posted": "2026-10-20",
-    "source": "greenhouse:appsflyer",
-    "title": "Growth Marketing Manager, GCR",
-    "url": "https://careers.appsflyer.com/jobs/position/8793780002?gh_jid=8793780002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-10-28",
-    "source": "greenhouse:appsflyer",
-    "title": "Head of Pricing- Maternity Cover",
-    "url": "https://careers.appsflyer.com/jobs/position/8921994002?gh_jid=8921994002",
-    "why": "outside domain"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Bangalore",
-    "posted": "2026-11-03",
-    "source": "greenhouse:appsflyer",
-    "title": "HR Growth Partner",
-    "url": "https://careers.appsflyer.com/jobs/position/8816027002?gh_jid=8816027002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "London",
-    "posted": "2026-10-26",
-    "source": "greenhouse:appsflyer",
-    "title": "Industry lead E-Commerce",
-    "url": "https://careers.appsflyer.com/jobs/position/8917820002?gh_jid=8917820002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-10-07",
-    "source": "greenhouse:appsflyer",
-    "title": "IT Service Desk Team Leader",
-    "url": "https://careers.appsflyer.com/jobs/position/8874236002?gh_jid=8874236002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Bangalore",
-    "posted": "2026-10-20",
-    "source": "greenhouse:appsflyer",
-    "title": "Office Manager, IND",
-    "url": "https://careers.appsflyer.com/jobs/position/8585113002?gh_jid=8585113002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-10-20",
-    "source": "greenhouse:appsflyer",
-    "title": "Product Partnerships Lead- 2930",
-    "url": "https://careers.appsflyer.com/jobs/position/8883285002?gh_jid=8883285002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-10-20",
-    "source": "greenhouse:appsflyer",
-    "title": "Product Partnerships Manager",
-    "url": "https://careers.appsflyer.com/jobs/position/8509670002?gh_jid=8509670002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-10-15",
-    "source": "greenhouse:appsflyer",
-    "title": "Salary Controller",
-    "url": "https://careers.appsflyer.com/jobs/position/8809604002?gh_jid=8809604002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "San Francisco",
-    "posted": "2026-08-19",
-    "source": "greenhouse:appsflyer",
-    "title": "Sales Development Representative Manager",
-    "url": "https://careers.appsflyer.com/jobs/position/8705357002?gh_jid=8705357002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-11-02",
-    "source": "greenhouse:appsflyer",
-    "title": "Sales Enablement Manager",
-    "url": "https://careers.appsflyer.com/jobs/position/8773365002?gh_jid=8773365002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Kyiv",
-    "posted": "2026-08-11",
-    "source": "greenhouse:appsflyer",
-    "title": "Security SDK Engineer",
-    "url": "https://careers.appsflyer.com/jobs/position/8695881002?gh_jid=8695881002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Kyiv",
-    "posted": "2026-10-28",
-    "source": "greenhouse:appsflyer",
-    "title": "Senior Backend Engineer",
-    "url": "https://careers.appsflyer.com/jobs/position/8905790002?gh_jid=8905790002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Warsaw",
-    "posted": "2026-10-15",
-    "source": "greenhouse:appsflyer",
-    "title": "Senior Backend Engineer",
-    "url": "https://careers.appsflyer.com/jobs/position/8869908002?gh_jid=8869908002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-10-20",
-    "source": "greenhouse:appsflyer",
-    "title": "Senior Backend Software Engineer - 2943",
-    "url": "https://careers.appsflyer.com/jobs/position/8899639002?gh_jid=8899639002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-10-01",
-    "source": "greenhouse:appsflyer",
-    "title": "Senior Data Engineer",
-    "url": "https://careers.appsflyer.com/jobs/position/8693284002?gh_jid=8693284002",
     "why": "not senior"
   }
 ]
