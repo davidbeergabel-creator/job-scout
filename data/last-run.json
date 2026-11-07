@@ -1,7 +1,9 @@
 {
-  "board_errors": 0,
+  "board_errors": 1,
   "boards": 127,
-  "failed_boards": [],
+  "failed_boards": [
+    "Max (recruitee:404)"
+  ],
   "jsearch": null,
   "linkedin": {
     "requests": 12,
@@ -21,13 +23,9 @@
       200
     ]
   },
-  "new": 2,
-  "notion": {
-    "created": 2,
-    "failed": 0,
-    "skipped": 0
-  },
-  "raw": 3296,
+  "new": 0,
+  "notion": "nothing new",
+  "raw": 3295,
   "relevant": 36,
-  "run": "2026-11-07T00:54:15+00:00"
+  "run": "2026-11-07T10:00:48+00:00"
 }
