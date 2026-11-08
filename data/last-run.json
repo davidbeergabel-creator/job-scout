@@ -1,8 +1,9 @@
 {
-  "board_errors": 1,
+  "board_errors": 2,
   "boards": 127,
   "failed_boards": [
-    "Max (recruitee:404)"
+    "Max (recruitee:404)",
+    "Valens (recruitee:404)"
   ],
   "jsearch": null,
   "linkedin": {
@@ -25,7 +26,7 @@
   },
   "new": 0,
   "notion": "nothing new",
-  "raw": 3292,
+  "raw": 3294,
   "relevant": 36,
-  "run": "2026-11-07T19:24:51+00:00"
+  "run": "2026-11-08T00:33:10+00:00"
 }
