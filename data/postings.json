@@ -104,36 +104,12 @@
     "url": "https://job-boards.greenhouse.io/gongio/jobs/4672107006"
   },
   {
-    "company": "IBI Investment House",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-11-01",
-    "source": "linkedin",
-    "title": "VP Operations & Transformation - Position No. 1736",
-    "url": "https://il.linkedin.com/jobs/view/vp-operations-transformation-position-no-1736-at-ibi-investment-house-4473463676"
-  },
-  {
-    "company": "Logz.io",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-11-01",
-    "source": "linkedin",
-    "title": "Head of Business Operations",
-    "url": "https://il.linkedin.com/jobs/view/head-of-business-operations-at-logz-io-4484446033"
-  },
-  {
     "company": "Payoneer",
     "location": "Herzliya, Tel Aviv District, Israel",
     "posted": "2026-11-01",
     "source": "greenhouse:payoneer",
     "title": "Director, Corporate Strategy",
     "url": "https://www.payoneer.com/careers/position/8236582/?gh_jid=8236582"
-  },
-  {
-    "company": "Snatch UP Jobs",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-01",
-    "source": "linkedin",
-    "title": "VP Marketing",
-    "url": "https://il.linkedin.com/jobs/view/vp-marketing-at-snatch-up-jobs-4485408618"
   },
   {
     "company": "Coralogix",
@@ -169,7 +145,6 @@
   },
   {
     "company": "MazeBolt",
-    "found": "2026-11-08",
     "location": "Ramat Gan, IL",
     "posted": "2026-11-03",
     "source": "comeet:A7.00C",
@@ -306,12 +281,29 @@
   },
   {
     "company": "Dot Compliance",
-    "found": "2026-11-08",
     "location": "Rehovot, IL",
     "posted": "2026-11-08",
     "source": "comeet:89.00D",
     "title": "Director of Marketing",
-    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/"
+    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/?1794137236646"
+  },
+  {
+    "company": "HUNTHEAD",
+    "found": "2026-11-08",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-08",
+    "source": "linkedin",
+    "title": "VP Operations | Mid-Sized Financial Organization",
+    "url": "https://il.linkedin.com/jobs/view/vp-operations-mid-sized-financial-organization-at-hunthead-4487646500"
+  },
+  {
+    "company": "LiveU",
+    "found": "2026-11-08",
+    "location": "Kfar Saba, Center District, Israel",
+    "posted": "2026-11-08",
+    "source": "linkedin",
+    "title": "Director of Data & AI",
+    "url": "https://il.linkedin.com/jobs/view/director-of-data-ai-at-liveu-4479504662"
   },
   {
     "company": "Lumenis",
@@ -323,7 +315,6 @@
   },
   {
     "company": "Pacaya HR Experts",
-    "found": "2026-11-08",
     "location": "Ramat Gan, Tel Aviv District, Israel",
     "posted": "2026-11-08",
     "source": "linkedin",
@@ -336,6 +327,23 @@
     "posted": "2026-11-08",
     "source": "comeet:83.00A",
     "title": "Head of AI",
-    "url": "https://personetics.com/us/careers-4/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+  },
+  {
+    "company": "Riverside",
+    "found": "2026-11-08",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-08",
+    "source": "linkedin",
+    "title": "VP Marketing",
+    "url": "https://il.linkedin.com/jobs/view/vp-marketing-at-riverside-4470804423"
+  },
+  {
+    "company": "SpotOut",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-08",
+    "source": "linkedin",
+    "title": "Co Founder & Chief Marketing Officer",
+    "url": "https://il.linkedin.com/jobs/view/co-founder-chief-marketing-officer-4485599802"
   }
 ]

@@ -1,8 +1,7 @@
 {
-  "board_errors": 3,
+  "board_errors": 2,
   "boards": 139,
   "failed_boards": [
-    "Insightec (comeet-page:0)",
     "Max (recruitee:404)",
     "Valens (recruitee:404)"
   ],
@@ -31,7 +30,7 @@
     "failed": 0,
     "skipped": 0
   },
-  "raw": 3383,
-  "relevant": 37,
-  "run": "2026-11-08T10:15:19+00:00"
+  "raw": 3397,
+  "relevant": 39,
+  "run": "2026-11-08T19:39:47+00:00"
 }
