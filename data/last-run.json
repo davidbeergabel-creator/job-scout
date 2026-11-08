@@ -1,14 +1,15 @@
 {
-  "board_errors": 2,
-  "boards": 127,
+  "board_errors": 3,
+  "boards": 139,
   "failed_boards": [
+    "Insightec (comeet-page:0)",
     "Max (recruitee:404)",
     "Valens (recruitee:404)"
   ],
   "jsearch": null,
   "linkedin": {
     "requests": 12,
-    "results": 55,
+    "results": 56,
     "statuses": [
       200,
       200,
@@ -24,9 +25,13 @@
       200
     ]
   },
-  "new": 0,
-  "notion": "nothing new",
-  "raw": 3294,
-  "relevant": 36,
-  "run": "2026-11-08T00:33:10+00:00"
+  "new": 3,
+  "notion": {
+    "created": 3,
+    "failed": 0,
+    "skipped": 0
+  },
+  "raw": 3383,
+  "relevant": 37,
+  "run": "2026-11-08T10:15:19+00:00"
 }
