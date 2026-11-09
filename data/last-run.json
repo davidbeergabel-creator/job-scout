@@ -1,8 +1,10 @@
 {
-  "board_errors": 2,
+  "board_errors": 4,
   "boards": 139,
   "failed_boards": [
+    "Insightec (comeet-page:0)",
     "Max (recruitee:404)",
+    "Mitiga (comeet-page:no token)",
     "Valens (recruitee:404)"
   ],
   "jsearch": null,
@@ -24,13 +26,13 @@
       200
     ]
   },
-  "new": 4,
+  "new": 2,
   "notion": {
-    "created": 4,
+    "created": 2,
     "failed": 0,
     "skipped": 0
   },
-  "raw": 3390,
-  "relevant": 43,
-  "run": "2026-11-09T11:25:27+00:00"
+  "raw": 3342,
+  "relevant": 42,
+  "run": "2026-11-09T23:47:08+00:00"
 }

@@ -1,5 +1,221 @@
 [
   {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-11-05",
+    "source": "ashby:alma",
+    "title": "Strategic Finance Analyst",
+    "url": "https://jobs.ashbyhq.com/alma/45306ed0-b778-43b9-a2c7-456f07b3a799",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2025-01-09",
+    "source": "ashby:alma",
+    "title": "Software Backend Engineer - Senior / Confirmed (Paris or Remote France)",
+    "url": "https://jobs.ashbyhq.com/alma/c7ccaf53-0302-4111-a0e4-bc3a13bf33da",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Milano",
+    "posted": "2026-08-13",
+    "source": "ashby:alma",
+    "title": "Senior Account Executive Mid-Market - Italy",
+    "url": "https://jobs.ashbyhq.com/alma/bf8be312-8cbe-46d1-b65c-d722369ab8e1",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Milano",
+    "posted": "2026-06-25",
+    "source": "ashby:alma",
+    "title": "Account Executive Mid-Market - Italy",
+    "url": "https://jobs.ashbyhq.com/alma/f478c4d9-9fc2-475d-ab01-5c9566dfb7ec",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-08-18",
+    "source": "ashby:alma",
+    "title": "Senior Enterprise Account Executive",
+    "url": "https://jobs.ashbyhq.com/alma/1ad99486-e063-425e-8b44-0508399a8a3f",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-08-26",
+    "source": "ashby:alma",
+    "title": "Senior Product Manager - Integrations",
+    "url": "https://jobs.ashbyhq.com/alma/a25749f1-01cc-4164-825e-7ccb944a6c55",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-08-28",
+    "source": "ashby:alma",
+    "title": "Senior Software Engineer - E-commerce (PHP)",
+    "url": "https://jobs.ashbyhq.com/alma/4cfc38cd-938a-46c9-8dc1-567fc4a0d02b",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-09-11",
+    "source": "ashby:alma",
+    "title": "Senior Business Analyst",
+    "url": "https://jobs.ashbyhq.com/alma/f2e0fff0-a06c-46fe-a10b-c7ef13c31bc8",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-09-11",
+    "source": "ashby:alma",
+    "title": "Revenue Systems Lead",
+    "url": "https://jobs.ashbyhq.com/alma/c4183c47-42fe-49c0-a9c9-e9a5970baedf",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-14",
+    "source": "ashby:alma",
+    "title": "Business Analyst",
+    "url": "https://jobs.ashbyhq.com/alma/de629b5a-4379-42c6-a7b5-bdefe6de2f2e",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-09-22",
+    "source": "ashby:alma",
+    "title": "Head of Legal - Financial Services",
+    "url": "https://jobs.ashbyhq.com/alma/62903231-2aa8-4a39-b1ba-edf36344b0c1",
+    "why": "excluded function"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-01",
+    "source": "ashby:alma",
+    "title": "Engineering Manager - Mobile App",
+    "url": "https://jobs.ashbyhq.com/alma/9eb54bb3-bf1c-4e05-bc03-79bd9739a8c4",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-06",
+    "source": "ashby:alma",
+    "title": "Banking Financial Control Manager",
+    "url": "https://jobs.ashbyhq.com/alma/6025f5dd-19df-447c-bb51-09842e0b0e1b",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Lille",
+    "posted": "2026-10-14",
+    "source": "ashby:alma",
+    "title": "Customer Care Officer - Netherlands",
+    "url": "https://jobs.ashbyhq.com/alma/dba3105c-04ca-4889-9304-ee177df66ccc",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-16",
+    "source": "ashby:alma",
+    "title": "Mobile Engineer - React Native (Paris or Remote France)",
+    "url": "https://jobs.ashbyhq.com/alma/50c5bf4d-7061-4c71-a4c7-d560c29570b1",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-21",
+    "source": "ashby:alma",
+    "title": "Lifecycle Marketing Manager",
+    "url": "https://jobs.ashbyhq.com/alma/01a1dcd0-d57b-4fe9-b109-da00235525ac",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-21",
+    "source": "ashby:alma",
+    "title": "Experimentation & Tracking engineer",
+    "url": "https://jobs.ashbyhq.com/alma/5cd06b6a-0cfe-455c-a08e-9728a052488a",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-22",
+    "source": "ashby:alma",
+    "title": "Senior Account Performance Manager",
+    "url": "https://jobs.ashbyhq.com/alma/4be8bf54-9783-47f4-a710-43d01f32e7a4",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Madrid",
+    "posted": "2026-10-23",
+    "source": "ashby:alma",
+    "title": "Account Executive Large Accounts - Spain",
+    "url": "https://jobs.ashbyhq.com/alma/5d7b9ba0-b1c8-4e4c-a294-83394f159320",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Madrid",
+    "posted": "2026-10-23",
+    "source": "ashby:alma",
+    "title": "Account Executive - Portuguese market",
+    "url": "https://jobs.ashbyhq.com/alma/28dbd37b-f353-40a4-b467-842d00e31467",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-23",
+    "source": "ashby:alma",
+    "title": "Senior Account Manager",
+    "url": "https://jobs.ashbyhq.com/alma/ca77c5e1-5825-487b-b50a-18da2d018cf6",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-27",
+    "source": "ashby:alma",
+    "title": "Senior Product Manager - Checkout Experience",
+    "url": "https://jobs.ashbyhq.com/alma/27be706c-352b-41ef-abdb-c38f28d54bcc",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-30",
+    "source": "ashby:alma",
+    "title": "Brand Designer",
+    "url": "https://jobs.ashbyhq.com/alma/d52252b0-b8a1-4ac9-aa5e-34aef10199a3",
+    "why": "not senior"
+  },
+  {
+    "company": "Alma",
+    "location": "Paris",
+    "posted": "2026-10-30",
+    "source": "ashby:alma",
+    "title": "Retail Success Manager",
+    "url": "https://jobs.ashbyhq.com/alma/ff34cabc-902b-4583-bee3-b4b1ea97223a",
+    "why": "not senior"
+  },
+  {
     "company": "Aidoc",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-21",
@@ -119,7 +335,7 @@
   {
     "company": "Aidoc",
     "location": "US",
-    "posted": "2026-10-30",
+    "posted": "2026-11-09",
     "source": "greenhouse:aidocmedical",
     "title": "Director of Radiology, Product Marketing",
     "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5024228101",
@@ -141,222 +357,6 @@
     "source": "greenhouse:aidocmedical",
     "title": "Implementation Manager",
     "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4967087101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-22",
-    "source": "greenhouse:aidocmedical",
-    "title": "Information Delivery & Visualization Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5013714101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Principal Engineer - AI First Development Lead",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4882428101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Principal Software Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4871455101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Regulatory Affairs Specialist",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5015400101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Sales Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4972430101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "SecOps Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4920296101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-02",
-    "source": "greenhouse:aidocmedical",
-    "title": "Senior DevOps Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4902462101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Senior Full Stack Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4889904101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-01",
-    "source": "greenhouse:aidocmedical",
-    "title": "Senior Product Analyst",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4868634101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Senior Quality Specialist",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5000297101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Senior Security Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4920094101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Solution Success Manager - Diagnostic Radiology",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4941119101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Staff Software Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4864312101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-21",
-    "source": "greenhouse:aidocmedical",
-    "title": "Strategic Product Analyst",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4952195101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "US",
-    "posted": "2026-10-29",
-    "source": "greenhouse:aidocmedical",
-    "title": "Technical Support Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4905355101",
-    "why": "not senior"
-  },
-  {
-    "company": "Aidoc",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-05",
-    "source": "greenhouse:aidocmedical",
-    "title": "Technical Support Engineer",
-    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5028169101",
-    "why": "not senior"
-  },
-  {
-    "company": "Apiiro",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-08-09",
-    "source": "greenhouse:apiiro",
-    "title": "AI Engineer",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7683988003",
-    "why": "not senior"
-  },
-  {
-    "company": "Apiiro",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-10-22",
-    "source": "greenhouse:apiiro",
-    "title": "AI Research Engineer, Security",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7809871003",
-    "why": "not senior"
-  },
-  {
-    "company": "Apiiro",
-    "location": "East Coast, Remote",
-    "posted": "2026-07-27",
-    "source": "greenhouse:apiiro",
-    "title": "Director of Sales",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/6652315003",
-    "why": "not Israel"
-  },
-  {
-    "company": "Apiiro",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-08-09",
-    "source": "greenhouse:apiiro",
-    "title": "Product Manager",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/7812494003",
-    "why": "not senior"
-  },
-  {
-    "company": "Apiiro",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-08-04",
-    "source": "greenhouse:apiiro",
-    "title": "Software Engineer",
-    "url": "https://job-boards.greenhouse.io/apiiro/jobs/6670059003",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Seoul",
-    "posted": "2026-11-03",
-    "source": "greenhouse:appsflyer",
-    "title": "Account Executive",
-    "url": "https://careers.appsflyer.com/jobs/position/8899536002?gh_jid=8899536002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-11-01",
-    "source": "greenhouse:appsflyer",
-    "title": "Account Executive- Russian Speaker",
-    "url": "https://careers.appsflyer.com/jobs/position/8926348002?gh_jid=8926348002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-08-17",
-    "source": "greenhouse:appsflyer",
-    "title": "Application Security Engineer",
-    "url": "https://careers.appsflyer.com/jobs/position/8394076002?gh_jid=8394076002",
     "why": "not senior"
   }
 ]
