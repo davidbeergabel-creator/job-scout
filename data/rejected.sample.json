@@ -181,6 +181,15 @@
   },
   {
     "company": "Aidoc",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-10",
+    "source": "greenhouse:aidocmedical",
+    "title": "Event and Field Marketing Manager",
+    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5032301101",
+    "why": "not senior"
+  },
+  {
+    "company": "Aidoc",
     "location": "US",
     "posted": "2026-10-29",
     "source": "greenhouse:aidocmedical",
@@ -263,6 +272,15 @@
   {
     "company": "Aidoc",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-10",
+    "source": "greenhouse:aidocmedical",
+    "title": "Senior Data Engineer",
+    "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4904239101",
+    "why": "not senior"
+  },
+  {
+    "company": "Aidoc",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-02",
     "source": "greenhouse:aidocmedical",
     "title": "Senior DevOps Engineer",
@@ -339,24 +357,6 @@
     "source": "greenhouse:aidocmedical",
     "title": "Technical Support Engineer",
     "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4905355101",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Seoul",
-    "posted": "2026-11-03",
-    "source": "greenhouse:appsflyer",
-    "title": "Account Executive",
-    "url": "https://careers.appsflyer.com/jobs/position/8899536002?gh_jid=8899536002",
-    "why": "not senior"
-  },
-  {
-    "company": "AppsFlyer",
-    "location": "Herzliya",
-    "posted": "2026-11-01",
-    "source": "greenhouse:appsflyer",
-    "title": "Account Executive- Russian Speaker",
-    "url": "https://careers.appsflyer.com/jobs/position/8926348002?gh_jid=8926348002",
     "why": "not senior"
   }
 ]
