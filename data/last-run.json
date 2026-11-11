@@ -1,7 +1,8 @@
 {
-  "board_errors": 3,
+  "board_errors": 4,
   "boards": 139,
   "failed_boards": [
+    "Hunters (comeet-page:0)",
     "Max (recruitee:404)",
     "Mitiga (comeet-page:no token)",
     "Valens (recruitee:404)"
@@ -25,9 +26,13 @@
       200
     ]
   },
-  "new": 0,
-  "notion": "nothing new",
-  "raw": 3365,
+  "new": 3,
+  "notion": {
+    "created": 3,
+    "failed": 0,
+    "skipped": 0
+  },
+  "raw": 3355,
   "relevant": 41,
-  "run": "2026-11-10T21:17:54+00:00"
+  "run": "2026-11-11T10:51:06+00:00"
 }

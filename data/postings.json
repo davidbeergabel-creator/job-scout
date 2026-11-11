@@ -64,22 +64,6 @@
     "url": "https://www.taboola.com/careers/job/8305421?gh_jid=8305421"
   },
   {
-    "company": "ScaleOps",
-    "location": "Tel Aviv",
-    "posted": "2026-10-25",
-    "source": "greenhouse:scaleops",
-    "title": "VP AI",
-    "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4941455101"
-  },
-  {
-    "company": "ScaleOps",
-    "location": "Tel Aviv",
-    "posted": "2026-10-25",
-    "source": "greenhouse:scaleops",
-    "title": "VP Operations",
-    "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4971272101"
-  },
-  {
     "company": "Aidoc",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-28",
@@ -104,36 +88,12 @@
     "url": "https://www.comeet.com/jobs/immunai/37.009/head-of-ai/1F.B53"
   },
   {
-    "company": "BlackEdge",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-11-04",
-    "source": "linkedin",
-    "title": "Head of Growth & Partnerships",
-    "url": "https://il.linkedin.com/jobs/view/head-of-growth-partnerships-at-blackedge-4485064807"
-  },
-  {
-    "company": "Cato Networks",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-11-04",
-    "source": "linkedin",
-    "title": "VP of Product Management, Management Platform & Network and Security Operations",
-    "url": "https://il.linkedin.com/jobs/view/vp-of-product-management-management-platform-network-and-security-operations-at-cato-networks-4476475158"
-  },
-  {
     "company": "Rafael Advanced Defense Systems",
     "location": "North District, Israel",
     "posted": "2026-11-04",
     "source": "linkedin",
     "title": "Head Of AI Transformation",
     "url": "https://il.linkedin.com/jobs/view/head-of-ai-transformation-at-rafael-advanced-defense-systems-4487288185"
-  },
-  {
-    "company": "Recruitx",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-11-04",
-    "source": "linkedin",
-    "title": "Director of Operations JB-00029",
-    "url": "https://il.linkedin.com/jobs/view/director-of-operations-jb-00029-at-recruitx-4477193425"
   },
   {
     "company": "Voodoo",
@@ -158,14 +118,6 @@
     "source": "linkedin",
     "title": "Chief Marketing Officer",
     "url": "https://il.linkedin.com/jobs/view/chief-marketing-officer-at-lsports-4487731947"
-  },
-  {
-    "company": "MediaForce",
-    "location": "Holon, Tel Aviv District, Israel",
-    "posted": "2026-11-05",
-    "source": "linkedin",
-    "title": "Director of Demand Growth & Partnerships",
-    "url": "https://il.linkedin.com/jobs/view/director-of-demand-growth-partnerships%C2%A0-at-mediaforce-4485827754"
   },
   {
     "company": "Okoora",
@@ -198,14 +150,6 @@
     "source": "linkedin",
     "title": "Business Unit Director - Solid Tumors Israel",
     "url": "https://il.linkedin.com/jobs/view/business-unit-director-solid-tumors-israel-at-beone-medicines-4487361085"
-  },
-  {
-    "company": "Guesty",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-06",
-    "source": "linkedin",
-    "title": "Head of CX Operations",
-    "url": "https://il.linkedin.com/jobs/view/head-of-cx-operations-at-guesty-4461313906"
   },
   {
     "company": "Expert Executive Recruiters (EER Global)",
@@ -280,6 +224,15 @@
     "url": "https://www.payoneer.com/careers/position/8236582/?gh_jid=8236582"
   },
   {
+    "company": "Pixellot - AI Sports Media & Intelligence",
+    "found": "2026-11-11",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-09",
+    "source": "linkedin",
+    "title": "Head of Client Solutions and Account Management",
+    "url": "https://il.linkedin.com/jobs/view/head-of-client-solutions-and-account-management-at-pixellot-ai-sports-media-intelligence-4487923131"
+  },
+  {
     "company": "Radix Technologies",
     "location": "Or Yehuda, Tel Aviv District, Israel",
     "posted": "2026-11-09",
@@ -320,14 +273,6 @@
     "url": "https://il.linkedin.com/jobs/view/partner-sales-director-ihv-alliances-at-canonical-4489177839"
   },
   {
-    "company": "Dot Compliance",
-    "location": "Rehovot, IL",
-    "posted": "2026-11-10",
-    "source": "comeet:89.00D",
-    "title": "Director of Marketing",
-    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/"
-  },
-  {
     "company": "Eaton",
     "location": "Raanana, Center District, Israel",
     "posted": "2026-11-10",
@@ -336,19 +281,77 @@
     "url": "https://il.linkedin.com/jobs/view/country-sales-leader-general-manager-at-eaton-4451734335"
   },
   {
-    "company": "Lumenis",
-    "location": "Yokne'am Illit, IL",
-    "posted": "2026-11-10",
-    "source": "comeet:A1.00C",
-    "title": "Head of Marketing",
-    "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
-  },
-  {
     "company": "Personetics",
     "location": "Giv'atayim, IL",
     "posted": "2026-11-10",
     "source": "comeet:83.00A",
     "title": "Head of AI",
     "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+  },
+  {
+    "company": "Dot Compliance",
+    "location": "Rehovot, IL",
+    "posted": "2026-11-11",
+    "source": "comeet:89.00D",
+    "title": "Director of Marketing",
+    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/"
+  },
+  {
+    "company": "Guesty",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-11",
+    "source": "linkedin",
+    "title": "Head of CX Operations",
+    "url": "https://il.linkedin.com/jobs/view/head-of-cx-operations-at-guesty-4461313906"
+  },
+  {
+    "company": "Lumenis",
+    "location": "Yokne'am Illit, IL",
+    "posted": "2026-11-11",
+    "source": "comeet:A1.00C",
+    "title": "Head of Marketing",
+    "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
+  },
+  {
+    "company": "Rakuten Viber",
+    "found": "2026-11-11",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-11",
+    "source": "linkedin",
+    "title": "Senior Vice President Marketing",
+    "url": "https://il.linkedin.com/jobs/view/senior-vice-president-marketing-at-rakuten-viber-4489923363"
+  },
+  {
+    "company": "ScaleOps",
+    "location": "Tel Aviv",
+    "posted": "2026-11-11",
+    "source": "greenhouse:scaleops",
+    "title": "VP AI",
+    "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4941455101"
+  },
+  {
+    "company": "ScaleOps",
+    "location": "Tel Aviv",
+    "posted": "2026-11-11",
+    "source": "greenhouse:scaleops",
+    "title": "VP Operations",
+    "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4971272101"
+  },
+  {
+    "company": "ScaleOps",
+    "found": "2026-11-11",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-11",
+    "source": "linkedin",
+    "title": "Head of Channels",
+    "url": "https://il.linkedin.com/jobs/view/head-of-channels-at-scaleops-4488680348"
+  },
+  {
+    "company": "ScaleOps",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-11",
+    "source": "linkedin",
+    "title": "VP Operations",
+    "url": "https://il.linkedin.com/jobs/view/vp-operations-at-scaleops-4488677438"
   }
 ]
