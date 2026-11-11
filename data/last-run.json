@@ -1,16 +1,18 @@
 {
-  "board_errors": 4,
+  "board_errors": 6,
   "boards": 139,
   "failed_boards": [
+    "Coralogix (comeet-page:no token)",
     "Hunters (comeet-page:0)",
     "Max (recruitee:404)",
+    "MazeBolt (comeet-page:403)",
     "Mitiga (comeet-page:no token)",
     "Valens (recruitee:404)"
   ],
   "jsearch": null,
   "linkedin": {
     "requests": 12,
-    "results": 52,
+    "results": 51,
     "statuses": [
       200,
       200,
@@ -26,13 +28,13 @@
       200
     ]
   },
-  "new": 3,
+  "new": 2,
   "notion": {
-    "created": 3,
+    "created": 2,
     "failed": 0,
     "skipped": 0
   },
-  "raw": 3355,
-  "relevant": 41,
-  "run": "2026-11-11T10:51:06+00:00"
+  "raw": 3297,
+  "relevant": 38,
+  "run": "2026-11-11T21:55:34+00:00"
 }
