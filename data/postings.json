@@ -72,38 +72,6 @@
     "url": "https://www.comeet.com/jobs/immunai/37.009/head-of-ai/1F.B53"
   },
   {
-    "company": "Guideline Group",
-    "location": "Bnei Brak, Tel Aviv District, Israel",
-    "posted": "2026-11-05",
-    "source": "linkedin",
-    "title": "VP Sales & Customer Experience",
-    "url": "https://il.linkedin.com/jobs/view/vp-sales-customer-experience-at-guideline-group-4487749564"
-  },
-  {
-    "company": "LSports",
-    "location": "Ashkelon, South District, Israel",
-    "posted": "2026-11-05",
-    "source": "linkedin",
-    "title": "Chief Marketing Officer",
-    "url": "https://il.linkedin.com/jobs/view/chief-marketing-officer-at-lsports-4487731947"
-  },
-  {
-    "company": "Recruitx",
-    "location": "Ashdod, South District, Israel",
-    "posted": "2026-11-05",
-    "source": "linkedin",
-    "title": "VP of Sales, Marketing & Business Development JB-00172",
-    "url": "https://il.linkedin.com/jobs/view/vp-of-sales-marketing-business-development-jb-00172-at-recruitx-4464336291"
-  },
-  {
-    "company": "Techdin",
-    "location": "Bnei Brak, Tel Aviv District, Israel",
-    "posted": "2026-11-05",
-    "source": "linkedin",
-    "title": "VP Sales & Customer Experience",
-    "url": "https://il.linkedin.com/jobs/view/vp-sales-customer-experience-at-techdin-4485598861"
-  },
-  {
     "company": "BeOne Medicines",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-06",
@@ -208,14 +176,6 @@
     "url": "https://il.linkedin.com/jobs/view/vp-operations-monetization-at-yad2-4471984488"
   },
   {
-    "company": "מרטנס | Mertens – מקבוצת מלם תים",
-    "location": "Center District, Israel",
-    "posted": "2026-11-09",
-    "source": "linkedin",
-    "title": "Head of Data & AI (38008)",
-    "url": "https://il.linkedin.com/jobs/view/head-of-data-ai-38008-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4488849531"
-  },
-  {
     "company": "Canonical",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-10",
@@ -304,25 +264,33 @@
     "url": "https://il.linkedin.com/jobs/view/vp-operations-at-scaleops-4488677438"
   },
   {
+    "company": "Discreet Company",
+    "found": "2026-11-12",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-12",
+    "source": "linkedin",
+    "title": "Chief Operating Officer",
+    "url": "https://il.linkedin.com/jobs/view/chief-operating-officer-at-discreet-company-4490383152"
+  },
+  {
     "company": "Dot Compliance",
     "location": "Rehovot, IL",
     "posted": "2026-11-12",
     "source": "comeet:89.00D",
     "title": "Director of Marketing",
-    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/"
+    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/?1794137236646"
   },
   {
-    "company": "Hila & Co.",
+    "company": "IAI - Israel Aerospace Industries",
     "found": "2026-11-12",
-    "location": "Kfar Saba, Center District, Israel",
+    "location": "Ashdod, South District, Israel",
     "posted": "2026-11-12",
     "source": "linkedin",
-    "title": "Head of Growth & Partnerships | Performance & Ad‑Tech",
-    "url": "https://il.linkedin.com/jobs/view/head-of-growth-partnerships-performance-ad%E2%80%91tech-at-hila-co-4488272786"
+    "title": "Head of Marketing",
+    "url": "https://il.linkedin.com/jobs/view/head-of-marketing-at-iai-israel-aerospace-industries-4488292650"
   },
   {
     "company": "JobsSeek",
-    "found": "2026-11-12",
     "location": "Ramat Gan, Tel Aviv District, Israel",
     "posted": "2026-11-12",
     "source": "linkedin",
@@ -335,8 +303,8 @@
     "location": "Netanya, Center District, Israel",
     "posted": "2026-11-12",
     "source": "linkedin",
-    "title": "Head of Client Management",
-    "url": "https://il.linkedin.com/jobs/view/head-of-client-management-at-jobsseek-4490096311"
+    "title": "Vice President Client Relations",
+    "url": "https://il.linkedin.com/jobs/view/vice-president-client-relations-at-jobsseek-4490096311"
   },
   {
     "company": "Personetics",
@@ -347,8 +315,24 @@
     "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
   },
   {
-    "company": "rating",
+    "company": "Personetics",
+    "location": "Givatayim, Tel Aviv District, Israel",
+    "posted": "2026-11-12",
+    "source": "linkedin",
+    "title": "Head of AI",
+    "url": "https://il.linkedin.com/jobs/view/head-of-ai-at-personetics-4455270906"
+  },
+  {
+    "company": "adidas",
     "found": "2026-11-12",
+    "location": "Holon, Tel Aviv District, Israel",
+    "posted": "2026-11-12",
+    "source": "linkedin",
+    "title": "SR. Director WHS & Franchise, Israel",
+    "url": "https://il.linkedin.com/jobs/view/sr-director-whs-franchise-israel-at-adidas-4488532887"
+  },
+  {
+    "company": "rating",
     "location": "Center District, Israel",
     "posted": "2026-11-12",
     "source": "linkedin",
