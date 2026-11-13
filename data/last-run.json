@@ -1,16 +1,19 @@
 {
-  "board_errors": 4,
+  "board_errors": 7,
   "boards": 139,
   "failed_boards": [
+    "Allot (workable:429)",
+    "Cellebrite (workable:429)",
     "Coralogix (comeet-page:no token)",
     "Max (recruitee:404)",
     "Mitiga (comeet-page:no token)",
+    "NeuReality (comeet-page:202)",
     "Valens (recruitee:404)"
   ],
   "jsearch": null,
   "linkedin": {
     "requests": 12,
-    "results": 56,
+    "results": 52,
     "statuses": [
       200,
       200,
@@ -26,13 +29,9 @@
       200
     ]
   },
-  "new": 1,
-  "notion": {
-    "created": 1,
-    "failed": 0,
-    "skipped": 0
-  },
-  "raw": 3308,
+  "new": 0,
+  "notion": "nothing new",
+  "raw": 3307,
   "relevant": 39,
-  "run": "2026-11-13T10:54:26+00:00"
+  "run": "2026-11-13T21:26:13+00:00"
 }
