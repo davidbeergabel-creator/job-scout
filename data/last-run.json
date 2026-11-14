@@ -10,7 +10,7 @@
   "jsearch": null,
   "linkedin": {
     "requests": 12,
-    "results": 52,
+    "results": 48,
     "statuses": [
       200,
       200,
@@ -32,7 +32,7 @@
     "failed": 0,
     "skipped": 0
   },
-  "raw": 3302,
-  "relevant": 39,
-  "run": "2026-11-14T10:18:06+00:00"
+  "raw": 3296,
+  "relevant": 38,
+  "run": "2026-11-14T19:55:38+00:00"
 }

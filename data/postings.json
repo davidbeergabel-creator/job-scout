@@ -177,12 +177,20 @@
   },
   {
     "company": "IO River",
-    "found": "2026-11-14",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-10",
     "source": "linkedin",
     "title": "Head of Marketing",
     "url": "https://il.linkedin.com/jobs/view/head-of-marketing-at-io-river-4487821229"
+  },
+  {
+    "company": "Lemonade",
+    "found": "2026-11-14",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-10",
+    "source": "linkedin",
+    "title": "Director of Business Technology & AI Ops",
+    "url": "https://il.linkedin.com/jobs/view/director-of-business-technology-ai-ops-at-lemonade-4464327329"
   },
   {
     "company": "Confidentiel",
@@ -191,14 +199,6 @@
     "source": "linkedin",
     "title": "VP of Global Shipping",
     "url": "https://il.linkedin.com/jobs/view/vp-of-global-shipping-at-confidentiel-4488208634"
-  },
-  {
-    "company": "DealHub.ai",
-    "location": "Holon, Tel Aviv District, Israel",
-    "posted": "2026-11-11",
-    "source": "linkedin",
-    "title": "VP Sales",
-    "url": "https://il.linkedin.com/jobs/view/vp-sales-at-dealhub-ai-4489991769"
   },
   {
     "company": "Expert Executive Recruiters (EER Global)",
@@ -298,14 +298,6 @@
   },
   {
     "company": "Personetics",
-    "location": "Giv'atayim, IL",
-    "posted": "2026-11-12",
-    "source": "comeet:83.00A",
-    "title": "Head of AI",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
-  },
-  {
-    "company": "Personetics",
     "location": "Givatayim, Tel Aviv District, Israel",
     "posted": "2026-11-12",
     "source": "linkedin",
@@ -329,19 +321,19 @@
     "url": "https://il.linkedin.com/jobs/view/sr-director-whs-franchise-israel-at-adidas-4488532887"
   },
   {
-    "company": "rating",
-    "location": "Center District, Israel",
-    "posted": "2026-11-12",
-    "source": "linkedin",
-    "title": "🚀 Executive Opportunity | CEO & CO-Founder | Managing Partner | Pre-Round A | AI Global Venture",
-    "url": "https://il.linkedin.com/jobs/view/%F0%9F%9A%80-executive-opportunity-ceo-co-founder-managing-partner-pre-round-a-ai-global-venture-at-rating-4488514126"
-  },
-  {
     "company": "Dot Compliance",
     "location": "Rehovot, IL",
-    "posted": "2026-11-13",
+    "posted": "2026-11-14",
     "source": "comeet:89.00D",
     "title": "Director of Marketing",
-    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/"
+    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/?1794137236646"
+  },
+  {
+    "company": "Personetics",
+    "location": "Giv'atayim, IL",
+    "posted": "2026-11-14",
+    "source": "comeet:83.00A",
+    "title": "Head of AI",
+    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
   }
 ]
