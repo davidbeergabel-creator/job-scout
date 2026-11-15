@@ -1,13 +1,5 @@
 [
   {
-    "company": "Immunai",
-    "location": "Ramat Gan, IL",
-    "posted": "2026-07-20",
-    "source": "comeet:37.009",
-    "title": "Director of AI Product",
-    "url": "https://www.comeet.com/jobs/immunai/37.009/director-of-ai-product/FC.D6C"
-  },
-  {
     "company": "Similarweb",
     "location": "Tel Aviv, Israel",
     "posted": "2026-10-14",
@@ -70,22 +62,6 @@
     "source": "comeet:37.009",
     "title": "Head of AI",
     "url": "https://www.comeet.com/jobs/immunai/37.009/head-of-ai/1F.B53"
-  },
-  {
-    "company": "LiveU",
-    "location": "Kfar Saba, Center District, Israel",
-    "posted": "2026-11-08",
-    "source": "linkedin",
-    "title": "Director of Data & AI",
-    "url": "https://il.linkedin.com/jobs/view/director-of-data-ai-at-liveu-4479504662"
-  },
-  {
-    "company": "Riverside",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-08",
-    "source": "linkedin",
-    "title": "VP Marketing",
-    "url": "https://il.linkedin.com/jobs/view/vp-marketing-at-riverside-4470804423"
   },
   {
     "company": "Dialog",
@@ -174,14 +150,6 @@
     "source": "linkedin",
     "title": "Head of Marketing",
     "url": "https://il.linkedin.com/jobs/view/head-of-marketing-at-io-river-4487821229"
-  },
-  {
-    "company": "Confidentiel",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-11-11",
-    "source": "linkedin",
-    "title": "VP of Global Shipping",
-    "url": "https://il.linkedin.com/jobs/view/vp-of-global-shipping-at-confidentiel-4488208634"
   },
   {
     "company": "Expert Executive Recruiters (EER Global)",
@@ -296,30 +264,46 @@
     "url": "https://il.linkedin.com/jobs/view/sr-director-whs-franchise-israel-at-adidas-4488532887"
   },
   {
-    "company": "CommuniTech IL",
-    "found": "2026-11-15",
-    "location": "Israel",
-    "posted": "2026-11-15",
-    "source": "linkedin",
-    "title": "Vice President of Defense Sales",
-    "url": "https://il.linkedin.com/jobs/view/vice-president-of-defense-sales-at-communitech-il-4489383380"
-  },
-  {
     "company": "Dot Compliance",
     "location": "Rehovot, IL",
     "posted": "2026-11-15",
     "source": "comeet:89.00D",
     "title": "Director of Marketing",
-    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/"
+    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/?1794137236646"
   },
   {
     "company": "Dun & Bradstreet (Israel) Ltd.",
-    "found": "2026-11-15",
     "location": "Bnei Brak, Tel Aviv District, Israel",
     "posted": "2026-11-15",
     "source": "linkedin",
     "title": "Head of B2B Sales & Customer Retention",
     "url": "https://il.linkedin.com/jobs/view/head-of-b2b-sales-customer-retention-at-dun-bradstreet-israel-ltd-4490226285"
+  },
+  {
+    "company": "Elad Software Systems",
+    "found": "2026-11-15",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-15",
+    "source": "linkedin",
+    "title": "Head of Digital, Data & AI and Channels (1008288)",
+    "url": "https://il.linkedin.com/jobs/view/head-of-digital-data-ai-and-channels-1008288-at-elad-software-systems-4491251366"
+  },
+  {
+    "company": "GeoEdge",
+    "found": "2026-11-15",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-15",
+    "source": "linkedin",
+    "title": "VP Marketing",
+    "url": "https://il.linkedin.com/jobs/view/vp-marketing-at-geoedge-4489382979"
+  },
+  {
+    "company": "Immunai",
+    "location": "Ramat Gan, IL",
+    "posted": "2026-11-15",
+    "source": "comeet:37.009",
+    "title": "Director of AI Product",
+    "url": "https://www.comeet.com/jobs/immunai/37.009/director-of-ai-product/FC.D6C"
   },
   {
     "company": "Lumenis",
