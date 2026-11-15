@@ -1,6 +1,6 @@
 {
   "board_errors": 4,
-  "boards": 139,
+  "boards": 143,
   "failed_boards": [
     "Coralogix (comeet-page:no token)",
     "Max (recruitee:404)",
@@ -10,7 +10,7 @@
   "jsearch": null,
   "linkedin": {
     "requests": 12,
-    "results": 49,
+    "results": 50,
     "statuses": [
       200,
       200,
@@ -26,9 +26,13 @@
       200
     ]
   },
-  "new": 0,
-  "notion": "nothing new",
-  "raw": 3297,
+  "new": 2,
+  "notion": {
+    "created": 2,
+    "failed": 0,
+    "skipped": 0
+  },
+  "raw": 3638,
   "relevant": 39,
-  "run": "2026-11-15T01:00:45+00:00"
+  "run": "2026-11-15T10:46:51+00:00"
 }
