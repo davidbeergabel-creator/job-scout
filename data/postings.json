@@ -80,30 +80,6 @@
     "url": "https://www.payoneer.com/careers/position/8236582/?gh_jid=8236582"
   },
   {
-    "company": "Pixellot - AI Sports Media & Intelligence",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-09",
-    "source": "linkedin",
-    "title": "Head of Client Solutions and Account Management",
-    "url": "https://il.linkedin.com/jobs/view/head-of-client-solutions-and-account-management-at-pixellot-ai-sports-media-intelligence-4487923131"
-  },
-  {
-    "company": "Radix Technologies",
-    "location": "Or Yehuda, Tel Aviv District, Israel",
-    "posted": "2026-11-09",
-    "source": "linkedin",
-    "title": "Director of Retail Sales",
-    "url": "https://il.linkedin.com/jobs/view/director-of-retail-sales-at-radix-technologies-4488869235"
-  },
-  {
-    "company": "ScaleOps",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-09",
-    "source": "linkedin",
-    "title": "VP AI",
-    "url": "https://il.linkedin.com/jobs/view/vp-ai-at-scaleops-4488870361"
-  },
-  {
     "company": "Canonical",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-10",
@@ -118,14 +94,6 @@
     "source": "linkedin",
     "title": "Country Sales Leader - General Manager",
     "url": "https://il.linkedin.com/jobs/view/country-sales-leader-general-manager-at-eaton-4451734335"
-  },
-  {
-    "company": "Expert Executive Recruiters (EER Global)",
-    "location": "Center District, Israel",
-    "posted": "2026-11-11",
-    "source": "linkedin",
-    "title": "Director of International E-commerce - D2C",
-    "url": "https://il.linkedin.com/jobs/view/director-of-international-e-commerce-d2c-at-expert-executive-recruiters-eer-global-4487636752"
   },
   {
     "company": "Guesty",
@@ -256,14 +224,6 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-digital-data-ai-and-channels-1008288-at-elad-software-systems-4491251366"
   },
   {
-    "company": "GeoEdge",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-15",
-    "source": "linkedin",
-    "title": "VP Marketing",
-    "url": "https://il.linkedin.com/jobs/view/vp-marketing-at-geoedge-4489382979"
-  },
-  {
     "company": "Immunai",
     "location": "Ramat Gan, IL",
     "posted": "2026-11-15",
@@ -288,6 +248,23 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-sales-at-okoora-4427436409"
   },
   {
+    "company": "Confidential Employer N/A",
+    "found": "2026-11-16",
+    "location": "Haifa District, Israel",
+    "posted": "2026-11-16",
+    "source": "linkedin",
+    "title": "Chief Executive Officer, C-level, General Manager",
+    "url": "https://il.linkedin.com/jobs/view/chief-executive-officer-c-level-general-manager-at-confidential-employer-n-a-4489776050"
+  },
+  {
+    "company": "Dialog",
+    "location": "Center District, Israel",
+    "posted": "2026-11-16",
+    "source": "linkedin",
+    "title": "Head of AI",
+    "url": "https://il.linkedin.com/jobs/view/head-of-ai-at-dialog-4489737765"
+  },
+  {
     "company": "Dot Compliance",
     "location": "Rehovot, IL",
     "posted": "2026-11-16",
@@ -297,7 +274,6 @@
   },
   {
     "company": "EX.CO",
-    "found": "2026-11-16",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-16",
     "source": "linkedin",
@@ -305,8 +281,32 @@
     "url": "https://il.linkedin.com/jobs/view/vice-president-marketing-at-ex-co-4478266994"
   },
   {
-    "company": "Omnea",
+    "company": "Expert Executive Recruiters (EER Global)",
+    "location": "Center District, Israel",
+    "posted": "2026-11-16",
+    "source": "linkedin",
+    "title": "Director of International E-commerce - D2C",
+    "url": "https://il.linkedin.com/jobs/view/director-of-international-e-commerce-d2c-at-expert-executive-recruiters-eer-global-4487636752"
+  },
+  {
+    "company": "GeoEdge",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-16",
+    "source": "linkedin",
+    "title": "VP Marketing",
+    "url": "https://il.linkedin.com/jobs/view/vp-marketing-at-geoedge-4489382979"
+  },
+  {
+    "company": "Logica-IT",
     "found": "2026-11-16",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-16",
+    "source": "linkedin",
+    "title": "Head of Digital, Data, AI & Channels",
+    "url": "https://il.linkedin.com/jobs/view/head-of-digital-data-ai-channels-at-logica-it-4489769977"
+  },
+  {
+    "company": "Omnea",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-16",
     "source": "linkedin",
@@ -320,5 +320,14 @@
     "source": "comeet:83.00A",
     "title": "Head of AI",
     "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+  },
+  {
+    "company": "Spikerz Security",
+    "found": "2026-11-16",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-16",
+    "source": "linkedin",
+    "title": "VP Marketing",
+    "url": "https://il.linkedin.com/jobs/view/vp-marketing-at-spikerz-security-4489729670"
   }
 ]

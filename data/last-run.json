@@ -1,18 +1,16 @@
 {
-  "board_errors": 6,
+  "board_errors": 4,
   "boards": 143,
   "failed_boards": [
     "Coralogix (comeet-page:no token)",
-    "Infinidat (comeet-page:0)",
     "Max (recruitee:404)",
     "Mitiga (comeet-page:no token)",
-    "Valens (recruitee:404)",
-    "Zencity (comeet-page:no token)"
+    "Valens (recruitee:404)"
   ],
   "jsearch": null,
   "linkedin": {
     "requests": 12,
-    "results": 51,
+    "results": 55,
     "statuses": [
       200,
       200,
@@ -28,13 +26,13 @@
       200
     ]
   },
-  "new": 2,
+  "new": 3,
   "notion": {
-    "created": 2,
+    "created": 3,
     "failed": 0,
     "skipped": 0
   },
-  "raw": 3587,
-  "relevant": 37,
-  "run": "2026-11-16T11:07:55+00:00"
+  "raw": 3606,
+  "relevant": 39,
+  "run": "2026-11-16T23:44:31+00:00"
 }
