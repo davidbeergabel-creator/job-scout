@@ -1,16 +1,21 @@
 {
-  "board_errors": 4,
+  "board_errors": 9,
   "boards": 143,
   "failed_boards": [
+    "Cloudinary (lever:504)",
     "Coralogix (comeet-page:no token)",
+    "Logz.io (lever:504)",
     "Max (recruitee:404)",
     "Mitiga (comeet-page:no token)",
-    "Valens (recruitee:404)"
+    "Palantir Israel (lever:502)",
+    "Rise.ai (lever:502)",
+    "Valens (recruitee:404)",
+    "WalkMe (lever:500)"
   ],
   "jsearch": null,
   "linkedin": {
     "requests": 12,
-    "results": 55,
+    "results": 58,
     "statuses": [
       200,
       200,
@@ -32,7 +37,7 @@
     "failed": 0,
     "skipped": 0
   },
-  "raw": 3606,
-  "relevant": 39,
-  "run": "2026-11-16T23:44:31+00:00"
+  "raw": 3247,
+  "relevant": 40,
+  "run": "2026-11-17T11:47:00+00:00"
 }

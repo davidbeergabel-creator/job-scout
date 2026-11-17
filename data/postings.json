@@ -16,14 +16,6 @@
     "url": "https://www.catonetworks.com/careers/careers-post/4977295101?gh_jid=4977295101"
   },
   {
-    "company": "Logz.io",
-    "location": "Tel Aviv, Business Operations",
-    "posted": "2026-10-15",
-    "source": "lever:logz",
-    "title": "Head Of Business Operations",
-    "url": "https://jobs.lever.co/logz/2e02efbc-b0c5-49f3-8a76-9fa56ffe7242"
-  },
-  {
     "company": "Aidoc",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-10-21",
@@ -80,22 +72,6 @@
     "url": "https://www.payoneer.com/careers/position/8236582/?gh_jid=8236582"
   },
   {
-    "company": "Canonical",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-10",
-    "source": "linkedin",
-    "title": "Partner Sales Director - IHV Alliances",
-    "url": "https://il.linkedin.com/jobs/view/partner-sales-director-ihv-alliances-at-canonical-4489177839"
-  },
-  {
-    "company": "Eaton",
-    "location": "Raanana, Center District, Israel",
-    "posted": "2026-11-10",
-    "source": "linkedin",
-    "title": "Country Sales Leader - General Manager",
-    "url": "https://il.linkedin.com/jobs/view/country-sales-leader-general-manager-at-eaton-4451734335"
-  },
-  {
     "company": "Guesty",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-11",
@@ -110,22 +86,6 @@
     "source": "linkedin",
     "title": "Senior Vice President Marketing",
     "url": "https://il.linkedin.com/jobs/view/senior-vice-president-marketing-at-rakuten-viber-4489923363"
-  },
-  {
-    "company": "ScaleOps",
-    "location": "Tel Aviv",
-    "posted": "2026-11-11",
-    "source": "greenhouse:scaleops",
-    "title": "VP AI",
-    "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4941455101"
-  },
-  {
-    "company": "ScaleOps",
-    "location": "Tel Aviv",
-    "posted": "2026-11-11",
-    "source": "greenhouse:scaleops",
-    "title": "VP Operations",
-    "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4971272101"
   },
   {
     "company": "ScaleOps",
@@ -208,6 +168,14 @@
     "url": "https://il.linkedin.com/jobs/view/sr-director-whs-franchise-israel-at-adidas-4488532887"
   },
   {
+    "company": "rating",
+    "location": "Center District, Israel",
+    "posted": "2026-11-12",
+    "source": "linkedin",
+    "title": "🚀 Executive Opportunity | CEO & CO-Founder | Managing Partner | Pre-Round A | AI Global Venture",
+    "url": "https://il.linkedin.com/jobs/view/%F0%9F%9A%80-executive-opportunity-ceo-co-founder-managing-partner-pre-round-a-ai-global-venture-at-rating-4488514126"
+  },
+  {
     "company": "Dun & Bradstreet (Israel) Ltd.",
     "location": "Bnei Brak, Tel Aviv District, Israel",
     "posted": "2026-11-15",
@@ -249,20 +217,11 @@
   },
   {
     "company": "Confidential Employer N/A",
-    "found": "2026-11-16",
     "location": "Haifa District, Israel",
     "posted": "2026-11-16",
     "source": "linkedin",
     "title": "Chief Executive Officer, C-level, General Manager",
     "url": "https://il.linkedin.com/jobs/view/chief-executive-officer-c-level-general-manager-at-confidential-employer-n-a-4489776050"
-  },
-  {
-    "company": "Dialog",
-    "location": "Center District, Israel",
-    "posted": "2026-11-16",
-    "source": "linkedin",
-    "title": "Head of AI",
-    "url": "https://il.linkedin.com/jobs/view/head-of-ai-at-dialog-4489737765"
   },
   {
     "company": "Dot Compliance",
@@ -298,7 +257,6 @@
   },
   {
     "company": "Logica-IT",
-    "found": "2026-11-16",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-16",
     "source": "linkedin",
@@ -314,20 +272,70 @@
     "url": "https://il.linkedin.com/jobs/view/vice-president-of-sales-at-omnea-4480780302"
   },
   {
-    "company": "Personetics",
-    "location": "Giv'atayim, IL",
-    "posted": "2026-11-16",
-    "source": "comeet:83.00A",
-    "title": "Head of AI",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
-  },
-  {
     "company": "Spikerz Security",
-    "found": "2026-11-16",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-16",
     "source": "linkedin",
     "title": "VP Marketing",
     "url": "https://il.linkedin.com/jobs/view/vp-marketing-at-spikerz-security-4489729670"
+  },
+  {
+    "company": "PIXEL SIGHT",
+    "found": "2026-11-17",
+    "location": "Herzliya, Tel Aviv District, Israel",
+    "posted": "2026-11-17",
+    "source": "linkedin",
+    "title": "VP of Sales – Defense Technology",
+    "url": "https://il.linkedin.com/jobs/view/vp-of-sales-%E2%80%93-defense-technology-at-pixel-sight-4491132023"
+  },
+  {
+    "company": "Payoneer",
+    "found": "2026-11-17",
+    "location": "Herzliya, Tel Aviv District, Israel",
+    "posted": "2026-11-17",
+    "source": "greenhouse:payoneer",
+    "title": "Director, AI Governance & Responsible AI",
+    "url": "https://www.payoneer.com/careers/position/8364230/?gh_jid=8364230"
+  },
+  {
+    "company": "Personetics",
+    "location": "Giv'atayim, IL",
+    "posted": "2026-11-17",
+    "source": "comeet:83.00A",
+    "title": "Head of AI",
+    "url": "https://personetics.com/us/careers-4/co/tel-aviv-israel/e5.075/head-of-ai/all"
+  },
+  {
+    "company": "Ronit Levin Tzairi",
+    "location": "Center District, Israel",
+    "posted": "2026-11-17",
+    "source": "linkedin",
+    "title": "CMO",
+    "url": "https://il.linkedin.com/jobs/view/cmo-4490422610"
+  },
+  {
+    "company": "ScaleOps",
+    "location": "Tel Aviv",
+    "posted": "2026-11-17",
+    "source": "greenhouse:scaleops",
+    "title": "VP AI",
+    "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4941455101"
+  },
+  {
+    "company": "ScaleOps",
+    "location": "Tel Aviv",
+    "posted": "2026-11-17",
+    "source": "greenhouse:scaleops",
+    "title": "VP Operations",
+    "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4971272101"
+  },
+  {
+    "company": "מרטנס | Mertens – מקבוצת מלם תים",
+    "found": "2026-11-17",
+    "location": "Center District, Israel",
+    "posted": "2026-11-17",
+    "source": "linkedin",
+    "title": "Head of Artificial Intelligence Division (38093)",
+    "url": "https://il.linkedin.com/jobs/view/head-of-artificial-intelligence-division-38093-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4491125231"
   }
 ]
