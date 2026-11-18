@@ -136,14 +136,6 @@
     "url": "https://il.linkedin.com/jobs/view/chief-executive-officer-c-level-general-manager-at-confidential-employer-n-a-4489776050"
   },
   {
-    "company": "Dialog",
-    "location": "Center District, Israel",
-    "posted": "2026-11-16",
-    "source": "linkedin",
-    "title": "Head of AI",
-    "url": "https://il.linkedin.com/jobs/view/head-of-ai-at-dialog-4489737765"
-  },
-  {
     "company": "Dot Compliance",
     "location": "Rehovot, IL",
     "posted": "2026-11-16",
@@ -158,14 +150,6 @@
     "source": "linkedin",
     "title": "Vice President Marketing",
     "url": "https://il.linkedin.com/jobs/view/vice-president-marketing-at-ex-co-4478266994"
-  },
-  {
-    "company": "Expert Executive Recruiters (EER Global)",
-    "location": "Center District, Israel",
-    "posted": "2026-11-16",
-    "source": "linkedin",
-    "title": "Director of International E-commerce - D2C",
-    "url": "https://il.linkedin.com/jobs/view/director-of-international-e-commerce-d2c-at-expert-executive-recruiters-eer-global-4487636752"
   },
   {
     "company": "GeoEdge",
@@ -265,12 +249,36 @@
   },
   {
     "company": "CONTACT",
-    "found": "2026-11-18",
     "location": "Caesarea, Haifa District, Israel",
     "posted": "2026-11-18",
     "source": "linkedin",
     "title": "Head of Operations",
     "url": "https://il.linkedin.com/jobs/view/head-of-operations-at-contact-4491804795"
+  },
+  {
+    "company": "Edwards Lifesciences",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-18",
+    "source": "linkedin",
+    "title": "Sales Country Director",
+    "url": "https://il.linkedin.com/jobs/view/sales-country-director-at-edwards-lifesciences-4455876117"
+  },
+  {
+    "company": "Edwards Lifesciences",
+    "location": "Caesarea, Haifa District, Israel",
+    "posted": "2026-11-18",
+    "source": "linkedin",
+    "title": "Sales Country Director",
+    "url": "https://il.linkedin.com/jobs/view/sales-country-director-at-edwards-lifesciences-4455864972"
+  },
+  {
+    "company": "HR Home",
+    "found": "2026-11-18",
+    "location": "Center District, Israel",
+    "posted": "2026-11-18",
+    "source": "linkedin",
+    "title": "VP Global Business Development & Sales",
+    "url": "https://il.linkedin.com/jobs/view/vp-global-business-development-sales-at-hr-home-4491838763"
   },
   {
     "company": "Lumenis",
@@ -282,7 +290,6 @@
   },
   {
     "company": "Manpower",
-    "found": "2026-11-18",
     "location": "Petah Tikva, Center District, Israel",
     "posted": "2026-11-18",
     "source": "linkedin",
@@ -299,11 +306,27 @@
   },
   {
     "company": "Stripe",
-    "found": "2026-11-18",
     "location": "Israel",
     "posted": "2026-11-18",
     "source": "linkedin",
     "title": "Country Manager, Israel",
     "url": "https://il.linkedin.com/jobs/view/country-manager-israel-at-stripe-4491481937"
+  },
+  {
+    "company": "XTEND",
+    "found": "2026-11-18",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-18",
+    "source": "linkedin",
+    "title": "Head of Product Partnership",
+    "url": "https://il.linkedin.com/jobs/view/head-of-product-partnership-at-xtend-4492023580"
+  },
+  {
+    "company": "rating",
+    "location": "Center District, Israel",
+    "posted": "2026-11-18",
+    "source": "linkedin",
+    "title": "🚀 Executive Opportunity | CEO & CO-Founder | Managing Partner | Pre-Round A | AI Global Venture",
+    "url": "https://il.linkedin.com/jobs/view/%F0%9F%9A%80-executive-opportunity-ceo-co-founder-managing-partner-pre-round-a-ai-global-venture-at-rating-4490804715"
   }
 ]
