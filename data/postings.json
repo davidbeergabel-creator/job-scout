@@ -56,30 +56,6 @@
     "url": "https://www.comeet.com/jobs/immunai/37.009/head-of-ai/1F.B53"
   },
   {
-    "company": "Payoneer",
-    "location": "Herzliya, Tel Aviv District, Israel",
-    "posted": "2026-11-09",
-    "source": "greenhouse:payoneer",
-    "title": "Director, Corporate Strategy",
-    "url": "https://www.payoneer.com/careers/position/8236582/?gh_jid=8236582"
-  },
-  {
-    "company": "Personetics",
-    "location": "Givatayim, Tel Aviv District, Israel",
-    "posted": "2026-11-12",
-    "source": "linkedin",
-    "title": "Head of AI",
-    "url": "https://il.linkedin.com/jobs/view/head-of-ai-at-personetics-4455270906"
-  },
-  {
-    "company": "adidas",
-    "location": "Holon, Tel Aviv District, Israel",
-    "posted": "2026-11-12",
-    "source": "linkedin",
-    "title": "SR. Director WHS & Franchise, Israel",
-    "url": "https://il.linkedin.com/jobs/view/sr-director-whs-franchise-israel-at-adidas-4488532887"
-  },
-  {
     "company": "Dun & Bradstreet (Israel) Ltd.",
     "location": "Bnei Brak, Tel Aviv District, Israel",
     "posted": "2026-11-15",
@@ -184,14 +160,6 @@
     "url": "https://il.linkedin.com/jobs/view/vp-of-sales-%E2%80%93-defense-technology-at-pixel-sight-4491132023"
   },
   {
-    "company": "Payoneer",
-    "location": "Herzliya, Tel Aviv District, Israel",
-    "posted": "2026-11-17",
-    "source": "greenhouse:payoneer",
-    "title": "Director, AI Governance & Responsible AI",
-    "url": "https://www.payoneer.com/careers/position/8364230/?gh_jid=8364230"
-  },
-  {
     "company": "Ronit Levin Tzairi",
     "location": "Center District, Israel",
     "posted": "2026-11-17",
@@ -214,14 +182,6 @@
     "source": "greenhouse:scaleops",
     "title": "VP Operations",
     "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4971272101"
-  },
-  {
-    "company": "מרטנס | Mertens – מקבוצת מלם תים",
-    "location": "Center District, Israel",
-    "posted": "2026-11-17",
-    "source": "linkedin",
-    "title": "Head of Artificial Intelligence Division (38093)",
-    "url": "https://il.linkedin.com/jobs/view/head-of-artificial-intelligence-division-38093-at-%D7%9E%D7%A8%D7%98%D7%A0%D7%A1-mertens-%E2%80%93-%D7%9E%D7%A7%D7%91%D7%95%D7%A6%D7%AA-%D7%9E%D7%9C%D7%9D-%D7%AA%D7%99%D7%9D-4491125231"
   },
   {
     "company": "CONTACT",
@@ -264,14 +224,6 @@
     "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
   },
   {
-    "company": "Manpower",
-    "location": "Petah Tikva, Center District, Israel",
-    "posted": "2026-11-18",
-    "source": "linkedin",
-    "title": "Head of AI",
-    "url": "https://il.linkedin.com/jobs/view/head-of-ai-at-manpower-4491788947"
-  },
-  {
     "company": "Stripe",
     "location": "Israel",
     "posted": "2026-11-18",
@@ -288,16 +240,23 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-product-partnership-at-xtend-4492023580"
   },
   {
+    "company": "Deel",
+    "location": "Israel",
+    "posted": "2026-11-19",
+    "source": "linkedin",
+    "title": "General Manager, EOR",
+    "url": "https://il.linkedin.com/jobs/view/general-manager-eor-at-deel-4456509359"
+  },
+  {
     "company": "Dot Compliance",
     "location": "Rehovot, IL",
     "posted": "2026-11-19",
     "source": "comeet:89.00D",
     "title": "Director of Marketing",
-    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/?1794137236646"
+    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/"
   },
   {
     "company": "IAI - Israel Aerospace Industries",
-    "found": "2026-11-19",
     "location": "Center District, Israel",
     "posted": "2026-11-19",
     "source": "linkedin",
@@ -314,7 +273,6 @@
   },
   {
     "company": "Lumenis",
-    "found": "2026-11-19",
     "location": "Petah Tikva, IL",
     "posted": "2026-11-19",
     "source": "comeet:A1.00C",
@@ -322,16 +280,31 @@
     "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-supply-chain/all/"
   },
   {
+    "company": "Payoneer",
+    "location": "Herzliya, Tel Aviv District, Israel",
+    "posted": "2026-11-19",
+    "source": "greenhouse:payoneer",
+    "title": "Director, AI Governance & Responsible AI",
+    "url": "https://www.payoneer.com/careers/position/8364230/?gh_jid=8364230"
+  },
+  {
+    "company": "Payoneer",
+    "location": "Herzliya, Tel Aviv District, Israel",
+    "posted": "2026-11-19",
+    "source": "greenhouse:payoneer",
+    "title": "Director, Corporate Strategy",
+    "url": "https://www.payoneer.com/careers/position/8236582/?gh_jid=8236582"
+  },
+  {
     "company": "Personetics",
     "location": "Giv'atayim, IL",
     "posted": "2026-11-19",
     "source": "comeet:83.00A",
     "title": "Head of AI",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+    "url": "https://personetics.com/us/careers-4/co/tel-aviv-israel/E5.075/head-of-ai/all/"
   },
   {
     "company": "Zion Today",
-    "found": "2026-11-19",
     "location": "Petah Tikva, Center District, Israel",
     "posted": "2026-11-19",
     "source": "linkedin",
