@@ -280,15 +280,6 @@
     "url": "https://il.linkedin.com/jobs/view/business-co-founder-for-israel-s-greatest-startup-exit-ever-at-zion-today-4491390324"
   },
   {
-    "company": "AXIAY",
-    "found": "2026-11-20",
-    "location": "Center District, Israel",
-    "posted": "2026-11-20",
-    "source": "linkedin",
-    "title": "Senior VP of Sales | B2C Growth & Business Development (858035)",
-    "url": "https://il.linkedin.com/jobs/view/senior-vp-of-sales-b2c-growth-business-development-858035-4491937000"
-  },
-  {
     "company": "Dot Compliance",
     "location": "Rehovot, IL",
     "posted": "2026-11-20",
@@ -298,7 +289,6 @@
   },
   {
     "company": "EWOR",
-    "found": "2026-11-20",
     "location": "Haifa, Haifa District, Israel",
     "posted": "2026-11-20",
     "source": "linkedin",
@@ -322,12 +312,13 @@
     "url": "https://il.linkedin.com/jobs/view/fintech-co-founder-cco-100-%25-remote-m-f-d-at-ewor-4492928534"
   },
   {
-    "company": "Lumenis",
-    "location": "Petah Tikva, IL",
+    "company": "EssilorLuxottica",
+    "found": "2026-11-21",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-20",
-    "source": "comeet:A1.00C",
-    "title": "Director of operations",
-    "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-supply-chain/all/"
+    "source": "linkedin",
+    "title": "Sales Director",
+    "url": "https://il.linkedin.com/jobs/view/sales-director-at-essilorluxottica-4493232122"
   },
   {
     "company": "Personetics",
@@ -336,5 +327,13 @@
     "source": "comeet:83.00A",
     "title": "Head of AI",
     "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+  },
+  {
+    "company": "Lumenis",
+    "location": "Petah Tikva, IL",
+    "posted": "2026-11-21",
+    "source": "comeet:A1.00C",
+    "title": "Director of operations",
+    "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-supply-chain/all/"
   }
 ]
