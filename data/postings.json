@@ -272,6 +272,14 @@
     "url": "https://il.linkedin.com/jobs/view/sales-director-at-essilorluxottica-4493232122"
   },
   {
+    "company": "Givingtech",
+    "location": "Israel",
+    "posted": "2026-11-20",
+    "source": "linkedin",
+    "title": "Head of Business Development & Partnerships",
+    "url": "https://il.linkedin.com/jobs/view/head-of-business-development-partnerships-at-givingtech-4491622167"
+  },
+  {
     "company": "Personetics",
     "location": "Giv'atayim, IL",
     "posted": "2026-11-20",
@@ -304,14 +312,6 @@
     "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-supply-chain/all/"
   },
   {
-    "company": "Personetics",
-    "location": "Giv'atayim, IL",
-    "posted": "2026-11-22",
-    "source": "comeet:83.00A",
-    "title": "Director Content & Corporate Marketing",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/C8.575/director-content-corporate-marketing/all/"
-  },
-  {
     "company": "Razor Labs",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-22",
@@ -321,11 +321,18 @@
   },
   {
     "company": "SQLink Group",
-    "found": "2026-11-22",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-22",
     "source": "linkedin",
     "title": "Head of Digital, Data & AI",
     "url": "https://il.linkedin.com/jobs/view/head-of-digital-data-ai-at-sqlink-group-4492352653"
+  },
+  {
+    "company": "Personetics",
+    "location": "Giv'atayim, IL",
+    "posted": "2026-11-23",
+    "source": "comeet:83.00A",
+    "title": "Director Content & Corporate Marketing",
+    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/C8.575/director-content-corporate-marketing/all/?-updates"
   }
 ]
