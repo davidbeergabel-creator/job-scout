@@ -40,14 +40,6 @@
     "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5018967101"
   },
   {
-    "company": "Gong",
-    "location": "Tel Aviv",
-    "posted": "2026-10-30",
-    "source": "greenhouse:gongio",
-    "title": "Head of AI Security",
-    "url": "https://job-boards.greenhouse.io/gongio/jobs/4672107006"
-  },
-  {
     "company": "Immunai",
     "location": "Ramat Gan, IL",
     "posted": "2026-11-03",
@@ -72,30 +64,6 @@
     "url": "https://il.linkedin.com/jobs/view/chief-executive-officer-c-level-general-manager-at-confidential-employer-n-a-4489776050"
   },
   {
-    "company": "EX.CO",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-11-16",
-    "source": "linkedin",
-    "title": "Vice President Marketing",
-    "url": "https://il.linkedin.com/jobs/view/vice-president-marketing-at-ex-co-4478266994"
-  },
-  {
-    "company": "GeoEdge",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-16",
-    "source": "linkedin",
-    "title": "VP Marketing",
-    "url": "https://il.linkedin.com/jobs/view/vp-marketing-at-geoedge-4489382979"
-  },
-  {
-    "company": "Omnea",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-11-16",
-    "source": "linkedin",
-    "title": "Vice President of Sales",
-    "url": "https://il.linkedin.com/jobs/view/vice-president-of-sales-at-omnea-4480780302"
-  },
-  {
     "company": "Spikerz Security",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-16",
@@ -110,6 +78,14 @@
     "source": "linkedin",
     "title": "Director of Delivery & Projects",
     "url": "https://il.linkedin.com/jobs/view/director-of-delivery-projects-at-bezeq-international-4491191210"
+  },
+  {
+    "company": "Buildots",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-17",
+    "source": "linkedin",
+    "title": "Director of Global Operations (Maternity Leave)",
+    "url": "https://il.linkedin.com/jobs/view/director-of-global-operations-maternity-leave-at-buildots-4490456879"
   },
   {
     "company": "MazeBolt",
@@ -232,14 +208,6 @@
     "url": "https://www.payoneer.com/careers/position/8364230/?gh_jid=8364230"
   },
   {
-    "company": "Payoneer",
-    "location": "Herzliya, Tel Aviv District, Israel",
-    "posted": "2026-11-19",
-    "source": "greenhouse:payoneer",
-    "title": "Director, Corporate Strategy",
-    "url": "https://www.payoneer.com/careers/position/8236582/?gh_jid=8236582"
-  },
-  {
     "company": "EWOR",
     "location": "Haifa, Haifa District, Israel",
     "posted": "2026-11-20",
@@ -272,54 +240,6 @@
     "url": "https://il.linkedin.com/jobs/view/sales-director-at-essilorluxottica-4493232122"
   },
   {
-    "company": "Givingtech",
-    "location": "Israel",
-    "posted": "2026-11-20",
-    "source": "linkedin",
-    "title": "Head of Business Development & Partnerships",
-    "url": "https://il.linkedin.com/jobs/view/head-of-business-development-partnerships-at-givingtech-4491622167"
-  },
-  {
-    "company": "Personetics",
-    "location": "Giv'atayim, IL",
-    "posted": "2026-11-20",
-    "source": "comeet:83.00A",
-    "title": "Head of AI",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
-  },
-  {
-    "company": "Dot Compliance",
-    "location": "Rehovot, IL",
-    "posted": "2026-11-22",
-    "source": "comeet:89.00D",
-    "title": "Director of Marketing",
-    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/"
-  },
-  {
-    "company": "Kibbutzim College - סמינר הקיבוצים",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-11-22",
-    "source": "linkedin",
-    "title": "Head of Operations",
-    "url": "https://il.linkedin.com/jobs/view/head-of-operations-at-kibbutzim-college-%D7%A1%D7%9E%D7%99%D7%A0%D7%A8-%D7%94%D7%A7%D7%99%D7%91%D7%95%D7%A6%D7%99%D7%9D-4493171794"
-  },
-  {
-    "company": "Lumenis",
-    "location": "Petah Tikva, IL",
-    "posted": "2026-11-22",
-    "source": "comeet:A1.00C",
-    "title": "Director of operations",
-    "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-supply-chain/all/"
-  },
-  {
-    "company": "Razor Labs",
-    "location": "Tel Aviv District, Israel",
-    "posted": "2026-11-22",
-    "source": "linkedin",
-    "title": "VP Sales, North America",
-    "url": "https://il.linkedin.com/jobs/view/vp-sales-north-america-at-razor-labs-4492349294"
-  },
-  {
     "company": "SQLink Group",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-22",
@@ -328,11 +248,105 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-digital-data-ai-at-sqlink-group-4492352653"
   },
   {
+    "company": "Dana Hait Expert Talent Advisor",
+    "found": "2026-11-23",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "Head of New Business",
+    "url": "https://il.linkedin.com/jobs/view/head-of-new-business-at-dana-hait-expert-talent-advisor-4492386948"
+  },
+  {
+    "company": "Dot Compliance",
+    "location": "Rehovot, IL",
+    "posted": "2026-11-23",
+    "source": "comeet:89.00D",
+    "title": "Director of Marketing",
+    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/"
+  },
+  {
+    "company": "Dun & Bradstreet (Israel) Ltd.",
+    "found": "2026-11-23",
+    "location": "Bnei Brak, Tel Aviv District, Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "Director of Strategic Division & Enterprise Sales",
+    "url": "https://il.linkedin.com/jobs/view/director-of-strategic-division-enterprise-sales-at-dun-bradstreet-israel-ltd-4493745245"
+  },
+  {
+    "company": "Jobgether",
+    "found": "2026-11-23",
+    "location": "Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "VP / Head of E-commerce & Marketing – Paid Advisor",
+    "url": "https://il.linkedin.com/jobs/view/vp-head-of-e-commerce-marketing-%E2%80%93-paid-advisor-at-jobgether-4493595772"
+  },
+  {
+    "company": "Kroll Consulting",
+    "found": "2026-11-23",
+    "location": "Herzliya, Tel Aviv District, Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "Vice President of Sales- Defense Technology",
+    "url": "https://il.linkedin.com/jobs/view/vice-president-of-sales-defense-technology-at-kroll-consulting-4493608733"
+  },
+  {
+    "company": "Lumenis",
+    "location": "Petah Tikva, IL",
+    "posted": "2026-11-23",
+    "source": "comeet:A1.00C",
+    "title": "Director of operations",
+    "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-of-operations/all/"
+  },
+  {
+    "company": "MAËLYS",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "Head of AI",
+    "url": "https://il.linkedin.com/jobs/view/head-of-ai-at-ma%C3%ABlys-4481080694"
+  },
+  {
     "company": "Personetics",
     "location": "Giv'atayim, IL",
     "posted": "2026-11-23",
     "source": "comeet:83.00A",
     "title": "Director Content & Corporate Marketing",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/C8.575/director-content-corporate-marketing/all/?-updates"
+    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/C8.575/director-content-corporate-marketing/all/"
+  },
+  {
+    "company": "Personetics",
+    "location": "Giv'atayim, IL",
+    "posted": "2026-11-23",
+    "source": "comeet:83.00A",
+    "title": "Head of AI",
+    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
+  },
+  {
+    "company": "Recruitx",
+    "found": "2026-11-23",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "Head of Operations E-commerce JB-5632",
+    "url": "https://il.linkedin.com/jobs/view/head-of-operations-e-commerce-jb-5632-at-recruitx-4493617611"
+  },
+  {
+    "company": "Wave Guard Technologies Ltd.",
+    "location": "Hod HaSharon, Center District, Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "Vice President of Sales",
+    "url": "https://il.linkedin.com/jobs/view/vice-president-of-sales-at-wave-guard-technologies-ltd-4492602178"
+  },
+  {
+    "company": "confidentail",
+    "found": "2026-11-23",
+    "location": "Caesarea, Haifa District, Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "Chief Commercial Officer",
+    "url": "https://il.linkedin.com/jobs/view/chief-commercial-officer-4493744923"
   }
 ]
