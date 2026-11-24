@@ -1,8 +1,7 @@
 {
-  "board_errors": 4,
+  "board_errors": 3,
   "boards": 143,
   "failed_boards": [
-    "Coralogix (comeet-page:no token)",
     "Max (recruitee:404)",
     "Mitiga (comeet-page:no token)",
     "Valens (recruitee:404)"
@@ -10,7 +9,7 @@
   "jsearch": null,
   "linkedin": {
     "requests": 12,
-    "results": 61,
+    "results": 64,
     "statuses": [
       200,
       200,
@@ -32,7 +31,7 @@
     "failed": 0,
     "skipped": 0
   },
-  "raw": 3594,
-  "relevant": 41,
-  "run": "2026-11-24T13:37:04+00:00"
+  "raw": 3635,
+  "relevant": 44,
+  "run": "2026-11-24T23:52:56+00:00"
 }

@@ -1,5 +1,21 @@
 [
   {
+    "company": "Coralogix",
+    "location": "Ramat Gan Israel",
+    "posted": "",
+    "source": "comeet-wp:0C.D60",
+    "title": "Vp Business Applications",
+    "url": "https://www.coralogix.com/careers/co/ramat-gan-israel/0C.D60/vp-business-applications/all/"
+  },
+  {
+    "company": "Coralogix",
+    "location": "Ramat Gan Israel",
+    "posted": "",
+    "source": "comeet-wp:B5.F66",
+    "title": "Vp Operations",
+    "url": "https://www.coralogix.com/careers/co/ramat-gan-israel/B5.F66/vp-operations/all/"
+  },
+  {
     "company": "Similarweb",
     "location": "Tel Aviv, Israel",
     "posted": "2026-10-14",
@@ -54,22 +70,6 @@
     "source": "comeet:37.009",
     "title": "Director of AI Product",
     "url": "https://www.comeet.com/jobs/immunai/37.009/director-of-ai-product/FC.D6C"
-  },
-  {
-    "company": "Bezeq International",
-    "location": "Petah Tikva, Center District, Israel",
-    "posted": "2026-11-17",
-    "source": "linkedin",
-    "title": "Director of Delivery & Projects",
-    "url": "https://il.linkedin.com/jobs/view/director-of-delivery-projects-at-bezeq-international-4491191210"
-  },
-  {
-    "company": "Buildots",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-17",
-    "source": "linkedin",
-    "title": "Director of Global Operations (Maternity Leave)",
-    "url": "https://il.linkedin.com/jobs/view/director-of-global-operations-maternity-leave-at-buildots-4490456879"
   },
   {
     "company": "MazeBolt",
@@ -136,14 +136,6 @@
     "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
   },
   {
-    "company": "Lumenis",
-    "location": "Petah Tikva, Center District, Israel",
-    "posted": "2026-11-18",
-    "source": "linkedin",
-    "title": "Director of Operations",
-    "url": "https://il.linkedin.com/jobs/view/director-of-operations-at-lumenis-4491834981"
-  },
-  {
     "company": "XTEND",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-18",
@@ -174,14 +166,6 @@
     "source": "linkedin",
     "title": "Chief Marketing Officer",
     "url": "https://il.linkedin.com/jobs/view/chief-marketing-officer-at-lsports-4487731947"
-  },
-  {
-    "company": "Payoneer",
-    "location": "Herzliya, Tel Aviv District, Israel",
-    "posted": "2026-11-19",
-    "source": "greenhouse:payoneer",
-    "title": "Director, AI Governance & Responsible AI",
-    "url": "https://www.payoneer.com/careers/position/8364230/?gh_jid=8364230"
   },
   {
     "company": "EWOR",
@@ -297,7 +281,6 @@
   },
   {
     "company": "BTC searching",
-    "found": "2026-11-24",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-24",
     "source": "linkedin",
@@ -305,16 +288,41 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-growth-marketing-at-btc-searching-4493966902"
   },
   {
+    "company": "Companytech",
+    "found": "2026-11-24",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-24",
+    "source": "linkedin",
+    "title": "Head of User Acquisition & Client Strategy",
+    "url": "https://il.linkedin.com/jobs/view/head-of-user-acquisition-client-strategy-at-companytech-4493027809"
+  },
+  {
+    "company": "Coralogix",
+    "location": "Ramat Gan, Tel Aviv District, Israel",
+    "posted": "2026-11-24",
+    "source": "linkedin",
+    "title": "VP Operations",
+    "url": "https://il.linkedin.com/jobs/view/vp-operations-at-coralogix-4478506460"
+  },
+  {
     "company": "Dot Compliance",
     "location": "Rehovot, IL",
     "posted": "2026-11-24",
     "source": "comeet:89.00D",
     "title": "Director of Marketing",
-    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/?1794137236646"
+    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/"
+  },
+  {
+    "company": "Fireblocks",
+    "found": "2026-11-24",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-24",
+    "source": "greenhouse:fireblocks",
+    "title": "VP Product Marketing",
+    "url": "https://www.fireblocks.com/careers/position?gh_jid=4730676006"
   },
   {
     "company": "Jobgether",
-    "found": "2026-11-24",
     "location": "Israel",
     "posted": "2026-11-24",
     "source": "linkedin",
@@ -327,7 +335,15 @@
     "posted": "2026-11-24",
     "source": "comeet:A1.00C",
     "title": "Director of operations",
-    "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-of-operations/all/"
+    "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-supply-chain/all/?-updates"
+  },
+  {
+    "company": "Payoneer",
+    "location": "Herzliya, Tel Aviv District, Israel",
+    "posted": "2026-11-24",
+    "source": "greenhouse:payoneer",
+    "title": "Director, AI Governance & Responsible AI",
+    "url": "https://www.payoneer.com/careers/position/8364230/?gh_jid=8364230"
   },
   {
     "company": "Personetics",
@@ -335,7 +351,7 @@
     "posted": "2026-11-24",
     "source": "comeet:83.00A",
     "title": "Director Content & Corporate Marketing",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/C8.575/director-content-corporate-marketing/all/"
+    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/C8.575/director-content-corporate-marketing/all/?t=1795468419856"
   },
   {
     "company": "Personetics",
@@ -346,8 +362,16 @@
     "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
   },
   {
-    "company": "mylo AI",
+    "company": "Soho House & Co",
     "found": "2026-11-24",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-24",
+    "source": "linkedin",
+    "title": "General Manager",
+    "url": "https://il.linkedin.com/jobs/view/general-manager-at-soho-house-co-4494176764"
+  },
+  {
+    "company": "mylo AI",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-24",
     "source": "linkedin",
