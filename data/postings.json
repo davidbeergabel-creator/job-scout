@@ -56,22 +56,6 @@
     "url": "https://www.comeet.com/jobs/immunai/37.009/director-of-ai-product/FC.D6C"
   },
   {
-    "company": "Confidential Employer N/A",
-    "location": "Haifa District, Israel",
-    "posted": "2026-11-16",
-    "source": "linkedin",
-    "title": "Chief Executive Officer, C-level, General Manager",
-    "url": "https://il.linkedin.com/jobs/view/chief-executive-officer-c-level-general-manager-at-confidential-employer-n-a-4489776050"
-  },
-  {
-    "company": "Spikerz Security",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-16",
-    "source": "linkedin",
-    "title": "VP Marketing",
-    "url": "https://il.linkedin.com/jobs/view/vp-marketing-at-spikerz-security-4489729670"
-  },
-  {
     "company": "Bezeq International",
     "location": "Petah Tikva, Center District, Israel",
     "posted": "2026-11-17",
@@ -94,14 +78,6 @@
     "source": "comeet:A7.00C",
     "title": "VP Customer Success & Delivery",
     "url": "https://mazebolt.com/careers-apply/co/technical-services/17.071/vp-customer-success-delivery/all"
-  },
-  {
-    "company": "PIXEL SIGHT",
-    "location": "Herzliya, Tel Aviv District, Israel",
-    "posted": "2026-11-17",
-    "source": "linkedin",
-    "title": "VP of Sales – Defense Technology",
-    "url": "https://il.linkedin.com/jobs/view/vp-of-sales-%E2%80%93-defense-technology-at-pixel-sight-4491132023"
   },
   {
     "company": "ScaleOps",
@@ -158,14 +134,6 @@
     "source": "comeet:A1.00C",
     "title": "Head of Marketing",
     "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
-  },
-  {
-    "company": "Stripe",
-    "location": "Israel",
-    "posted": "2026-11-18",
-    "source": "linkedin",
-    "title": "Country Manager, Israel",
-    "url": "https://il.linkedin.com/jobs/view/country-manager-israel-at-stripe-4491481937"
   },
   {
     "company": "XTEND",
@@ -240,6 +208,14 @@
     "url": "https://il.linkedin.com/jobs/view/sales-director-at-essilorluxottica-4493232122"
   },
   {
+    "company": "Givingtech",
+    "location": "Israel",
+    "posted": "2026-11-20",
+    "source": "linkedin",
+    "title": "Head of Business Development & Partnerships",
+    "url": "https://il.linkedin.com/jobs/view/head-of-business-development-partnerships-at-givingtech-4491622167"
+  },
+  {
     "company": "SQLink Group",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-22",
@@ -248,13 +224,13 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-digital-data-ai-at-sqlink-group-4492352653"
   },
   {
-    "company": "Dana Hait Expert Talent Advisor",
-    "found": "2026-11-23",
+    "company": "Talent Integration",
+    "found": "2026-11-24",
     "location": "Tel Aviv District, Israel",
-    "posted": "2026-11-23",
+    "posted": "2026-11-22",
     "source": "linkedin",
-    "title": "Head of New Business",
-    "url": "https://il.linkedin.com/jobs/view/head-of-new-business-at-dana-hait-expert-talent-advisor-4492386948"
+    "title": "Head of Marketing",
+    "url": "https://il.linkedin.com/jobs/view/head-of-marketing-at-talent-integration-4492371256"
   },
   {
     "company": "Dot Compliance",
@@ -266,7 +242,6 @@
   },
   {
     "company": "Dun & Bradstreet (Israel) Ltd.",
-    "found": "2026-11-23",
     "location": "Bnei Brak, Tel Aviv District, Israel",
     "posted": "2026-11-23",
     "source": "linkedin",
@@ -274,8 +249,15 @@
     "url": "https://il.linkedin.com/jobs/view/director-of-strategic-division-enterprise-sales-at-dun-bradstreet-israel-ltd-4493745245"
   },
   {
+    "company": "Expert Executive Recruiters (EER Global)",
+    "location": "Center District, Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "Director of International E-commerce - D2C",
+    "url": "https://il.linkedin.com/jobs/view/director-of-international-e-commerce-d2c-at-expert-executive-recruiters-eer-global-4487636752"
+  },
+  {
     "company": "Jobgether",
-    "found": "2026-11-23",
     "location": "Israel",
     "posted": "2026-11-23",
     "source": "linkedin",
@@ -284,7 +266,6 @@
   },
   {
     "company": "Kroll Consulting",
-    "found": "2026-11-23",
     "location": "Herzliya, Tel Aviv District, Israel",
     "posted": "2026-11-23",
     "source": "linkedin",
@@ -325,12 +306,20 @@
   },
   {
     "company": "Recruitx",
-    "found": "2026-11-23",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-23",
     "source": "linkedin",
     "title": "Head of Operations E-commerce JB-5632",
     "url": "https://il.linkedin.com/jobs/view/head-of-operations-e-commerce-jb-5632-at-recruitx-4493617611"
+  },
+  {
+    "company": "VOYE",
+    "found": "2026-11-24",
+    "location": "Rishon LeZion, Center District, Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "Head of Marketing",
+    "url": "https://il.linkedin.com/jobs/view/head-of-marketing-at-voye-4492399575"
   },
   {
     "company": "Wave Guard Technologies Ltd.",
@@ -341,12 +330,29 @@
     "url": "https://il.linkedin.com/jobs/view/vice-president-of-sales-at-wave-guard-technologies-ltd-4492602178"
   },
   {
+    "company": "Zafran Security",
+    "found": "2026-11-24",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "Director of Product Partnerships",
+    "url": "https://il.linkedin.com/jobs/view/director-of-product-partnerships-at-zafran-security-4494079045"
+  },
+  {
     "company": "confidentail",
-    "found": "2026-11-23",
     "location": "Caesarea, Haifa District, Israel",
     "posted": "2026-11-23",
     "source": "linkedin",
     "title": "Chief Commercial Officer",
     "url": "https://il.linkedin.com/jobs/view/chief-commercial-officer-4493744923"
+  },
+  {
+    "company": "iFOR FINTECH",
+    "found": "2026-11-24",
+    "location": "Herzliya, Tel Aviv District, Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "Head of Affiliate & Influencer Marketing",
+    "url": "https://il.linkedin.com/jobs/view/head-of-affiliate-influencer-marketing-at-ifor-fintech-4493621400"
   }
 ]
