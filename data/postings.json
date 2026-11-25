@@ -96,52 +96,12 @@
     "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4971272101"
   },
   {
-    "company": "Edwards Lifesciences",
-    "location": "Caesarea, Haifa District, Israel",
-    "posted": "2026-11-18",
-    "source": "linkedin",
-    "title": "Sales Country Director",
-    "url": "https://il.linkedin.com/jobs/view/sales-country-director-at-edwards-lifesciences-4455864972"
-  },
-  {
-    "company": "Edwards Lifesciences",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-18",
-    "source": "linkedin",
-    "title": "Sales Country Director",
-    "url": "https://il.linkedin.com/jobs/view/sales-country-director-at-edwards-lifesciences-4455876117"
-  },
-  {
-    "company": "HR Home",
-    "location": "Center District, Israel",
-    "posted": "2026-11-18",
-    "source": "linkedin",
-    "title": "VP Global Business Development & Sales",
-    "url": "https://il.linkedin.com/jobs/view/vp-global-business-development-sales-at-hr-home-4491838763"
-  },
-  {
     "company": "Lumenis",
     "location": "Yokne'am Illit, IL",
     "posted": "2026-11-18",
     "source": "comeet:A1.00C",
     "title": "Head of Marketing",
     "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
-  },
-  {
-    "company": "Lumenis",
-    "location": "Petah Tikva, Center District, Israel",
-    "posted": "2026-11-18",
-    "source": "linkedin",
-    "title": "Director of Operations",
-    "url": "https://il.linkedin.com/jobs/view/director-of-operations-at-lumenis-4491834981"
-  },
-  {
-    "company": "XTEND",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-18",
-    "source": "linkedin",
-    "title": "Head of Product Partnership",
-    "url": "https://il.linkedin.com/jobs/view/head-of-product-partnership-at-xtend-4492023580"
   },
   {
     "company": "Deel",
@@ -177,11 +137,20 @@
   },
   {
     "company": "EWOR",
+    "found": "2026-11-25",
     "location": "Israel",
     "posted": "2026-11-20",
     "source": "linkedin",
-    "title": "Fintech Co-Founder / CCO (100 % remote) (m/f/d)",
-    "url": "https://il.linkedin.com/jobs/view/fintech-co-founder-cco-100-%25-remote-m-f-d-at-ewor-4492909120"
+    "title": "Supply Chain Co-Founder / CMO (100 % remote) (m/f/d)",
+    "url": "https://il.linkedin.com/jobs/view/supply-chain-co-founder-cmo-100-%25-remote-m-f-d-at-ewor-4492912143"
+  },
+  {
+    "company": "Yad2",
+    "location": "Petah Tikva, Center District, Israel",
+    "posted": "2026-11-20",
+    "source": "linkedin",
+    "title": "Head of Marketing - Real Estate - Secondary",
+    "url": "https://il.linkedin.com/jobs/view/head-of-marketing-real-estate-secondary-at-yad2-4428783514"
   },
   {
     "company": "SQLink Group",
@@ -272,14 +241,6 @@
     "url": "https://il.linkedin.com/jobs/view/vp-operations-at-coralogix-4478506460"
   },
   {
-    "company": "Dot Compliance",
-    "location": "Rehovot, IL",
-    "posted": "2026-11-24",
-    "source": "comeet:89.00D",
-    "title": "Director of Marketing",
-    "url": "https://www.dotcompliance.com/job-page/co/il/6E.478/director-of-marketing/all/"
-  },
-  {
     "company": "Fireblocks",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-24",
@@ -328,15 +289,6 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-gtm-%E2%80%93-u-s-expansion-at-mylo-ai-4494317715"
   },
   {
-    "company": "BizTalent",
-    "found": "2026-11-25",
-    "location": "Israel",
-    "posted": "2026-11-25",
-    "source": "linkedin",
-    "title": "VP Marketing",
-    "url": "https://il.linkedin.com/jobs/view/vp-marketing-at-biztalent-4493415102"
-  },
-  {
     "company": "EssilorLuxottica",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-25",
@@ -351,6 +303,15 @@
     "source": "linkedin",
     "title": "VP Product Marketing",
     "url": "https://il.linkedin.com/jobs/view/vp-product-marketing-at-fireblocks-4494452484"
+  },
+  {
+    "company": "Knauf Israel",
+    "found": "2026-11-25",
+    "location": "Or Yehuda, Tel Aviv District, Israel",
+    "posted": "2026-11-25",
+    "source": "linkedin",
+    "title": "Sales Director",
+    "url": "https://il.linkedin.com/jobs/view/sales-director-at-knauf-israel-4494633862"
   },
   {
     "company": "Logz.io",
