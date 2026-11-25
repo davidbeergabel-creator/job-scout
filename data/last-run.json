@@ -1,7 +1,8 @@
 {
-  "board_errors": 3,
+  "board_errors": 4,
   "boards": 143,
   "failed_boards": [
+    "Infinidat (comeet-page:0)",
     "Max (recruitee:404)",
     "Mitiga (comeet-page:no token)",
     "Valens (recruitee:404)"
@@ -9,7 +10,7 @@
   "jsearch": null,
   "linkedin": {
     "requests": 12,
-    "results": 64,
+    "results": 65,
     "statuses": [
       200,
       200,
@@ -25,13 +26,13 @@
       200
     ]
   },
-  "new": 3,
+  "new": 1,
   "notion": {
-    "created": 3,
+    "created": 1,
     "failed": 0,
     "skipped": 0
   },
-  "raw": 3635,
-  "relevant": 44,
-  "run": "2026-11-24T23:52:56+00:00"
+  "raw": 3596,
+  "relevant": 42,
+  "run": "2026-11-25T12:46:23+00:00"
 }
