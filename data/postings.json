@@ -96,36 +96,12 @@
     "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4971272101"
   },
   {
-    "company": "Lumenis",
-    "location": "Yokne'am Illit, IL",
-    "posted": "2026-11-18",
-    "source": "comeet:A1.00C",
-    "title": "Head of Marketing",
-    "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
-  },
-  {
     "company": "Deel",
     "location": "Israel",
     "posted": "2026-11-19",
     "source": "linkedin",
     "title": "General Manager, EOR",
     "url": "https://il.linkedin.com/jobs/view/general-manager-eor-at-deel-4456509359"
-  },
-  {
-    "company": "IAI - Israel Aerospace Industries",
-    "location": "Center District, Israel",
-    "posted": "2026-11-19",
-    "source": "linkedin",
-    "title": "Vice President of AI & Digital",
-    "url": "https://il.linkedin.com/jobs/view/vice-president-of-ai-digital-at-iai-israel-aerospace-industries-4491394339"
-  },
-  {
-    "company": "LSports",
-    "location": "Ashkelon, South District, Israel",
-    "posted": "2026-11-19",
-    "source": "linkedin",
-    "title": "Chief Marketing Officer",
-    "url": "https://il.linkedin.com/jobs/view/chief-marketing-officer-at-lsports-4487731947"
   },
   {
     "company": "EWOR",
@@ -137,7 +113,6 @@
   },
   {
     "company": "EWOR",
-    "found": "2026-11-25",
     "location": "Israel",
     "posted": "2026-11-20",
     "source": "linkedin",
@@ -233,14 +208,6 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-growth-marketing-at-btc-searching-4493966902"
   },
   {
-    "company": "Coralogix",
-    "location": "Ramat Gan, Tel Aviv District, Israel",
-    "posted": "2026-11-24",
-    "source": "linkedin",
-    "title": "VP Operations",
-    "url": "https://il.linkedin.com/jobs/view/vp-operations-at-coralogix-4478506460"
-  },
-  {
     "company": "Fireblocks",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-24",
@@ -289,14 +256,6 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-gtm-%E2%80%93-u-s-expansion-at-mylo-ai-4494317715"
   },
   {
-    "company": "EssilorLuxottica",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-25",
-    "source": "linkedin",
-    "title": "Sales Director",
-    "url": "https://il.linkedin.com/jobs/view/sales-director-at-essilorluxottica-4493232122"
-  },
-  {
     "company": "Fireblocks",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-25",
@@ -306,7 +265,6 @@
   },
   {
     "company": "Knauf Israel",
-    "found": "2026-11-25",
     "location": "Or Yehuda, Tel Aviv District, Israel",
     "posted": "2026-11-25",
     "source": "linkedin",
@@ -322,20 +280,13 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-business-operations-at-logz-io-4494612151"
   },
   {
-    "company": "Lumenis",
-    "location": "Petah Tikva, IL",
+    "company": "Mixtiles",
+    "found": "2026-11-26",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-25",
-    "source": "comeet:A1.00C",
-    "title": "Director of operations",
-    "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-of-operations/all/"
-  },
-  {
-    "company": "Personetics",
-    "location": "Giv'atayim, IL",
-    "posted": "2026-11-25",
-    "source": "comeet:83.00A",
-    "title": "Director Content & Corporate Marketing",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/C8.575/director-content-corporate-marketing/all/"
+    "source": "linkedin",
+    "title": "Director Revenue Growth, easyplant",
+    "url": "https://il.linkedin.com/jobs/view/director-revenue-growth-easyplant-at-mixtiles-4494617464"
   },
   {
     "company": "Voodoo",
@@ -344,5 +295,81 @@
     "source": "linkedin",
     "title": "Head of Growth",
     "url": "https://il.linkedin.com/jobs/view/head-of-growth-at-voodoo-4404088655"
+  },
+  {
+    "company": "BLeader",
+    "found": "2026-11-26",
+    "location": "Or Yehuda, Tel Aviv District, Israel",
+    "posted": "2026-11-26",
+    "source": "linkedin",
+    "title": "Head Of Delivery, AI & Data",
+    "url": "https://il.linkedin.com/jobs/view/head-of-delivery-ai-data-at-bleader-4493487970"
+  },
+  {
+    "company": "Coralogix",
+    "location": "Ramat Gan, Tel Aviv District, Israel",
+    "posted": "2026-11-26",
+    "source": "linkedin",
+    "title": "VP Operations",
+    "url": "https://il.linkedin.com/jobs/view/vp-operations-at-coralogix-4495273240"
+  },
+  {
+    "company": "EssilorLuxottica",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "posted": "2026-11-26",
+    "source": "linkedin",
+    "title": "Sales Director",
+    "url": "https://il.linkedin.com/jobs/view/sales-director-at-essilorluxottica-4493232122"
+  },
+  {
+    "company": "Genpact",
+    "found": "2026-11-26",
+    "location": "Netanya, Center District, Israel",
+    "posted": "2026-11-26",
+    "source": "linkedin",
+    "title": "Director of Artificial Intelligence",
+    "url": "https://il.linkedin.com/jobs/view/director-of-artificial-intelligence-at-genpact-4493817228"
+  },
+  {
+    "company": "Jobgether",
+    "found": "2026-11-26",
+    "location": "Israel",
+    "posted": "2026-11-26",
+    "source": "linkedin",
+    "title": "Director, GSI Alliances",
+    "url": "https://il.linkedin.com/jobs/view/director-gsi-alliances-at-jobgether-4494997396"
+  },
+  {
+    "company": "Jobgether",
+    "found": "2026-11-26",
+    "location": "Israel",
+    "posted": "2026-11-26",
+    "source": "linkedin",
+    "title": "Operations Director",
+    "url": "https://il.linkedin.com/jobs/view/operations-director-at-jobgether-4494980591"
+  },
+  {
+    "company": "Lumenis",
+    "location": "Petah Tikva, IL",
+    "posted": "2026-11-26",
+    "source": "comeet:A1.00C",
+    "title": "Director of operations",
+    "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-supply-chain/all/"
+  },
+  {
+    "company": "Lumenis",
+    "location": "Yokne'am Illit, IL",
+    "posted": "2026-11-26",
+    "source": "comeet:A1.00C",
+    "title": "Head of Marketing",
+    "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
+  },
+  {
+    "company": "Personetics",
+    "location": "Giv'atayim, IL",
+    "posted": "2026-11-26",
+    "source": "comeet:83.00A",
+    "title": "Director Content & Corporate Marketing",
+    "url": "https://personetics.com/us/careers-4/co/tel-aviv-israel/C8.575/director-content-corporate-marketing/all/"
   }
 ]
