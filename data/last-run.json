@@ -1,19 +1,18 @@
 {
-  "board_errors": 7,
+  "board_errors": 6,
   "boards": 143,
   "failed_boards": [
     "Cognyte (comeet-page:no token)",
     "Dataloop (comeet-page:no token)",
     "Max (recruitee:404)",
     "Mitiga (comeet-page:no token)",
-    "NeuReality (comeet-page:202)",
     "Nym Health (comeet-page:no token)",
     "Valens (recruitee:404)"
   ],
   "jsearch": null,
   "linkedin": {
     "requests": 12,
-    "results": 62,
+    "results": 60,
     "statuses": [
       200,
       200,
@@ -35,7 +34,7 @@
     "failed": 0,
     "skipped": 0
   },
-  "raw": 3589,
-  "relevant": 43,
-  "run": "2026-11-26T12:23:10+00:00"
+  "raw": 3582,
+  "relevant": 45,
+  "run": "2026-11-26T23:49:43+00:00"
 }

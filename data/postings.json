@@ -96,30 +96,6 @@
     "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4971272101"
   },
   {
-    "company": "Deel",
-    "location": "Israel",
-    "posted": "2026-11-19",
-    "source": "linkedin",
-    "title": "General Manager, EOR",
-    "url": "https://il.linkedin.com/jobs/view/general-manager-eor-at-deel-4456509359"
-  },
-  {
-    "company": "EWOR",
-    "location": "Jerusalem District, Israel",
-    "posted": "2026-11-20",
-    "source": "linkedin",
-    "title": "Fintech Co-Founder / CCO (100 % remote) (m/f/d)",
-    "url": "https://il.linkedin.com/jobs/view/fintech-co-founder-cco-100-%25-remote-m-f-d-at-ewor-4492912147"
-  },
-  {
-    "company": "EWOR",
-    "location": "Israel",
-    "posted": "2026-11-20",
-    "source": "linkedin",
-    "title": "Supply Chain Co-Founder / CMO (100 % remote) (m/f/d)",
-    "url": "https://il.linkedin.com/jobs/view/supply-chain-co-founder-cmo-100-%25-remote-m-f-d-at-ewor-4492912143"
-  },
-  {
     "company": "Yad2",
     "location": "Petah Tikva, Center District, Israel",
     "posted": "2026-11-20",
@@ -168,20 +144,21 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-ai-at-ma%C3%ABlys-4481080694"
   },
   {
+    "company": "Okoora",
+    "found": "2026-11-26",
+    "location": "Ramat Gan, Tel Aviv District, Israel",
+    "posted": "2026-11-23",
+    "source": "linkedin",
+    "title": "Head of Growth",
+    "url": "https://il.linkedin.com/jobs/view/head-of-growth-at-okoora-4490290513"
+  },
+  {
     "company": "Recruitx",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-23",
     "source": "linkedin",
     "title": "Head of Operations E-commerce JB-5632",
     "url": "https://il.linkedin.com/jobs/view/head-of-operations-e-commerce-jb-5632-at-recruitx-4493617611"
-  },
-  {
-    "company": "Wave Guard Technologies Ltd.",
-    "location": "Hod HaSharon, Center District, Israel",
-    "posted": "2026-11-23",
-    "source": "linkedin",
-    "title": "Vice President of Sales",
-    "url": "https://il.linkedin.com/jobs/view/vice-president-of-sales-at-wave-guard-technologies-ltd-4492602178"
   },
   {
     "company": "Zafran Security",
@@ -232,14 +209,6 @@
     "url": "https://www.payoneer.com/careers/position/8364230/?gh_jid=8364230"
   },
   {
-    "company": "Personetics",
-    "location": "Giv'atayim, IL",
-    "posted": "2026-11-24",
-    "source": "comeet:83.00A",
-    "title": "Head of AI",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
-  },
-  {
     "company": "Soho House & Co",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-24",
@@ -281,7 +250,6 @@
   },
   {
     "company": "Mixtiles",
-    "found": "2026-11-26",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-25",
     "source": "linkedin",
@@ -298,7 +266,6 @@
   },
   {
     "company": "BLeader",
-    "found": "2026-11-26",
     "location": "Or Yehuda, Tel Aviv District, Israel",
     "posted": "2026-11-26",
     "source": "linkedin",
@@ -314,6 +281,14 @@
     "url": "https://il.linkedin.com/jobs/view/vp-operations-at-coralogix-4495273240"
   },
   {
+    "company": "DRS RADA Technologies",
+    "location": "Netanya, Center District, Israel",
+    "posted": "2026-11-26",
+    "source": "linkedin",
+    "title": "Senior Director of Business Development",
+    "url": "https://il.linkedin.com/jobs/view/senior-director-of-business-development-at-drs-rada-technologies-4495527828"
+  },
+  {
     "company": "EssilorLuxottica",
     "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
     "posted": "2026-11-26",
@@ -323,7 +298,6 @@
   },
   {
     "company": "Genpact",
-    "found": "2026-11-26",
     "location": "Netanya, Center District, Israel",
     "posted": "2026-11-26",
     "source": "linkedin",
@@ -331,8 +305,16 @@
     "url": "https://il.linkedin.com/jobs/view/director-of-artificial-intelligence-at-genpact-4493817228"
   },
   {
-    "company": "Jobgether",
+    "company": "JFrog",
     "found": "2026-11-26",
+    "location": "Tel Aviv/ Netanya, Israel",
+    "posted": "2026-11-26",
+    "source": "greenhouse:jfrog",
+    "title": "Director of Product Marketing, Governance",
+    "url": "https://join.jfrog.com/job/?job=8419108&gh_jid=8419108"
+  },
+  {
+    "company": "Jobgether",
     "location": "Israel",
     "posted": "2026-11-26",
     "source": "linkedin",
@@ -341,7 +323,6 @@
   },
   {
     "company": "Jobgether",
-    "found": "2026-11-26",
     "location": "Israel",
     "posted": "2026-11-26",
     "source": "linkedin",
@@ -349,12 +330,21 @@
     "url": "https://il.linkedin.com/jobs/view/operations-director-at-jobgether-4494980591"
   },
   {
+    "company": "Lev Hai LTD",
+    "found": "2026-11-26",
+    "location": "Tel Aviv District, Israel",
+    "posted": "2026-11-26",
+    "source": "linkedin",
+    "title": "דרוש/ה: VP Sales | סמנכ\"ל/ית מכירות",
+    "url": "https://il.linkedin.com/jobs/view/%D7%93%D7%A8%D7%95%D7%A9-%D7%94-vp-sales-%D7%A1%D7%9E%D7%A0%D7%9B-%D7%9C-%D7%99%D7%AA-%D7%9E%D7%9B%D7%99%D7%A8%D7%95%D7%AA-4493811818"
+  },
+  {
     "company": "Lumenis",
     "location": "Petah Tikva, IL",
     "posted": "2026-11-26",
     "source": "comeet:A1.00C",
     "title": "Director of operations",
-    "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-supply-chain/all/"
+    "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-of-operations/all/"
   },
   {
     "company": "Lumenis",
@@ -365,11 +355,37 @@
     "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
   },
   {
+    "company": "MilestoneZero",
+    "found": "2026-11-26",
+    "location": "Rishon LeZion, Center District, Israel",
+    "posted": "2026-11-26",
+    "source": "linkedin",
+    "title": "VP Delivery",
+    "url": "https://il.linkedin.com/jobs/view/vp-delivery-at-milestonezero-4493853296"
+  },
+  {
     "company": "Personetics",
     "location": "Giv'atayim, IL",
     "posted": "2026-11-26",
     "source": "comeet:83.00A",
     "title": "Director Content & Corporate Marketing",
-    "url": "https://personetics.com/us/careers-4/co/tel-aviv-israel/C8.575/director-content-corporate-marketing/all/"
+    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/C8.575/director-content-corporate-marketing/all/"
+  },
+  {
+    "company": "Personetics",
+    "location": "Giv'atayim, IL",
+    "posted": "2026-11-26",
+    "source": "comeet:83.00A",
+    "title": "Head of AI",
+    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/"
+  },
+  {
+    "company": "Strauss Water Ltd. שטראוס מים",
+    "found": "2026-11-26",
+    "location": "Or Yehuda, Tel Aviv District, Israel",
+    "posted": "2026-11-26",
+    "source": "linkedin",
+    "title": "Head of Customer Experience & Service",
+    "url": "https://il.linkedin.com/jobs/view/head-of-customer-experience-service-at-strauss-water-ltd-%D7%A9%D7%98%D7%A8%D7%90%D7%95%D7%A1-%D7%9E%D7%99%D7%9D-4493821635"
   }
 ]
