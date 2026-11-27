@@ -145,7 +145,6 @@
   },
   {
     "company": "Okoora",
-    "found": "2026-11-26",
     "location": "Ramat Gan, Tel Aviv District, Israel",
     "posted": "2026-11-23",
     "source": "linkedin",
@@ -249,14 +248,6 @@
     "url": "https://il.linkedin.com/jobs/view/head-of-business-operations-at-logz-io-4494612151"
   },
   {
-    "company": "Mixtiles",
-    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
-    "posted": "2026-11-25",
-    "source": "linkedin",
-    "title": "Director Revenue Growth, easyplant",
-    "url": "https://il.linkedin.com/jobs/view/director-revenue-growth-easyplant-at-mixtiles-4494617464"
-  },
-  {
     "company": "Voodoo",
     "location": "Raanana, Center District, Israel",
     "posted": "2026-11-25",
@@ -306,7 +297,6 @@
   },
   {
     "company": "JFrog",
-    "found": "2026-11-26",
     "location": "Tel Aviv/ Netanya, Israel",
     "posted": "2026-11-26",
     "source": "greenhouse:jfrog",
@@ -331,37 +321,11 @@
   },
   {
     "company": "Lev Hai LTD",
-    "found": "2026-11-26",
     "location": "Tel Aviv District, Israel",
     "posted": "2026-11-26",
     "source": "linkedin",
     "title": "דרוש/ה: VP Sales | סמנכ\"ל/ית מכירות",
     "url": "https://il.linkedin.com/jobs/view/%D7%93%D7%A8%D7%95%D7%A9-%D7%94-vp-sales-%D7%A1%D7%9E%D7%A0%D7%9B-%D7%9C-%D7%99%D7%AA-%D7%9E%D7%9B%D7%99%D7%A8%D7%95%D7%AA-4493811818"
-  },
-  {
-    "company": "Lumenis",
-    "location": "Petah Tikva, IL",
-    "posted": "2026-11-26",
-    "source": "comeet:A1.00C",
-    "title": "Director of operations",
-    "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-of-operations/all/"
-  },
-  {
-    "company": "Lumenis",
-    "location": "Yokne'am Illit, IL",
-    "posted": "2026-11-26",
-    "source": "comeet:A1.00C",
-    "title": "Head of Marketing",
-    "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/"
-  },
-  {
-    "company": "MilestoneZero",
-    "found": "2026-11-26",
-    "location": "Rishon LeZion, Center District, Israel",
-    "posted": "2026-11-26",
-    "source": "linkedin",
-    "title": "VP Delivery",
-    "url": "https://il.linkedin.com/jobs/view/vp-delivery-at-milestonezero-4493853296"
   },
   {
     "company": "Personetics",
@@ -372,20 +336,44 @@
     "url": "https://personetics.com/us/careers/co/tel-aviv-israel/C8.575/director-content-corporate-marketing/all/"
   },
   {
-    "company": "Personetics",
-    "location": "Giv'atayim, IL",
-    "posted": "2026-11-26",
-    "source": "comeet:83.00A",
-    "title": "Head of AI",
-    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/"
-  },
-  {
     "company": "Strauss Water Ltd. שטראוס מים",
-    "found": "2026-11-26",
     "location": "Or Yehuda, Tel Aviv District, Israel",
     "posted": "2026-11-26",
     "source": "linkedin",
     "title": "Head of Customer Experience & Service",
     "url": "https://il.linkedin.com/jobs/view/head-of-customer-experience-service-at-strauss-water-ltd-%D7%A9%D7%98%D7%A8%D7%90%D7%95%D7%A1-%D7%9E%D7%99%D7%9D-4493821635"
+  },
+  {
+    "company": "Jobgether",
+    "found": "2026-11-27",
+    "location": "Israel",
+    "posted": "2026-11-27",
+    "source": "linkedin",
+    "title": "Head of Marketing (Skill Games App)",
+    "url": "https://il.linkedin.com/jobs/view/head-of-marketing-skill-games-app-at-jobgether-4495082590"
+  },
+  {
+    "company": "Lumenis",
+    "location": "Petah Tikva, IL",
+    "posted": "2026-11-27",
+    "source": "comeet:A1.00C",
+    "title": "Director of operations",
+    "url": "https://lumenis.com/about/careers/co/pollogen-ptv-israel/6C.477/director-of-operations/all/"
+  },
+  {
+    "company": "Lumenis",
+    "location": "Yokne'am Illit, IL",
+    "posted": "2026-11-27",
+    "source": "comeet:A1.00C",
+    "title": "Head of Marketing",
+    "url": "https://lumenis.com/about/careers/co/lumenis-yokneam-tlv/7D.378/head-of-marketing/all/?gtm_latency=1"
+  },
+  {
+    "company": "Personetics",
+    "location": "Giv'atayim, IL",
+    "posted": "2026-11-27",
+    "source": "comeet:83.00A",
+    "title": "Head of AI",
+    "url": "https://personetics.com/us/careers/co/tel-aviv-israel/E5.075/head-of-ai/all/"
   }
 ]

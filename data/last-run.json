@@ -12,7 +12,7 @@
   "jsearch": null,
   "linkedin": {
     "requests": 12,
-    "results": 60,
+    "results": 61,
     "statuses": [
       200,
       200,
@@ -28,13 +28,13 @@
       200
     ]
   },
-  "new": 5,
+  "new": 1,
   "notion": {
-    "created": 5,
+    "created": 1,
     "failed": 0,
     "skipped": 0
   },
-  "raw": 3582,
-  "relevant": 45,
-  "run": "2026-11-26T23:49:43+00:00"
+  "raw": 3586,
+  "relevant": 44,
+  "run": "2026-11-27T12:09:13+00:00"
 }
